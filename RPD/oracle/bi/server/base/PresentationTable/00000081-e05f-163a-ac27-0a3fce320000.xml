@@ -28,8 +28,6 @@
 </PresentationColumn>
 <PresentationColumn mdsid="m00000077-e05f-163a-ac27-0a3fce320000" name="DWH Updated Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-41c1-1634-ac27-0a3fce390000.xml#m40000025-41da-1634-ac27-0a3fce390000">
 </PresentationColumn>
-<PresentationColumn mdsid="m00000079-e05f-163a-ac27-0a3fce320000" name="ETL Process ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-41c1-1634-ac27-0a3fce390000.xml#m40000033-41da-1634-ac27-0a3fce390000">
-</PresentationColumn>
 <PresentationColumn mdsid="m0000007b-e05f-163a-ac27-0a3fce320000" name="Source Created Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-41c1-1634-ac27-0a3fce390000.xml#m4000001d-41da-1634-ac27-0a3fce390000">
 </PresentationColumn>
 <PresentationColumn mdsid="m0000007d-e05f-163a-ac27-0a3fce320000" name="Source Updated Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-41c1-1634-ac27-0a3fce390000.xml#m4000001f-41da-1634-ac27-0a3fce390000">

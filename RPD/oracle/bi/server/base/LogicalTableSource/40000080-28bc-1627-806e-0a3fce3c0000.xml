@@ -148,8 +148,8 @@
 </ObjectRefList>
 </LogicalColumnExpr>
 <Expr mdsid="m00000014-01f4-0000-a40e-1ce000000000" name="Expr">
-<ExprText><![CDATA["%1" * "%2" ]]></ExprText>
-<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Fact_OpportunityLine"."DOC_DISCNT" * "GLOBI".""."LAW"."Dim_ExchangeRate"."EXCH_RATE" ]]></ExprTextDesc>
+<ExprText><![CDATA["%1" * "%2"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Fact_OpportunityLine"."DOC_DISCNT" * "GLOBI".""."LAW"."Dim_ExchangeRate"."EXCH_RATE"]]></ExprTextDesc>
 <ObjectRefList>
 <RefObject refId="m00000014-01f4-0000-a40e-1ce000000000-m00000009-28a8-1627-806e-0a3fce3c0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-28a8-1627-806e-0a3fce3c0000.xml#m00000009-28a8-1627-806e-0a3fce3c0000"/>
 <RefObject refId="m00000014-01f4-0000-a40e-1ce000000000-m80000005-c3bc-162a-98ff-0a3fce3e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-c3bc-162a-98ff-0a3fce3e0000.xml#m80000005-c3bc-162a-98ff-0a3fce3e0000"/>
