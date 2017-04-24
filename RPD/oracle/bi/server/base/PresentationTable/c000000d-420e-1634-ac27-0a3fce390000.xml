@@ -6,7 +6,8 @@
 </PresentationColumn>
 <PresentationColumn mdsid="mc0000005-420e-1634-ac27-0a3fce390000" name="------------------[ Attributes ]------------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-41c1-1634-ac27-0a3fce390000.xml#m80000003-41f0-1634-ac27-0a3fce390000">
 </PresentationColumn>
-<PresentationColumn mdsid="mc0000007-420e-1634-ac27-0a3fce390000" name="First Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-41c1-1634-ac27-0a3fce390000.xml#m40000035-41da-1634-ac27-0a3fce390000">
+<PresentationColumn mdsid="mc0000007-420e-1634-ac27-0a3fce390000" name="First NNNN" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-41c1-1634-ac27-0a3fce390000.xml#m40000035-41da-1634-ac27-0a3fce390000">
+<Alias name="First Name"/>
 </PresentationColumn>
 <PresentationColumn mdsid="mc0000009-420e-1634-ac27-0a3fce390000" name="Full Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-41c1-1634-ac27-0a3fce390000.xml#m40000037-41da-1634-ac27-0a3fce390000">
 </PresentationColumn>

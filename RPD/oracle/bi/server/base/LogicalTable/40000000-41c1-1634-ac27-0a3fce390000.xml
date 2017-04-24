@@ -8,7 +8,7 @@
 </LogicalColumn>
 <LogicalColumn mdsid="m80000003-41f0-1634-ac27-0a3fce390000" name="------------------[ Attributes ]------------------" isWriteable="false">
 </LogicalColumn>
-<LogicalColumn mdsid="m40000035-41da-1634-ac27-0a3fce390000" name="First Name" isWriteable="false">
+<LogicalColumn mdsid="m40000035-41da-1634-ac27-0a3fce390000" name="First NNNN" isWriteable="false">
 </LogicalColumn>
 <LogicalColumn mdsid="m40000037-41da-1634-ac27-0a3fce390000" name="Full Name" isWriteable="false">
 </LogicalColumn>
@@ -27,6 +27,15 @@
 <LogicalColumn mdsid="m40000023-41da-1634-ac27-0a3fce390000" name="DWH Created Date" isWriteable="false">
 </LogicalColumn>
 <LogicalColumn mdsid="m40000025-41da-1634-ac27-0a3fce390000" name="DWH Updated Date" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="m40000033-41da-1634-ac27-0a3fce390000" name="ETL Process ID" isWriteable="false">
+<AttributeDefn mdsid="m00000001-01f4-0000-2f54-498b00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_Contact"."ETL_PROC_WID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-2f54-498b00000000-m80000007-41c5-1634-ac27-0a3fce390000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-41c5-1634-ac27-0a3fce390000.xml#m80000007-41c5-1634-ac27-0a3fce390000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m4000001d-41da-1634-ac27-0a3fce390000" name="Source Created Date" isWriteable="false">
 </LogicalColumn>
