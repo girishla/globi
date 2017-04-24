@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m0000006d-9730-1637-98ff-0a3fce410000" name="Open Date" iconIndex="89" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/c0000000-c2a3-162b-ac27-0aac74cf0000.xml#mc0000000-c2a3-162b-ac27-0aac74cf0000">
+<PresentationColumn mdsid="m00000003-9730-1637-98ff-0a3fce410000" name="---------------[ Year Attributes ]---------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000070-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000005-9730-1637-98ff-0a3fce410000" name="Year End Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m8000005e-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000007-9730-1637-98ff-0a3fce410000" name="Year End Date WID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000060-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000009-9730-1637-98ff-0a3fce410000" name="Year" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000066-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000000b-9730-1637-98ff-0a3fce410000" name="Year Start Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m8000006a-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000000d-9730-1637-98ff-0a3fce410000" name="Year Start Datae WID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m8000006c-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000000f-9730-1637-98ff-0a3fce410000" name="---------------[ Half Attributes ]---------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000074-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000011-9730-1637-98ff-0a3fce410000" name="Half End Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000016-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000013-9730-1637-98ff-0a3fce410000" name="Half End Date WID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000018-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000015-9730-1637-98ff-0a3fce410000" name="Half Index" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m8000001a-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000017-9730-1637-98ff-0a3fce410000" name="Half Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m8000001c-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000019-9730-1637-98ff-0a3fce410000" name="Half Number" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m8000001e-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000001b-9730-1637-98ff-0a3fce410000" name="Half Start Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000020-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000001d-9730-1637-98ff-0a3fce410000" name="Half Start Date WID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000022-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000001f-9730-1637-98ff-0a3fce410000" name="Year Half" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000062-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000021-9730-1637-98ff-0a3fce410000" name="-------------[ Quarter Attributes ]-------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000076-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000023-9730-1637-98ff-0a3fce410000" name="Quarter End Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m8000003c-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000025-9730-1637-98ff-0a3fce410000" name="Quarter End Date WID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m8000003e-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000027-9730-1637-98ff-0a3fce410000" name="Quarter Index" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000040-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000029-9730-1637-98ff-0a3fce410000" name="Quarter Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000042-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000002b-9730-1637-98ff-0a3fce410000" name="Quarter Number" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000044-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000002d-9730-1637-98ff-0a3fce410000" name="Quarter Start Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000046-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000002f-9730-1637-98ff-0a3fce410000" name="Quarter Start Date WID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000048-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000031-9730-1637-98ff-0a3fce410000" name="Year Quarter" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000068-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000033-9730-1637-98ff-0a3fce410000" name="--------------[ Month Attributes ]--------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000078-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000035-9730-1637-98ff-0a3fce410000" name="Month End Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000026-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000037-9730-1637-98ff-0a3fce410000" name="Month End Date WID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000028-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000039-9730-1637-98ff-0a3fce410000" name="Month Index" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m8000002a-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000003b-9730-1637-98ff-0a3fce410000" name="Month Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m8000002c-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000003d-9730-1637-98ff-0a3fce410000" name="Month Name 01" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m8000002e-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000003f-9730-1637-98ff-0a3fce410000" name="Month Name 02" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000030-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000041-9730-1637-98ff-0a3fce410000" name="Month Name 03" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000032-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000043-9730-1637-98ff-0a3fce410000" name="Month Number" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000034-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000045-9730-1637-98ff-0a3fce410000" name="Month Start Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000036-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000047-9730-1637-98ff-0a3fce410000" name="Month Start Date WID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000038-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000049-9730-1637-98ff-0a3fce410000" name="Year Month" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000064-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000004b-9730-1637-98ff-0a3fce410000" name="--------------[ Week Attributes ]--------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m8000007a-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000004d-9730-1637-98ff-0a3fce410000" name="Week End Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000050-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000004f-9730-1637-98ff-0a3fce410000" name="Week End Date WID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000052-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000051-9730-1637-98ff-0a3fce410000" name="Week Index" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000054-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000053-9730-1637-98ff-0a3fce410000" name="Week Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000056-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000055-9730-1637-98ff-0a3fce410000" name="Week Number" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000058-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000057-9730-1637-98ff-0a3fce410000" name="Week Start Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m8000005a-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000059-9730-1637-98ff-0a3fce410000" name="Week Start Date WID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m8000005c-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000005b-9730-1637-98ff-0a3fce410000" name="Year Week" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m8000006e-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000005d-9730-1637-98ff-0a3fce410000" name="----------------[ Day Attributes ]----------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m8000007c-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000005f-9730-1637-98ff-0a3fce410000" name="Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000006-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000061-9730-1637-98ff-0a3fce410000" name="Date Index" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000010-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000063-9730-1637-98ff-0a3fce410000" name="Date Number" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000012-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000065-9730-1637-98ff-0a3fce410000" name="Day Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m80000008-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000067-9730-1637-98ff-0a3fce410000" name="Day Name 01" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m8000000a-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000069-9730-1637-98ff-0a3fce410000" name="Day Name 02" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m8000000c-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000006b-9730-1637-98ff-0a3fce410000" name="Day Week Number" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000001-6423-162e-ac27-0aac74cf0000.xml#m8000000e-6423-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+</PresentationTable>

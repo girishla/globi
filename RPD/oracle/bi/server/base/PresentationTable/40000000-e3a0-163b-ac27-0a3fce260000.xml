@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m40000000-e3a0-163b-ac27-0a3fce260000" name="Execution Plan" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-e39c-163b-ac27-0a3fce260000.xml#m80000000-e39c-163b-ac27-0a3fce260000">
+<PresentationColumn mdsid="m40000002-e4f4-163b-ac27-0a3fce260000" name="ETL Process ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-e03c-163b-ac27-0a3fce260000.xml#mc0000002-e058-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000005-e4f4-163b-ac27-0a3fce260000" name="Execution Comment" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-e03c-163b-ac27-0a3fce260000.xml#m80000002-e04d-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000008-e4f4-163b-ac27-0a3fce260000" name="Execution End Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-e03c-163b-ac27-0a3fce260000.xml#m80000002-e4ec-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000000b-e4f4-163b-ac27-0a3fce260000" name="Execution Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-e03c-163b-ac27-0a3fce260000.xml#m80000002-e050-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000000e-e4f4-163b-ac27-0a3fce260000" name="Execution Plan" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-e03c-163b-ac27-0a3fce260000.xml#m00000002-e04e-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000011-e4f4-163b-ac27-0a3fce260000" name="Execution Start Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-e03c-163b-ac27-0a3fce260000.xml#m00000002-e4e8-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000001-e4f4-163b-ac27-0a3fce260000" name="Execution Status" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-e03c-163b-ac27-0a3fce260000.xml#m80000002-e054-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000004-e4f4-163b-ac27-0a3fce260000" name="Execution Status Description" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-e03c-163b-ac27-0a3fce260000.xml#m00000002-e055-163b-ac27-0a3fce260000">
+</PresentationColumn>
+</PresentationTable>

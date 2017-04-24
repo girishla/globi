@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m80000032-c0a2-162a-98ff-0a3fce3e0000" name="Position" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/40000000-ccd7-1627-b306-ac1d80d30000.xml#m40000000-ccd7-1627-b306-ac1d80d30000">
+<PresentationColumn mdsid="m00000001-8ccd-1637-98ff-0a3fce410000" name="Integration ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m00000000-bf5a-162a-98ff-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000003-8ccd-1637-98ff-0a3fce410000" name="PGUID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#mc0000008-bf59-162a-98ff-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000005-8ccd-1637-98ff-0a3fce410000" name="------------------[ Attributes ]------------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m00000004-bf5a-162a-98ff-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000007-8ccd-1637-98ff-0a3fce410000" name="Active Flag" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#mc0000002-8cab-1637-98ff-0a3fce410000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000009-8ccd-1637-98ff-0a3fce410000" name="Data Source" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m00000002-188b-162b-98ff-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000000b-8ccd-1637-98ff-0a3fce410000" name="Position" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m4000000a-bf69-162a-98ff-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000000d-8ccd-1637-98ff-0a3fce410000" name="Position Employee" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m40000009-bf69-162a-98ff-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000000f-8ccd-1637-98ff-0a3fce410000" name="Position Login" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m80000003-bf68-162a-98ff-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000011-8ccd-1637-98ff-0a3fce410000" name="Position Team" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m4000000b-bf69-162a-98ff-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000013-8ccd-1637-98ff-0a3fce410000" name="Position Type" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m4000000c-bf69-162a-98ff-0a3fce3e0000">
+</PresentationColumn>
+<RefContentFolders>
+<RefPresentationTable refId="m80000032-c0a2-162a-98ff-0a3fce3e0000-mc000006b-49b1-1637-98ff-0a3fce410000" presentationTableRef="/oracle/bi/server/base/PresentationTable/c000006b-49b1-1637-98ff-0a3fce410000.xml#mc000006b-49b1-1637-98ff-0a3fce410000"/>
+</RefContentFolders>
+</PresentationTable>

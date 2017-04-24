@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m000000c9-c0b0-162a-98ff-0a3fce3e0000" name="Business Unit" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000000-c0ad-162a-98ff-0a3fce3e0000.xml#m00000000-c0ad-162a-98ff-0a3fce3e0000">
+<PresentationColumn mdsid="m000000c4-c0b0-162a-98ff-0a3fce3e0000" name="Integration ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-b819-162a-ac27-0a3fce3e0000.xml#m00000023-b821-162a-ac27-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000000c5-c0b0-162a-98ff-0a3fce3e0000" name="PGUID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-b819-162a-ac27-0a3fce3e0000.xml#m00000024-b821-162a-ac27-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000000c6-c0b0-162a-98ff-0a3fce3e0000" name="------------------[ Attributes ]------------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-b819-162a-ac27-0a3fce3e0000.xml#mc0000003-b887-162a-ac27-0a3fce3e0000">
+<Alias name="[ Attributes ]------------------"/>
+</PresentationColumn>
+<PresentationColumn mdsid="m000000c7-c0b0-162a-98ff-0a3fce3e0000" name="BU Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-b819-162a-ac27-0a3fce3e0000.xml#m00000002-b876-162a-ac27-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000000c8-c0b0-162a-98ff-0a3fce3e0000" name="Currency" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-b819-162a-ac27-0a3fce3e0000.xml#m0000002b-b821-162a-ac27-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000001-0932-162b-ac27-0a3fce3e0000" name="Data Source" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-b819-162a-ac27-0a3fce3e0000.xml#m40000002-0901-162b-ac27-0a3fce3e0000">
+</PresentationColumn>
+</PresentationTable>

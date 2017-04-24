@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m80000000-4c40-1639-b3c9-ac1d81d00000" name="User Roles" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000000-4db3-1639-b3c9-ac1d81d00000.xml#m00000000-4db3-1639-b3c9-ac1d81d00000">
+<PresentationColumn mdsid="m40000002-4c44-1639-b3c9-ac1d81d00000" name="Authorisation Flag" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-4bfd-1639-b3c9-ac1d81d00000.xml#m40000003-4c01-1639-b3c9-ac1d81d00000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000005-4c44-1639-b3c9-ac1d81d00000" name="Authorisation ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-4bfd-1639-b3c9-ac1d81d00000.xml#m40000002-4c02-1639-b3c9-ac1d81d00000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000002-4c8a-1639-b3c9-ac1d81d00000" name="Authorisation String" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-4bfd-1639-b3c9-ac1d81d00000.xml#mc0000002-4c83-1639-b3c9-ac1d81d00000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000002-5a34-1639-b3c9-ac1d81d00000" name="Business Justification" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-4bfd-1639-b3c9-ac1d81d00000.xml#m80000003-5a2c-1639-b3c9-ac1d81d00000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000000e-4c44-1639-b3c9-ac1d81d00000" name="Requested By" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-4bfd-1639-b3c9-ac1d81d00000.xml#m4000000a-4c03-1639-b3c9-ac1d81d00000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000000b-4c44-1639-b3c9-ac1d81d00000" name="Role Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-4bfd-1639-b3c9-ac1d81d00000.xml#m40000008-4c03-1639-b3c9-ac1d81d00000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000008-4c44-1639-b3c9-ac1d81d00000" name="Source Created Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-4bfd-1639-b3c9-ac1d81d00000.xml#m40000006-4c03-1639-b3c9-ac1d81d00000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000011-4c44-1639-b3c9-ac1d81d00000" name="Source Updated" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-4bfd-1639-b3c9-ac1d81d00000.xml#m4000000c-4c03-1639-b3c9-ac1d81d00000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000014-4c44-1639-b3c9-ac1d81d00000" name="User Login" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-4bfd-1639-b3c9-ac1d81d00000.xml#m4000000e-4c03-1639-b3c9-ac1d81d00000">
+</PresentationColumn>
+</PresentationTable>

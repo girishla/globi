@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m40000000-95d8-163b-b3c9-ac1d82620000" name="Links" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-95d1-163b-b3c9-ac1d82620000.xml#m80000000-95d1-163b-b3c9-ac1d82620000">
+<PresentationColumn mdsid="mc0000002-95da-163b-b3c9-ac1d82620000" name="Link Category" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-9597-163b-b3c9-ac1d82620000.xml#mc0000011-95a5-163b-b3c9-ac1d82620000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000005-95da-163b-b3c9-ac1d82620000" name="Link Description" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-9597-163b-b3c9-ac1d82620000.xml#mc0000013-95a5-163b-b3c9-ac1d82620000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000008-95da-163b-b3c9-ac1d82620000" name="Link Icon" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-9597-163b-b3c9-ac1d82620000.xml#mc0000015-95a5-163b-b3c9-ac1d82620000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000000b-95da-163b-b3c9-ac1d82620000" name="Link Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-9597-163b-b3c9-ac1d82620000.xml#mc000000b-95a5-163b-b3c9-ac1d82620000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000000e-95da-163b-b3c9-ac1d82620000" name="Link Roles" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-9597-163b-b3c9-ac1d82620000.xml#mc000000d-95a5-163b-b3c9-ac1d82620000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000001-95db-163b-b3c9-ac1d82620000" name="Link URL" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-9597-163b-b3c9-ac1d82620000.xml#mc000000f-95a5-163b-b3c9-ac1d82620000">
+</PresentationColumn>
+</PresentationTable>

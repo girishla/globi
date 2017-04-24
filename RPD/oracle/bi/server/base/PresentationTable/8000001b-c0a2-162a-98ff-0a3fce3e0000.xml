@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m8000001b-c0a2-162a-98ff-0a3fce3e0000" name="Financial Account" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/40000000-ccd7-1627-b306-ac1d80d30000.xml#m40000000-ccd7-1627-b306-ac1d80d30000">
+<PresentationColumn mdsid="m40000001-c29e-162a-98ff-0a3fce3e0000" name="Integration ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m40000015-28bc-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000003-c29e-162a-98ff-0a3fce3e0000" name="PGUID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m40000016-28bc-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000005-c29e-162a-98ff-0a3fce3e0000" name="-------------------[ Common ]-------------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m00000002-c28f-162a-98ff-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000007-c29e-162a-98ff-0a3fce3e0000" name="Account Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m40000003-28bc-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000009-c29e-162a-98ff-0a3fce3e0000" name="Account Number" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m40000004-28bc-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000000b-c29e-162a-98ff-0a3fce3e0000" name="Account Status" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m40000007-28bc-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000000d-c29e-162a-98ff-0a3fce3e0000" name="------------------[ Attributes ]------------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m80000000-2912-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000000f-c29e-162a-98ff-0a3fce3e0000" name="Account Parent PGUID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m40000005-28bc-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000013-c29e-162a-98ff-0a3fce3e0000" name="Account Type" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m40000008-28bc-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000015-c29e-162a-98ff-0a3fce3e0000" name="Customer Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m4000000b-28bc-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000017-c29e-162a-98ff-0a3fce3e0000" name="Customer Number" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m4000000c-28bc-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000019-c29e-162a-98ff-0a3fce3e0000" name="Customer Status" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m4000000d-28bc-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000001-0946-162b-ac27-0a3fce3e0000" name="Data Source" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m40000002-0908-162b-ac27-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000001b-c29e-162a-98ff-0a3fce3e0000" name="Delete Flag" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m4000000f-28bc-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000000-d43d-163a-ac27-0a3fce320000" name="------------------[ Legacy ]------------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m40000004-571a-162f-98ff-0a3fce190000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000001-d43d-163a-ac27-0a3fce320000" name="Legacy Account Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m00000002-571a-162f-98ff-0a3fce190000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000002-d43d-163a-ac27-0a3fce320000" name="Legacy Account Number" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m00000005-571a-162f-98ff-0a3fce190000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000003-d43d-163a-ac27-0a3fce320000" name="Legacy Account Status" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m40000001-571a-162f-98ff-0a3fce190000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000004-d43d-163a-ac27-0a3fce320000" name="Legacy Account Reference" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m4000000a-571a-162f-98ff-0a3fce190000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000005-d43d-163a-ac27-0a3fce320000" name="Legacy Account Type" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m4000000d-571a-162f-98ff-0a3fce190000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000006-d43d-163a-ac27-0a3fce320000" name="Legacy Customer Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m40000010-571a-162f-98ff-0a3fce190000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000007-d43d-163a-ac27-0a3fce320000" name="Legacy Customer Number" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m40000013-571a-162f-98ff-0a3fce190000">
+</PresentationColumn>
+<RefContentFolders>
+<RefPresentationTable refId="m8000001b-c0a2-162a-98ff-0a3fce3e0000-m80000029-c0a2-162a-98ff-0a3fce3e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/80000029-c0a2-162a-98ff-0a3fce3e0000.xml#m80000029-c0a2-162a-98ff-0a3fce3e0000"/>
+<RefPresentationTable refId="m8000001b-c0a2-162a-98ff-0a3fce3e0000-mc000003b-49b1-1637-98ff-0a3fce410000" presentationTableRef="/oracle/bi/server/base/PresentationTable/c000003b-49b1-1637-98ff-0a3fce410000.xml#mc000003b-49b1-1637-98ff-0a3fce410000"/>
+</RefContentFolders>
+</PresentationTable>

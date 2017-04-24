@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m00000000-4c39-1639-b3c9-ac1d81d00000" name="User" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000000-4db3-1639-b3c9-ac1d81d00000.xml#m00000000-4db3-1639-b3c9-ac1d81d00000">
+<PresentationColumn mdsid="m80000002-4c3f-1639-b3c9-ac1d81d00000" name="Company" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000063-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000005-4c3f-1639-b3c9-ac1d81d00000" name="Delivery Office" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000069-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000008-4c3f-1639-b3c9-ac1d81d00000" name="Deptartment" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000055-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000000b-4c3f-1639-b3c9-ac1d81d00000" name="Employee ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m0000003b-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000000e-4c3f-1639-b3c9-ac1d81d00000" name="First Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m0000002f-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000001-4c3f-1639-b3c9-ac1d81d00000" name="Full Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000031-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000004-4c3f-1639-b3c9-ac1d81d00000" name="Job Title" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000039-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000007-4c3f-1639-b3c9-ac1d81d00000" name="Last Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000043-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000000a-4c3f-1639-b3c9-ac1d81d00000" name="Login" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000059-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000000d-4c3f-1639-b3c9-ac1d81d00000" name="Manager Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m0000003f-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000010-4c3f-1639-b3c9-ac1d81d00000" name="Team Owner" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m0000004d-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000013-4c3f-1639-b3c9-ac1d81d00000" name="Telephone" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m0000004f-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+</PresentationTable>

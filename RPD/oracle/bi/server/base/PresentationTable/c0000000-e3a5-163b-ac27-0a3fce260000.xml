@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mc0000000-e3a5-163b-ac27-0a3fce260000" name="Execution Measures" iconIndex="89" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-e39c-163b-ac27-0a3fce260000.xml#m80000000-e39c-163b-ac27-0a3fce260000">
+<PresentationColumn mdsid="m40000002-e3b1-163b-ac27-0a3fce260000" name="# Runs" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e132-163b-ac27-0a3fce260000.xml#m00000002-e1a1-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000005-e3b1-163b-ac27-0a3fce260000" name="# Steps" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e132-163b-ac27-0a3fce260000.xml#mc000000c-e144-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000008-e3b1-163b-ac27-0a3fce260000" name="# Steps Failed" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e132-163b-ac27-0a3fce260000.xml#mc000000e-e144-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000000b-e3b1-163b-ac27-0a3fce260000" name="# Steps Queued" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e132-163b-ac27-0a3fce260000.xml#mc0000010-e144-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000000e-e3b1-163b-ac27-0a3fce260000" name="# Steps Runnable" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e132-163b-ac27-0a3fce260000.xml#mc0000012-e144-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000011-e3b1-163b-ac27-0a3fce260000" name="# Steps Running" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e132-163b-ac27-0a3fce260000.xml#mc0000008-e144-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000014-e3b1-163b-ac27-0a3fce260000" name="# Steps Successful" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e132-163b-ac27-0a3fce260000.xml#mc000000a-e144-163b-ac27-0a3fce260000">
+</PresentationColumn>
+</PresentationTable>

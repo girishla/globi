@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m000000ed-c0b0-162a-98ff-0a3fce3e0000" name="Financial Account - System" iconIndex="89" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000000-c0ad-162a-98ff-0a3fce3e0000.xml#m00000000-c0ad-162a-98ff-0a3fce3e0000">
+<PresentationColumn mdsid="m000000e0-c0b0-162a-98ff-0a3fce3e0000" name="--------------[ SCD Attributes ]--------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m40000002-2930-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000000e1-c0b0-162a-98ff-0a3fce3e0000" name="Current Flag" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m4000000a-28bc-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000000e2-c0b0-162a-98ff-0a3fce3e0000" name="Effective End Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m40000010-28bc-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000000e3-c0b0-162a-98ff-0a3fce3e0000" name="Effective Start Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m40000011-28bc-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000000e4-c0b0-162a-98ff-0a3fce3e0000" name="-------------[ System Attributes ]------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m40000002-2938-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000000e5-c0b0-162a-98ff-0a3fce3e0000" name="BU PGUID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m40000009-28bc-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000000e6-c0b0-162a-98ff-0a3fce3e0000" name="Data Source ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m4000000e-28bc-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000000e7-c0b0-162a-98ff-0a3fce3e0000" name="Source Created Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m40000019-28bc-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000000e8-c0b0-162a-98ff-0a3fce3e0000" name="Source Updated Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m4000001a-28bc-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000000e9-c0b0-162a-98ff-0a3fce3e0000" name="DWH Created Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m4000001c-28bc-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000000ea-c0b0-162a-98ff-0a3fce3e0000" name="DWH Updated Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m4000001d-28bc-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000000eb-c0b0-162a-98ff-0a3fce3e0000" name="Time Zone" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m4000001b-28bc-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000000ec-c0b0-162a-98ff-0a3fce3e0000" name="ETL Process ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m40000012-28bc-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+</PresentationTable>

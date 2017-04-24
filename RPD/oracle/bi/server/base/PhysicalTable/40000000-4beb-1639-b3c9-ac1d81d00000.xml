@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m40000000-4beb-1639-b3c9-ac1d81d00000" name="Fact_MDS_RoleMembers" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000001-286e-1627-806e-0a3fce3c0000.xml#m40000001-286e-1627-806e-0a3fce3c0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/00000001-4be9-1639-b3c9-ac1d81d00000.xml#m00000001-4be9-1639-b3c9-ac1d81d00000">
+<PhysicalColumn mdsid="m40000008-4beb-1639-b3c9-ac1d81d00000" name="AUTH_STR" dataType="VARCHAR" precision="32" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/00000001-4be9-1639-b3c9-ac1d81d00000.xml#m00000011-4be9-1639-b3c9-ac1d81d00000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000001-4beb-1639-b3c9-ac1d81d00000" name="CREATED_DT" dataType="DATETIME" precision="32" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/00000001-4be9-1639-b3c9-ac1d81d00000.xml#m00000003-4be9-1639-b3c9-ac1d81d00000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000002-4beb-1639-b3c9-ac1d81d00000" name="ROL_NAME" dataType="VARCHAR" precision="50" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/00000001-4be9-1639-b3c9-ac1d81d00000.xml#m00000005-4be9-1639-b3c9-ac1d81d00000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000003-4beb-1639-b3c9-ac1d81d00000" name="UPDATED_BY" dataType="VARCHAR" precision="50" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/00000001-4be9-1639-b3c9-ac1d81d00000.xml#m00000007-4be9-1639-b3c9-ac1d81d00000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000004-4beb-1639-b3c9-ac1d81d00000" name="UPDATED_DT" dataType="DATETIME" precision="50" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/00000001-4be9-1639-b3c9-ac1d81d00000.xml#m00000009-4be9-1639-b3c9-ac1d81d00000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000005-4beb-1639-b3c9-ac1d81d00000" name="USR_LOGIN" dataType="VARCHAR" precision="30" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/00000001-4be9-1639-b3c9-ac1d81d00000.xml#m0000000b-4be9-1639-b3c9-ac1d81d00000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000006-4beb-1639-b3c9-ac1d81d00000" name="AUTH_FLG" dataType="VARCHAR" precision="1" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/00000001-4be9-1639-b3c9-ac1d81d00000.xml#m0000000d-4be9-1639-b3c9-ac1d81d00000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000007-4beb-1639-b3c9-ac1d81d00000" name="AUTH_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/00000001-4be9-1639-b3c9-ac1d81d00000.xml#m0000000f-4be9-1639-b3c9-ac1d81d00000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000004-5a28-1639-b3c9-ac1d81d00000" name="ROL_REASN" dataType="VARCHAR" precision="4000" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/00000001-4be9-1639-b3c9-ac1d81d00000.xml#m80000003-5a28-1639-b3c9-ac1d81d00000">
+</PhysicalColumn>
+<PhysicalForeignKey mdsid="m40000000-4bf3-1639-b3c9-ac1d81d00000" name="Fact_RoleMembers_Foreign Key" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/c0000001-02f9-1632-98ff-0a3fce210000.xml#mc0000000-4bf5-1639-b3c9-ac1d81d00000">
+<RefColumns>
+<RefColumn refId="m40000000-4bf3-1639-b3c9-ac1d81d00000-m40000005-4beb-1639-b3c9-ac1d81d00000" columnRef="/oracle/bi/server/base/PhysicalTable/40000000-4beb-1639-b3c9-ac1d81d00000.xml#m40000005-4beb-1639-b3c9-ac1d81d00000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mc0000000-4d98-1639-b3c9-ac1d81d00000" name="Fact_RoleMembers_Foreign Key#1" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/40000000-4d93-1639-b3c9-ac1d81d00000.xml#m80000000-4d96-1639-b3c9-ac1d81d00000">
+<RefColumns>
+<RefColumn refId="mc0000000-4d98-1639-b3c9-ac1d81d00000-m40000002-4beb-1639-b3c9-ac1d81d00000" columnRef="/oracle/bi/server/base/PhysicalTable/40000000-4beb-1639-b3c9-ac1d81d00000.xml#m40000002-4beb-1639-b3c9-ac1d81d00000"/>
+</RefColumns>
+</PhysicalForeignKey>
+</PhysicalTable>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m00000000-c0b0-162a-98ff-0a3fce3e0000" name="Date" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000000-c0ad-162a-98ff-0a3fce3e0000.xml#m00000000-c0ad-162a-98ff-0a3fce3e0000">
+<RefContentFolders>
+<RefPresentationTable refId="m00000000-c0b0-162a-98ff-0a3fce3e0000-m00000001-c0b0-162a-98ff-0a3fce3e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/00000001-c0b0-162a-98ff-0a3fce3e0000.xml#m00000001-c0b0-162a-98ff-0a3fce3e0000"/>
+<RefPresentationTable refId="m00000000-c0b0-162a-98ff-0a3fce3e0000-m00000063-c0b0-162a-98ff-0a3fce3e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/00000063-c0b0-162a-98ff-0a3fce3e0000.xml#m00000063-c0b0-162a-98ff-0a3fce3e0000"/>
+<RefPresentationTable refId="m00000000-c0b0-162a-98ff-0a3fce3e0000-m00000002-c0b0-162a-98ff-0a3fce3e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/00000002-c0b0-162a-98ff-0a3fce3e0000.xml#m00000002-c0b0-162a-98ff-0a3fce3e0000"/>
+<RefPresentationTable refId="m00000000-c0b0-162a-98ff-0a3fce3e0000-m80000001-664a-162e-ac27-0aac74cf0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/80000001-664a-162e-ac27-0aac74cf0000.xml#m80000001-664a-162e-ac27-0aac74cf0000"/>
+<RefPresentationTable refId="m00000000-c0b0-162a-98ff-0a3fce3e0000-m80000185-664a-162e-ac27-0aac74cf0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/80000185-664a-162e-ac27-0aac74cf0000.xml#m80000185-664a-162e-ac27-0aac74cf0000"/>
+<RefPresentationTable refId="m00000000-c0b0-162a-98ff-0a3fce3e0000-m800000c3-664a-162e-ac27-0aac74cf0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/800000c3-664a-162e-ac27-0aac74cf0000.xml#m800000c3-664a-162e-ac27-0aac74cf0000"/>
+<RefPresentationTable refId="m00000000-c0b0-162a-98ff-0a3fce3e0000-m80000001-ef3b-1638-b07b-ac1d84090000" presentationTableRef="/oracle/bi/server/base/PresentationTable/80000001-ef3b-1638-b07b-ac1d84090000.xml#m80000001-ef3b-1638-b07b-ac1d84090000"/>
+</RefContentFolders>
+</PresentationTable>

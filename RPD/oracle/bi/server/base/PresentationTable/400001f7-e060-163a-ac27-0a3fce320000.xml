@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m400001f7-e060-163a-ac27-0a3fce320000" name="Fact - Pipeline" iconIndex="90" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-d870-163a-ac27-0a3fce320000.xml#m80000000-d870-163a-ac27-0a3fce320000">
+<PresentationColumn mdsid="m400001c1-e060-163a-ac27-0a3fce320000" name="Display Flag" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m80000002-c297-162b-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m400001c3-e060-163a-ac27-0a3fce320000" name="-------------[ Current Measures ]------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m80000003-5f5b-1634-ac27-ac1d80440000">
+</PresentationColumn>
+<PresentationColumn mdsid="m400001c5-e060-163a-ac27-0a3fce320000" name="# Lines" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#mc0000002-961d-1634-ac27-0a3fce380000">
+</PresentationColumn>
+<PresentationColumn mdsid="m400001c7-e060-163a-ac27-0a3fce320000" name="Document Amount" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m40000014-c23a-162b-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m400001c9-e060-163a-ac27-0a3fce320000" name="Document Discount" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m40000018-c23a-162b-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m400001cb-e060-163a-ac27-0a3fce320000" name="Document MPO" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m4000000e-c23a-162b-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m400001cd-e060-163a-ac27-0a3fce320000" name="Document RRP" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m40000010-c23a-162b-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m400001cf-e060-163a-ac27-0a3fce320000" name="Document Tax" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m40000012-c23a-162b-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m400001d1-e060-163a-ac27-0a3fce320000" name="---------[ Current Entity Measures ]--------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m00000002-9617-1634-ac27-0a3fce380000">
+</PresentationColumn>
+<PresentationColumn mdsid="m400001d3-e060-163a-ac27-0a3fce320000" name="# Opportunities" iconIndex="70" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m80000000-c2ca-162b-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m400001d5-e060-163a-ac27-0a3fce320000" name="# Opportunity Lines" iconIndex="70" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#mc0000002-c2cd-162b-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m400001d7-e060-163a-ac27-0a3fce320000" name="# Quotes" iconIndex="70" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m40000002-c2ce-162b-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m400001d9-e060-163a-ac27-0a3fce320000" name="# Quote Lines" iconIndex="70" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m00000002-c2d3-162b-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m400001db-e060-163a-ac27-0a3fce320000" name="# Orders" iconIndex="70" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m80000002-c2d3-162b-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m400001dd-e060-163a-ac27-0a3fce320000" name="# Order Lines" iconIndex="70" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m00000002-c2d4-162b-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m400001df-e060-163a-ac27-0a3fce320000" name="Document Amount Opportunity" iconIndex="70" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m00000002-5fb1-1634-ac27-ac1d80440000">
+</PresentationColumn>
+<PresentationColumn mdsid="m400001e1-e060-163a-ac27-0a3fce320000" name="Document Amount Quote" iconIndex="70" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m80000002-963e-1634-ac27-0a3fce380000">
+</PresentationColumn>
+<PresentationColumn mdsid="m400001e3-e060-163a-ac27-0a3fce320000" name="Document Amount Order" iconIndex="70" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m00000002-963f-1634-ac27-0a3fce380000">
+</PresentationColumn>
+<PresentationColumn mdsid="m400001e5-e060-163a-ac27-0a3fce320000" name="Document Amount Open" iconIndex="70" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m40000002-9642-1634-ac27-0a3fce380000">
+</PresentationColumn>
+<PresentationColumn mdsid="m400001e7-e060-163a-ac27-0a3fce320000" name="Document Amount Won" iconIndex="70" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#mc0000002-5fb3-1634-ac27-ac1d80440000">
+</PresentationColumn>
+<PresentationColumn mdsid="m400001e9-e060-163a-ac27-0a3fce320000" name="Document Amount Lost" iconIndex="70" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m00000002-5fb9-1634-ac27-ac1d80440000">
+</PresentationColumn>
+<PresentationColumn mdsid="m400001eb-e060-163a-ac27-0a3fce320000" name="Document Amount Billed" iconIndex="70" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#mc0000002-964f-1634-ac27-0a3fce380000">
+</PresentationColumn>
+<PresentationColumn mdsid="m400001ed-e060-163a-ac27-0a3fce320000" name="Document Amount To Bill" iconIndex="70" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m00000003-e8ff-1634-ac27-0a3fce3a0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m400001ef-e060-163a-ac27-0a3fce320000" name="------------------[ ITD Measures ]-----------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m40000001-5f7b-1634-ac27-ac1d80440000">
+</PresentationColumn>
+<PresentationColumn mdsid="m400001f1-e060-163a-ac27-0a3fce320000" name="Document ITD Amount" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m40000002-5f4d-1634-ac27-ac1d80440000">
+</PresentationColumn>
+<PresentationColumn mdsid="m400001f3-e060-163a-ac27-0a3fce320000" name="------------[ Movement Amount ]-------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m00000002-5f86-1634-ac27-ac1d80440000">
+</PresentationColumn>
+<PresentationColumn mdsid="m400001f5-e060-163a-ac27-0a3fce320000" name="Document Movement" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m40000002-5877-1634-98ff-0a3fce390000">
+</PresentationColumn>
+</PresentationTable>

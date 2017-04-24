@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m00000000-cc30-1627-b306-ac1d80d30000" name="Fact_OrderLine" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000001-286e-1627-806e-0a3fce3c0000.xml#m40000001-286e-1627-806e-0a3fce3c0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001dd-286e-1627-806e-0a3fce3c0000">
+<PhysicalColumn mdsid="m00000001-cc30-1627-b306-ac1d80d30000" name="AGREE_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001de-286e-1627-806e-0a3fce3c0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000002-cc30-1627-b306-ac1d80d30000" name="BU_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001df-286e-1627-806e-0a3fce3c0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000003-cc30-1627-b306-ac1d80d30000" name="DT_CL_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001e0-286e-1627-806e-0a3fce3c0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000004-cc30-1627-b306-ac1d80d30000" name="CON_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001e1-286e-1627-806e-0a3fce3c0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000005-cc30-1627-b306-ac1d80d30000" name="CUST_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001e2-286e-1627-806e-0a3fce3c0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000006-cc30-1627-b306-ac1d80d30000" name="DOC_AMT" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001e3-286e-1627-806e-0a3fce3c0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000007-cc30-1627-b306-ac1d80d30000" name="DOC_CURCY_CD" dataType="VARCHAR" precision="3" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001e4-286e-1627-806e-0a3fce3c0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000008-cc30-1627-b306-ac1d80d30000" name="DOC_DISCNT" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001e5-286e-1627-806e-0a3fce3c0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000000a-cc30-1627-b306-ac1d80d30000" name="DT_FX_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001e7-286e-1627-806e-0a3fce3c0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000000b-cc30-1627-b306-ac1d80d30000" name="DOC_MPO" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001e8-286e-1627-806e-0a3fce3c0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000000c-cc30-1627-b306-ac1d80d30000" name="DOC_RRP" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001e9-286e-1627-806e-0a3fce3c0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000000d-cc30-1627-b306-ac1d80d30000" name="DOC_TAX" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001ea-286e-1627-806e-0a3fce3c0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000000e-cc30-1627-b306-ac1d80d30000" name="DT_END_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001eb-286e-1627-806e-0a3fce3c0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000000f-cc30-1627-b306-ac1d80d30000" name="FA_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001ec-286e-1627-806e-0a3fce3c0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000010-cc30-1627-b306-ac1d80d30000" name="MYD_FLG" dataType="VARCHAR" precision="1" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001ed-286e-1627-806e-0a3fce3c0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000011-cc30-1627-b306-ac1d80d30000" name="ODR_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001ee-286e-1627-806e-0a3fce3c0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000012-cc30-1627-b306-ac1d80d30000" name="OPTY_LN_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001ef-286e-1627-806e-0a3fce3c0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000013-cc30-1627-b306-ac1d80d30000" name="OPTY_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001f0-286e-1627-806e-0a3fce3c0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000014-cc30-1627-b306-ac1d80d30000" name="POSTN_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001f1-286e-1627-806e-0a3fce3c0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000015-cc30-1627-b306-ac1d80d30000" name="PROD_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001f2-286e-1627-806e-0a3fce3c0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000016-cc30-1627-b306-ac1d80d30000" name="QTY" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001f3-286e-1627-806e-0a3fce3c0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000017-cc30-1627-b306-ac1d80d30000" name="QT_LN_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001f4-286e-1627-806e-0a3fce3c0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000018-cc30-1627-b306-ac1d80d30000" name="QT_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001f5-286e-1627-806e-0a3fce3c0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000019-cc30-1627-b306-ac1d80d30000" name="ROW_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001f6-286e-1627-806e-0a3fce3c0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000001a-cc30-1627-b306-ac1d80d30000" name="DT_START_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001f7-286e-1627-806e-0a3fce3c0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000001b-cc30-1627-b306-ac1d80d30000" name="SUB_RENEW_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001f8-286e-1627-806e-0a3fce3c0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000001c-cc30-1627-b306-ac1d80d30000" name="SUB_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m800001f9-286e-1627-806e-0a3fce3c0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000003-c3cd-162a-98ff-0a3fce3e0000" name="FX_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#mc0000002-c3cd-162a-98ff-0a3fce3e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000000-61f5-162e-ac27-0aac74cf0000" name="BILL_FLG" dataType="VARCHAR" precision="1" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m80000000-61f2-162e-ac27-0aac74cf0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000005-ee65-1638-b07b-ac1d84090000" name="DT_CR_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m00000004-ee65-1638-b07b-ac1d84090000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000004-ee67-1638-b07b-ac1d84090000" name="DT_STG_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m00000003-ee67-1638-b07b-ac1d84090000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000004-2f5d-1639-b07b-ac1d84090000" name="DT_OP_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m40000003-2f5d-1639-b07b-ac1d84090000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000004-9271-163b-b3c9-ac1d82620000" name="USR_CR_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m00000003-9271-163b-b3c9-ac1d82620000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000009-9271-163b-b3c9-ac1d82620000" name="USR_PR_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m00000008-9271-163b-b3c9-ac1d82620000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000004-ff89-163b-8edd-ac1d82620000" name="DSRC_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/800001dd-286e-1627-806e-0a3fce3c0000.xml#m80000003-ff89-163b-8edd-ac1d82620000">
+</PhysicalColumn>
+<PhysicalForeignKey mdsid="m40000000-cc35-1627-b306-ac1d80d30000" name="Fact_OrderLine_Foreign Key" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/40000000-287d-1627-806e-0a3fce3c0000.xml#m40000000-289b-1627-806e-0a3fce3c0000">
+<RefColumns>
+<RefColumn refId="m40000000-cc35-1627-b306-ac1d80d30000-m0000000f-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m0000000f-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m40000000-cc36-1627-b306-ac1d80d30000" name="Fact_OrderLine_Foreign Key#1" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/80000000-2893-1627-806e-0a3fce3c0000.xml#m40000000-289d-1627-806e-0a3fce3c0000">
+<RefColumns>
+<RefColumn refId="m40000000-cc36-1627-b306-ac1d80d30000-m0000000f-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m0000000f-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m40000000-cc38-1627-b306-ac1d80d30000" name="Fact_OrderLine_Foreign Key#2" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/40000000-2889-1627-806e-0a3fce3c0000.xml#m80000000-289f-1627-806e-0a3fce3c0000">
+<RefColumns>
+<RefColumn refId="m40000000-cc38-1627-b306-ac1d80d30000-m0000000f-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m0000000f-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mc0000000-cc39-1627-b306-ac1d80d30000" name="Fact_OrderLine_Foreign Key#3" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/80000001-cc26-1627-b306-ac1d80d30000.xml#m00000000-cc2d-1627-b306-ac1d80d30000">
+<RefColumns>
+<RefColumn refId="mc0000000-cc39-1627-b306-ac1d80d30000-m0000001c-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m0000001c-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m40000000-cc47-1627-b306-ac1d80d30000" name="Fact_OrderLine_Foreign Key#4" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/40000000-cc40-1627-b306-ac1d80d30000.xml#m80000000-cc44-1627-b306-ac1d80d30000">
+<RefColumns>
+<RefColumn refId="m40000000-cc47-1627-b306-ac1d80d30000-m00000015-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000015-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mc0000000-cc97-1627-b306-ac1d80d30000" name="Fact_OrderLine_Foreign Key#5" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/80000000-cc8f-1627-b306-ac1d80d30000.xml#m8000003b-cc8f-1627-b306-ac1d80d30000">
+<RefColumns>
+<RefColumn refId="mc0000000-cc97-1627-b306-ac1d80d30000-m0000000e-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m0000000e-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m40000000-cc99-1627-b306-ac1d80d30000" name="Fact_OrderLine_Foreign Key#6" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/40000000-cc92-1627-b306-ac1d80d30000.xml#m4000003b-cc92-1627-b306-ac1d80d30000">
+<RefColumns>
+<RefColumn refId="m40000000-cc99-1627-b306-ac1d80d30000-m0000001a-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m0000001a-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m80000000-b98c-1629-ac27-0a3fce1e0000" name="Fact_OrderLine_Foreign Key#7" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/80000000-b866-1629-ac27-0a3fce1e0000.xml#m80000000-b8b9-1629-ac27-0a3fce1e0000">
+<RefColumns>
+<RefColumn refId="m80000000-b98c-1629-ac27-0a3fce1e0000-m00000002-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000002-cc30-1627-b306-ac1d80d30000"/>
+<RefColumn refId="m80000000-b98c-1629-ac27-0a3fce1e0000-m0000001a-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m0000001a-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mc0000000-b98e-1629-ac27-0a3fce1e0000" name="Fact_OrderLine_Foreign Key#8" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/40000000-b8bb-1629-ac27-0a3fce1e0000.xml#m40000037-b8bb-1629-ac27-0a3fce1e0000">
+<RefColumns>
+<RefColumn refId="mc0000000-b98e-1629-ac27-0a3fce1e0000-m00000002-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000002-cc30-1627-b306-ac1d80d30000"/>
+<RefColumn refId="mc0000000-b98e-1629-ac27-0a3fce1e0000-m0000000e-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m0000000e-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m80000000-b6dc-162a-ac27-0a3fce3e0000" name="Fact_OrderLine_Foreign Key#9" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/40000000-b668-162a-ac27-0a3fce3e0000.xml#m80000000-b6b5-162a-ac27-0a3fce3e0000">
+<RefColumns>
+<RefColumn refId="m80000000-b6dc-162a-ac27-0a3fce3e0000-m00000001-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000001-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m40000000-b6dd-162a-ac27-0a3fce3e0000" name="Fact_OrderLine_Foreign Key#10" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/00000000-b679-162a-ac27-0a3fce3e0000.xml#mc0000000-b6b8-162a-ac27-0a3fce3e0000">
+<RefColumns>
+<RefColumn refId="m40000000-b6dd-162a-ac27-0a3fce3e0000-m00000001-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000001-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m40000000-b6de-162a-ac27-0a3fce3e0000" name="Fact_OrderLine_Foreign Key#11" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/80000000-b664-162a-ac27-0a3fce3e0000.xml#m00000000-b6bb-162a-ac27-0a3fce3e0000">
+<RefColumns>
+<RefColumn refId="m40000000-b6de-162a-ac27-0a3fce3e0000-m00000002-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000002-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m00000000-b6e1-162a-ac27-0a3fce3e0000" name="Fact_OrderLine_Foreign Key#12" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/00000000-b661-162a-ac27-0a3fce3e0000.xml#mc0000000-b6bd-162a-ac27-0a3fce3e0000">
+<RefColumns>
+<RefColumn refId="m00000000-b6e1-162a-ac27-0a3fce3e0000-m00000005-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000005-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m80000000-b6e2-162a-ac27-0a3fce3e0000" name="Fact_OrderLine_Foreign Key#13" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/40000000-b67d-162a-ac27-0a3fce3e0000.xml#mc0000000-b6bf-162a-ac27-0a3fce3e0000">
+<RefColumns>
+<RefColumn refId="m80000000-b6e2-162a-ac27-0a3fce3e0000-m00000005-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000005-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m80000000-b6ee-162a-ac27-0a3fce3e0000" name="Fact_OrderLine_Foreign Key#14" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/80000000-b687-162a-ac27-0a3fce3e0000.xml#m00000000-b6c5-162a-ac27-0a3fce3e0000">
+<RefColumns>
+<RefColumn refId="m80000000-b6ee-162a-ac27-0a3fce3e0000-m00000013-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000013-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mc0000000-b6f2-162a-ac27-0a3fce3e0000" name="Fact_OrderLine_Foreign Key#15" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/80000000-b68a-162a-ac27-0a3fce3e0000.xml#m00000000-b6c7-162a-ac27-0a3fce3e0000">
+<RefColumns>
+<RefColumn refId="mc0000000-b6f2-162a-ac27-0a3fce3e0000-m00000012-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000012-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mc0000000-b6f6-162a-ac27-0a3fce3e0000" name="Fact_OrderLine_Foreign Key#16" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/c0000000-b68d-162a-ac27-0a3fce3e0000.xml#m40000000-b6c9-162a-ac27-0a3fce3e0000">
+<RefColumns>
+<RefColumn refId="mc0000000-b6f6-162a-ac27-0a3fce3e0000-m00000011-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000011-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m80000000-b6f8-162a-ac27-0a3fce3e0000" name="Fact_OrderLine_Foreign Key#17" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/00000000-b691-162a-ac27-0a3fce3e0000.xml#m40000000-b6cb-162a-ac27-0a3fce3e0000">
+<RefColumns>
+<RefColumn refId="m80000000-b6f8-162a-ac27-0a3fce3e0000-m00000019-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000019-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m40000000-b6fc-162a-ac27-0a3fce3e0000" name="Fact_OrderLine_Foreign Key#18" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/00000000-b69d-162a-ac27-0a3fce3e0000.xml#m40000000-b6d0-162a-ac27-0a3fce3e0000">
+<RefColumns>
+<RefColumn refId="m40000000-b6fc-162a-ac27-0a3fce3e0000-m00000018-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000018-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mc0000000-b6fe-162a-ac27-0a3fce3e0000" name="Fact_OrderLine_Foreign Key#19" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/00000000-b69f-162a-ac27-0a3fce3e0000.xml#m40000000-b6d2-162a-ac27-0a3fce3e0000">
+<RefColumns>
+<RefColumn refId="mc0000000-b6fe-162a-ac27-0a3fce3e0000-m00000017-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000017-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m80000000-bf8a-162a-98ff-0a3fce3e0000" name="Fact_OrderLine_Foreign Key#20" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/40000000-b695-162a-ac27-0a3fce3e0000.xml#m80000000-b6cd-162a-ac27-0a3fce3e0000">
+<RefColumns>
+<RefColumn refId="m80000000-bf8a-162a-98ff-0a3fce3e0000-m00000014-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000014-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m40000000-1c70-162b-8a27-0a3fce3e0000" name="Fact_OrderLine_Foreign Key#21" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/00000000-1c5a-162b-8a27-0a3fce3e0000.xml#m0000000b-1c5a-162b-8a27-0a3fce3e0000">
+<RefColumns>
+<RefColumn refId="m40000000-1c70-162b-8a27-0a3fce3e0000-m00000002-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000002-cc30-1627-b306-ac1d80d30000"/>
+<RefColumn refId="m40000000-1c70-162b-8a27-0a3fce3e0000-m0000000e-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m0000000e-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m00000000-1c72-162b-8a27-0a3fce3e0000" name="Fact_OrderLine_Foreign Key#22" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/c0000000-1c5c-162b-8a27-0a3fce3e0000.xml#mc000000b-1c5c-162b-8a27-0a3fce3e0000">
+<RefColumns>
+<RefColumn refId="m00000000-1c72-162b-8a27-0a3fce3e0000-m00000002-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000002-cc30-1627-b306-ac1d80d30000"/>
+<RefColumn refId="m00000000-1c72-162b-8a27-0a3fce3e0000-m0000001a-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m0000001a-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m80000000-619f-162e-ac27-0aac74cf0000" name="Fact_OrderLine_Foreign Key#23" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/40000000-6142-162e-ac27-0aac74cf0000.xml#m40000000-6190-162e-ac27-0aac74cf0000">
+<RefColumns>
+<RefColumn refId="m80000000-619f-162e-ac27-0aac74cf0000-m00000013-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000013-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mc0000000-61a0-162e-ac27-0aac74cf0000" name="Fact_OrderLine_Foreign Key#24" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/40000000-6148-162e-ac27-0aac74cf0000.xml#m80000000-6192-162e-ac27-0aac74cf0000">
+<RefColumns>
+<RefColumn refId="mc0000000-61a0-162e-ac27-0aac74cf0000-m00000018-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000018-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m00000000-6442-162e-ac27-0aac74cf0000" name="Fact_OrderLine_Foreign Key#25" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/c0000000-63a5-162e-ac27-0aac74cf0000.xml#m40000000-63e3-162e-ac27-0aac74cf0000">
+<RefColumns>
+<RefColumn refId="m00000000-6442-162e-ac27-0aac74cf0000-m00000003-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000003-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m40000000-6443-162e-ac27-0aac74cf0000" name="Fact_OrderLine_Foreign Key#26" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/40000000-63ae-162e-ac27-0aac74cf0000.xml#mc0000000-63d7-162e-ac27-0aac74cf0000">
+<RefColumns>
+<RefColumn refId="m40000000-6443-162e-ac27-0aac74cf0000-m00000003-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000003-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m80000000-6445-162e-ac27-0aac74cf0000" name="Fact_OrderLine_Foreign Key#27" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/40000000-63d1-162e-ac27-0aac74cf0000.xml#m80000000-63d9-162e-ac27-0aac74cf0000">
+<RefColumns>
+<RefColumn refId="m80000000-6445-162e-ac27-0aac74cf0000-m0000000e-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m0000000e-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m40000000-644f-162e-ac27-0aac74cf0000" name="Fact_OrderLine_Foreign Key#28" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/40000000-63cd-162e-ac27-0aac74cf0000.xml#m40000000-63e0-162e-ac27-0aac74cf0000">
+<RefColumns>
+<RefColumn refId="m40000000-644f-162e-ac27-0aac74cf0000-m0000001a-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m0000001a-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mc0000000-6556-162e-ac27-0aac74cf0000" name="Fact_OrderLine_Foreign Key#29" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/80000001-6535-162e-ac27-0aac74cf0000.xml#m8000006f-6535-162e-ac27-0aac74cf0000">
+<RefColumns>
+<RefColumn refId="mc0000000-6556-162e-ac27-0aac74cf0000-m00000002-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000002-cc30-1627-b306-ac1d80d30000"/>
+<RefColumn refId="mc0000000-6556-162e-ac27-0aac74cf0000-m00000003-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000003-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m40000000-6558-162e-ac27-0aac74cf0000" name="Fact_OrderLine_Foreign Key#30" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/80000071-6535-162e-ac27-0aac74cf0000.xml#m80000087-6535-162e-ac27-0aac74cf0000">
+<RefColumns>
+<RefColumn refId="m40000000-6558-162e-ac27-0aac74cf0000-m00000002-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000002-cc30-1627-b306-ac1d80d30000"/>
+<RefColumn refId="m40000000-6558-162e-ac27-0aac74cf0000-m00000003-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000003-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mc0000000-41d2-1634-ac27-0a3fce390000" name="Fact_OrderLine_Foreign Key#32" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/80000000-41c5-1634-ac27-0a3fce390000.xml#m00000000-41cf-1634-ac27-0a3fce390000">
+<RefColumns>
+<RefColumn refId="mc0000000-41d2-1634-ac27-0a3fce390000-m00000004-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000004-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m00000000-424b-1634-ac27-0a3fce390000" name="Fact_OrderLine_Foreign Key#33" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/80000000-4228-1634-ac27-0a3fce390000.xml#m40000000-422d-1634-ac27-0a3fce390000">
+<RefColumns>
+<RefColumn refId="m00000000-424b-1634-ac27-0a3fce390000-m00000005-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000005-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mc0000000-453c-1637-98ff-0a3fce410000" name="Fact_OrderLine_Foreign Key#34" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/c0000000-452e-1637-98ff-0a3fce410000.xml#m40000000-4534-1637-98ff-0a3fce410000">
+<RefColumns>
+<RefColumn refId="mc0000000-453c-1637-98ff-0a3fce410000-m00000014-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000014-cc30-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m00000000-ee87-1638-b07b-ac1d84090000" name="Fact_OrderLine_Foreign Key#35" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/00000000-63ef-162e-ac27-0aac74cf0000.xml#m40000000-9112-1634-ac27-ac1d80440000">
+<RefColumns>
+<RefColumn refId="m00000000-ee87-1638-b07b-ac1d84090000-m00000004-ee67-1638-b07b-ac1d84090000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000004-ee67-1638-b07b-ac1d84090000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mc0000000-2f77-1639-b07b-ac1d84090000" name="Fact_OrderLine_Foreign Key#36" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/00000001-6533-162e-ac27-0aac74cf0000.xml#m00000017-6533-162e-ac27-0aac74cf0000">
+<RefColumns>
+<RefColumn refId="mc0000000-2f77-1639-b07b-ac1d84090000-m00000002-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000002-cc30-1627-b306-ac1d80d30000"/>
+<RefColumn refId="mc0000000-2f77-1639-b07b-ac1d84090000-m40000004-2f5d-1639-b07b-ac1d84090000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m40000004-2f5d-1639-b07b-ac1d84090000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m80000000-2f79-1639-b07b-ac1d84090000" name="Fact_OrderLine_Foreign Key#37" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m0000006f-652f-162e-ac27-0aac74cf0000">
+<RefColumns>
+<RefColumn refId="m80000000-2f79-1639-b07b-ac1d84090000-m00000002-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000002-cc30-1627-b306-ac1d80d30000"/>
+<RefColumn refId="m80000000-2f79-1639-b07b-ac1d84090000-m40000004-2f5d-1639-b07b-ac1d84090000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m40000004-2f5d-1639-b07b-ac1d84090000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m40000000-2f7c-1639-b07b-ac1d84090000" name="Fact_OrderLine_Foreign Key#38" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/00000001-90cb-1634-ac27-ac1d80440000.xml#m00000017-90cb-1634-ac27-ac1d80440000">
+<RefColumns>
+<RefColumn refId="m40000000-2f7c-1639-b07b-ac1d84090000-m00000002-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000002-cc30-1627-b306-ac1d80d30000"/>
+<RefColumn refId="m40000000-2f7c-1639-b07b-ac1d84090000-m00000005-ee65-1638-b07b-ac1d84090000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000005-ee65-1638-b07b-ac1d84090000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m40000000-2f7e-1639-b07b-ac1d84090000" name="Fact_OrderLine_Foreign Key#39" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/80000001-90c8-1634-ac27-ac1d80440000.xml#m8000006f-90c8-1634-ac27-ac1d80440000">
+<RefColumns>
+<RefColumn refId="m40000000-2f7e-1639-b07b-ac1d84090000-m00000002-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000002-cc30-1627-b306-ac1d80d30000"/>
+<RefColumn refId="m40000000-2f7e-1639-b07b-ac1d84090000-m00000005-ee65-1638-b07b-ac1d84090000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000005-ee65-1638-b07b-ac1d84090000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m80000000-2f97-1639-b07b-ac1d84090000" name="Fact_OrderLine_Foreign Key#40" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/80000000-63c6-162e-ac27-0aac74cf0000.xml#m40000000-63de-162e-ac27-0aac74cf0000">
+<RefColumns>
+<RefColumn refId="m80000000-2f97-1639-b07b-ac1d84090000-m40000004-2f5d-1639-b07b-ac1d84090000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m40000004-2f5d-1639-b07b-ac1d84090000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m00000000-2f9a-1639-b07b-ac1d84090000" name="Fact_OrderLine_Foreign Key#41" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/80000000-63ba-162e-ac27-0aac74cf0000.xml#mc0000000-63dc-162e-ac27-0aac74cf0000">
+<RefColumns>
+<RefColumn refId="m00000000-2f9a-1639-b07b-ac1d84090000-m40000004-2f5d-1639-b07b-ac1d84090000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m40000004-2f5d-1639-b07b-ac1d84090000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m80000000-2f9b-1639-b07b-ac1d84090000" name="Fact_OrderLine_Foreign Key#42" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/00000001-9087-1634-ac27-ac1d80440000.xml#m00000011-9087-1634-ac27-ac1d80440000">
+<RefColumns>
+<RefColumn refId="m80000000-2f9b-1639-b07b-ac1d84090000-m00000005-ee65-1638-b07b-ac1d84090000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000005-ee65-1638-b07b-ac1d84090000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m80000000-2f9d-1639-b07b-ac1d84090000" name="Fact_OrderLine_Foreign Key#43" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/00000001-907a-1634-ac27-ac1d80440000.xml#m00000077-907a-1634-ac27-ac1d80440000">
+<RefColumns>
+<RefColumn refId="m80000000-2f9d-1639-b07b-ac1d84090000-m00000005-ee65-1638-b07b-ac1d84090000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000005-ee65-1638-b07b-ac1d84090000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m40000000-2fd8-1639-b07b-ac1d84090000" name="Fact_OrderLine_Foreign Key#44" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/40000001-6539-162e-ac27-0aac74cf0000.xml#m4000006f-6539-162e-ac27-0aac74cf0000">
+<RefColumns>
+<RefColumn refId="m40000000-2fd8-1639-b07b-ac1d84090000-m00000002-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000002-cc30-1627-b306-ac1d80d30000"/>
+<RefColumn refId="m40000000-2fd8-1639-b07b-ac1d84090000-m00000004-ee67-1638-b07b-ac1d84090000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000004-ee67-1638-b07b-ac1d84090000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m80000000-2fda-1639-b07b-ac1d84090000" name="Fact_OrderLine_Foreign Key#45" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/40000071-6539-162e-ac27-0aac74cf0000.xml#m40000087-6539-162e-ac27-0aac74cf0000">
+<RefColumns>
+<RefColumn refId="m80000000-2fda-1639-b07b-ac1d84090000-m00000002-cc30-1627-b306-ac1d80d30000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000002-cc30-1627-b306-ac1d80d30000"/>
+<RefColumn refId="m80000000-2fda-1639-b07b-ac1d84090000-m00000004-ee67-1638-b07b-ac1d84090000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000004-ee67-1638-b07b-ac1d84090000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m40000000-9283-163b-b3c9-ac1d82620000" name="Fact_OrderLine_Foreign Key#31" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/c0000001-02f9-1632-98ff-0a3fce210000.xml#m80000000-02fd-1632-98ff-0a3fce210000">
+<RefColumns>
+<RefColumn refId="m40000000-9283-163b-b3c9-ac1d82620000-m00000009-9271-163b-b3c9-ac1d82620000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000009-9271-163b-b3c9-ac1d82620000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m80000000-9284-163b-b3c9-ac1d82620000" name="Fact_OrderLine_Foreign Key#46" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/40000000-925a-163b-b3c9-ac1d82620000.xml#m80000000-9261-163b-b3c9-ac1d82620000">
+<RefColumns>
+<RefColumn refId="m80000000-9284-163b-b3c9-ac1d82620000-m00000009-9271-163b-b3c9-ac1d82620000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m00000009-9271-163b-b3c9-ac1d82620000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m80000000-ff97-163b-8edd-ac1d82620000" name="Fact_OrderLine_Foreign Key#47" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/80000000-b680-162a-ac27-0a3fce3e0000.xml#m00000000-b6c2-162a-ac27-0a3fce3e0000">
+<RefColumns>
+<RefColumn refId="m80000000-ff97-163b-8edd-ac1d82620000-m80000004-ff89-163b-8edd-ac1d82620000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-cc30-1627-b306-ac1d80d30000.xml#m80000004-ff89-163b-8edd-ac1d82620000"/>
+</RefColumns>
+</PhysicalForeignKey>
+</PhysicalTable>

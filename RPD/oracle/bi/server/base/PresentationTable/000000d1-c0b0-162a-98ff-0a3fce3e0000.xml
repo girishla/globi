@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m000000d1-c0b0-162a-98ff-0a3fce3e0000" name="Customer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000000-c0ad-162a-98ff-0a3fce3e0000.xml#m00000000-c0ad-162a-98ff-0a3fce3e0000">
+<PresentationColumn mdsid="m000000ca-c0b0-162a-98ff-0a3fce3e0000" name="Integration ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-b899-162a-ac27-0a3fce3e0000.xml#mc0000039-b89c-162a-ac27-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000000cb-c0b0-162a-98ff-0a3fce3e0000" name="PGUID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-b899-162a-ac27-0a3fce3e0000.xml#mc000003a-b89c-162a-ac27-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000000cc-c0b0-162a-98ff-0a3fce3e0000" name="------------------[ Attributes ]------------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-b899-162a-ac27-0a3fce3e0000.xml#m00000003-b8c7-162a-ac27-0a3fce3e0000">
+<Alias name="---[ Attributes ]------------------"/>
+</PresentationColumn>
+<PresentationColumn mdsid="m000000cd-c0b0-162a-98ff-0a3fce3e0000" name="Customer Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-b899-162a-ac27-0a3fce3e0000.xml#mc000002c-b89c-162a-ac27-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000000ce-c0b0-162a-98ff-0a3fce3e0000" name="Customer Number" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-b899-162a-ac27-0a3fce3e0000.xml#mc000002d-b89c-162a-ac27-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000000cf-c0b0-162a-98ff-0a3fce3e0000" name="Customer Type" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-b899-162a-ac27-0a3fce3e0000.xml#mc000002f-b89c-162a-ac27-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000000d0-c0b0-162a-98ff-0a3fce3e0000" name="Customer Status" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-b899-162a-ac27-0a3fce3e0000.xml#mc000002e-b89c-162a-ac27-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000001-0936-162b-ac27-0a3fce3e0000" name="Data Source" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-b899-162a-ac27-0a3fce3e0000.xml#mc0000002-0904-162b-ac27-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000002-4256-1634-ac27-0a3fce390000" name="------------------[ Legacy ]------------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-b899-162a-ac27-0a3fce3e0000.xml#m00000003-4224-1634-ac27-0a3fce390000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000005-4256-1634-ac27-0a3fce390000" name="Legacy Customer Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-b899-162a-ac27-0a3fce3e0000.xml#mc0000006-4217-1634-ac27-0a3fce390000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000008-4256-1634-ac27-0a3fce390000" name="Legacy Customer Number" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-b899-162a-ac27-0a3fce3e0000.xml#mc0000008-4217-1634-ac27-0a3fce390000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000000b-4256-1634-ac27-0a3fce390000" name="Legacy Customer Status" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-b899-162a-ac27-0a3fce3e0000.xml#mc000000a-4217-1634-ac27-0a3fce390000">
+</PresentationColumn>
+<RefContentFolders>
+<RefPresentationTable refId="m000000d1-c0b0-162a-98ff-0a3fce3e0000-m0000001d-49b2-1637-98ff-0a3fce410000" presentationTableRef="/oracle/bi/server/base/PresentationTable/0000001d-49b2-1637-98ff-0a3fce410000.xml#m0000001d-49b2-1637-98ff-0a3fce410000"/>
+</RefContentFolders>
+</PresentationTable>

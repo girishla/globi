@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationHierarchy mdsid="m800001f1-e05f-163a-ac27-0a3fce320000" name="Hier - Period - Close" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/800001ef-e05f-163a-ac27-0a3fce320000.xml#m800001ef-e05f-163a-ac27-0a3fce320000" logicalDimensionRef="/oracle/bi/server/base/Dimension/40000001-4be5-1637-98ff-0a3fce410000.xml#m40000001-4be5-1637-98ff-0a3fce410000">
+<PresentationLevel mdsid="m800001f3-e05f-163a-ac27-0a3fce320000" name="Total" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/800001f1-e05f-163a-ac27-0a3fce320000.xml#m800001f1-e05f-163a-ac27-0a3fce320000" logicalLevelRef="/oracle/bi/server/base/Dimension/40000001-4be5-1637-98ff-0a3fce410000.xml#m40000003-4be5-1637-98ff-0a3fce410000">
+</PresentationLevel>
+<PresentationLevel mdsid="m800001f5-e05f-163a-ac27-0a3fce320000" name="Year" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/800001f1-e05f-163a-ac27-0a3fce320000.xml#m800001f1-e05f-163a-ac27-0a3fce320000" logicalLevelRef="/oracle/bi/server/base/Dimension/40000001-4be5-1637-98ff-0a3fce410000.xml#m40000005-4be5-1637-98ff-0a3fce410000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m800001f5-e05f-163a-ac27-0a3fce320000-m80000193-e05f-163a-ac27-0a3fce320000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/800001ef-e05f-163a-ac27-0a3fce320000.xml#m80000193-e05f-163a-ac27-0a3fce320000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="m800001f7-e05f-163a-ac27-0a3fce320000" name="Half" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/800001f1-e05f-163a-ac27-0a3fce320000.xml#m800001f1-e05f-163a-ac27-0a3fce320000" logicalLevelRef="/oracle/bi/server/base/Dimension/40000001-4be5-1637-98ff-0a3fce410000.xml#m40000007-4be5-1637-98ff-0a3fce410000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m800001f7-e05f-163a-ac27-0a3fce320000-m800001a1-e05f-163a-ac27-0a3fce320000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/800001ef-e05f-163a-ac27-0a3fce320000.xml#m800001a1-e05f-163a-ac27-0a3fce320000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="m800001f9-e05f-163a-ac27-0a3fce320000" name="Quarter" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/800001f1-e05f-163a-ac27-0a3fce320000.xml#m800001f1-e05f-163a-ac27-0a3fce320000" logicalLevelRef="/oracle/bi/server/base/Dimension/40000001-4be5-1637-98ff-0a3fce410000.xml#m40000009-4be5-1637-98ff-0a3fce410000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m800001f9-e05f-163a-ac27-0a3fce320000-m800001b3-e05f-163a-ac27-0a3fce320000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/800001ef-e05f-163a-ac27-0a3fce320000.xml#m800001b3-e05f-163a-ac27-0a3fce320000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="m800001fb-e05f-163a-ac27-0a3fce320000" name="Period" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/800001f1-e05f-163a-ac27-0a3fce320000.xml#m800001f1-e05f-163a-ac27-0a3fce320000" logicalLevelRef="/oracle/bi/server/base/Dimension/40000001-4be5-1637-98ff-0a3fce410000.xml#m4000000b-4be5-1637-98ff-0a3fce410000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m800001fb-e05f-163a-ac27-0a3fce320000-m800001c5-e05f-163a-ac27-0a3fce320000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/800001ef-e05f-163a-ac27-0a3fce320000.xml#m800001c5-e05f-163a-ac27-0a3fce320000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="m800001fd-e05f-163a-ac27-0a3fce320000" name="Detail" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/800001f1-e05f-163a-ac27-0a3fce320000.xml#m800001f1-e05f-163a-ac27-0a3fce320000" logicalLevelRef="/oracle/bi/server/base/Dimension/40000001-4be5-1637-98ff-0a3fce410000.xml#m4000000d-4be5-1637-98ff-0a3fce410000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m800001fd-e05f-163a-ac27-0a3fce320000-m800001d1-e05f-163a-ac27-0a3fce320000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/800001ef-e05f-163a-ac27-0a3fce320000.xml#m800001d1-e05f-163a-ac27-0a3fce320000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+</PresentationHierarchy>

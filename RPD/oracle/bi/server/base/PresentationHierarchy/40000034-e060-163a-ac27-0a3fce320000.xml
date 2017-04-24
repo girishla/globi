@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationHierarchy mdsid="m40000034-e060-163a-ac27-0a3fce320000" name="Hier - Sales Stage" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/40000032-e060-163a-ac27-0a3fce320000.xml#m40000032-e060-163a-ac27-0a3fce320000" logicalDimensionRef="/oracle/bi/server/base/Dimension/40000000-4d63-1637-98ff-0a3fce410000.xml#m40000000-4d63-1637-98ff-0a3fce410000">
+<PresentationLevel mdsid="m40000036-e060-163a-ac27-0a3fce320000" name="Total" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/40000034-e060-163a-ac27-0a3fce320000.xml#m40000034-e060-163a-ac27-0a3fce320000" logicalLevelRef="/oracle/bi/server/base/Dimension/40000000-4d63-1637-98ff-0a3fce410000.xml#m40000003-4d63-1637-98ff-0a3fce410000">
+</PresentationLevel>
+<PresentationLevel mdsid="m40000038-e060-163a-ac27-0a3fce320000" name="Detail" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/40000034-e060-163a-ac27-0a3fce320000.xml#m40000034-e060-163a-ac27-0a3fce320000" logicalLevelRef="/oracle/bi/server/base/Dimension/40000000-4d63-1637-98ff-0a3fce410000.xml#m40000001-4d63-1637-98ff-0a3fce410000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m40000038-e060-163a-ac27-0a3fce320000-m40000024-e060-163a-ac27-0a3fce320000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/40000032-e060-163a-ac27-0a3fce320000.xml#m40000024-e060-163a-ac27-0a3fce320000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+</PresentationHierarchy>

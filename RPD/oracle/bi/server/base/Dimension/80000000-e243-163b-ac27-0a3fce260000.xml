@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dimension mdsid="m80000000-e243-163b-ac27-0a3fce260000" name="Hier - MDS ETL Execution Plan" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isValueBased="false" isRagged="false" isSkipped="false" defaultRootLevelRef="/oracle/bi/server/base/Dimension/80000000-e243-163b-ac27-0a3fce260000.xml#m80000003-e243-163b-ac27-0a3fce260000" subjectAreaRef="/oracle/bi/server/base/BusinessModel/00000000-28a1-1627-806e-0a3fce3c0000.xml#m00000000-28a1-1627-806e-0a3fce3c0000">
+<LogicalLevel mdsid="m80000003-e243-163b-ac27-0a3fce260000" name="Total" isGTA="true" isFDUC="true" memberCount="1" levelConst="&apos;Total&apos;">
+<RefChildLevels>
+<RefLogicalLevel refId="m80000003-e243-163b-ac27-0a3fce260000_m80000001-e243-163b-ac27-0a3fce260000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/80000000-e243-163b-ac27-0a3fce260000.xml#m80000001-e243-163b-ac27-0a3fce260000"/>
+</RefChildLevels>
+<AbsoluteSequenceNumber>
+</AbsoluteSequenceNumber>
+</LogicalLevel>
+<LogicalLevel mdsid="m80000001-e243-163b-ac27-0a3fce260000" name="Detail" isGTA="false" isFDUC="true" memberCount="4294967295" levelConst="&apos;Detail&apos;">
+<LogicalKey mdsid="m80000002-e243-163b-ac27-0a3fce260000" name="Dim - MDS ETL Execution Plan Detail_Key" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m80000002-e243-163b-ac27-0a3fce260000-m00000004-e04b-163b-ac27-0a3fce260000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-e03c-163b-ac27-0a3fce260000.xml#m00000004-e04b-163b-ac27-0a3fce260000"/>
+</RefColumns>
+</LogicalKey>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m80000001-e243-163b-ac27-0a3fce260000-m00000004-e04b-163b-ac27-0a3fce260000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-e03c-163b-ac27-0a3fce260000.xml#m00000004-e04b-163b-ac27-0a3fce260000"/>
+<RefLogicalColumn refId="m80000001-e243-163b-ac27-0a3fce260000-m80000002-e04d-163b-ac27-0a3fce260000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-e03c-163b-ac27-0a3fce260000.xml#m80000002-e04d-163b-ac27-0a3fce260000"/>
+<RefLogicalColumn refId="m80000001-e243-163b-ac27-0a3fce260000-m00000002-e04e-163b-ac27-0a3fce260000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-e03c-163b-ac27-0a3fce260000.xml#m00000002-e04e-163b-ac27-0a3fce260000"/>
+<RefLogicalColumn refId="m80000001-e243-163b-ac27-0a3fce260000-m80000002-e050-163b-ac27-0a3fce260000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-e03c-163b-ac27-0a3fce260000.xml#m80000002-e050-163b-ac27-0a3fce260000"/>
+<RefLogicalColumn refId="m80000001-e243-163b-ac27-0a3fce260000-m80000002-e054-163b-ac27-0a3fce260000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-e03c-163b-ac27-0a3fce260000.xml#m80000002-e054-163b-ac27-0a3fce260000"/>
+<RefLogicalColumn refId="m80000001-e243-163b-ac27-0a3fce260000-m00000002-e055-163b-ac27-0a3fce260000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-e03c-163b-ac27-0a3fce260000.xml#m00000002-e055-163b-ac27-0a3fce260000"/>
+<RefLogicalColumn refId="m80000001-e243-163b-ac27-0a3fce260000-mc0000002-e058-163b-ac27-0a3fce260000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-e03c-163b-ac27-0a3fce260000.xml#mc0000002-e058-163b-ac27-0a3fce260000"/>
+</RefLogicalColumns>
+<AbsoluteSequenceNumber>
+</AbsoluteSequenceNumber>
+</LogicalLevel>
+</Dimension>

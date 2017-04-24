@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m00000105-c0b0-162a-98ff-0a3fce3e0000" name="Product" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000000-c0ad-162a-98ff-0a3fce3e0000.xml#m00000000-c0ad-162a-98ff-0a3fce3e0000">
+<PresentationColumn mdsid="m000000f9-c0b0-162a-98ff-0a3fce3e0000" name="Integration ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-cc66-1627-b306-ac1d80d30000.xml#m8000000d-cc66-1627-b306-ac1d80d30000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000000f8-c0b0-162a-98ff-0a3fce3e0000" name="PGUID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-cc66-1627-b306-ac1d80d30000.xml#m8000000e-cc66-1627-b306-ac1d80d30000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000000fa-c0b0-162a-98ff-0a3fce3e0000" name="------------------[ Attributes ]------------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-cc66-1627-b306-ac1d80d30000.xml#m40000003-cd12-1627-b306-ac1d80d30000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000000fb-c0b0-162a-98ff-0a3fce3e0000" name="Active Flag" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-cc66-1627-b306-ac1d80d30000.xml#m80000003-cc66-1627-b306-ac1d80d30000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000000fc-c0b0-162a-98ff-0a3fce3e0000" name="Product Code" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-cc66-1627-b306-ac1d80d30000.xml#m8000000f-cc66-1627-b306-ac1d80d30000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000000fd-c0b0-162a-98ff-0a3fce3e0000" name="Product Family" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-cc66-1627-b306-ac1d80d30000.xml#m80000010-cc66-1627-b306-ac1d80d30000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000000fe-c0b0-162a-98ff-0a3fce3e0000" name="Product Issue" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-cc66-1627-b306-ac1d80d30000.xml#m80000011-cc66-1627-b306-ac1d80d30000">
+</PresentationColumn>
+<PresentationColumn mdsid="m000000ff-c0b0-162a-98ff-0a3fce3e0000" name="Product Medium" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-cc66-1627-b306-ac1d80d30000.xml#m80000012-cc66-1627-b306-ac1d80d30000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000100-c0b0-162a-98ff-0a3fce3e0000" name="Product Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-cc66-1627-b306-ac1d80d30000.xml#m80000013-cc66-1627-b306-ac1d80d30000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000101-c0b0-162a-98ff-0a3fce3e0000" name="Product Parent Flag" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-cc66-1627-b306-ac1d80d30000.xml#m80000014-cc66-1627-b306-ac1d80d30000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000102-c0b0-162a-98ff-0a3fce3e0000" name="Product Source" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-cc66-1627-b306-ac1d80d30000.xml#m80000015-cc66-1627-b306-ac1d80d30000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000103-c0b0-162a-98ff-0a3fce3e0000" name="Product Unit of Measure" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-cc66-1627-b306-ac1d80d30000.xml#m80000016-cc66-1627-b306-ac1d80d30000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000104-c0b0-162a-98ff-0a3fce3e0000" name="Trial Flag" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-cc66-1627-b306-ac1d80d30000.xml#m8000001a-cc66-1627-b306-ac1d80d30000">
+</PresentationColumn>
+</PresentationTable>

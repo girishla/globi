@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m40000007-ffac-163b-8edd-ac1d82620000" name="Data Source" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000000-2989-1627-806e-0a3fce3c0000.xml#m00000000-2989-1627-806e-0a3fce3c0000">
+<PresentationColumn mdsid="m40000001-ffac-163b-8edd-ac1d82620000" name="Data Source Code" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-ff12-163b-8edd-ac1d82620000.xml#m00000013-ff17-163b-8edd-ac1d82620000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000003-ffac-163b-8edd-ac1d82620000" name="Data Source ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-ff12-163b-8edd-ac1d82620000.xml#m00000011-ff17-163b-8edd-ac1d82620000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000005-ffac-163b-8edd-ac1d82620000" name="Data Source Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-ff12-163b-8edd-ac1d82620000.xml#m00000015-ff17-163b-8edd-ac1d82620000">
+</PresentationColumn>
+</PresentationTable>

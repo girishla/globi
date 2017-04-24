@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationCatalog mdsid="m00000000-4db3-1639-b3c9-ac1d81d00000" name="Administration - Role Assignment" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" isAutoAggr="true" subjectAreaRef="/oracle/bi/server/base/BusinessModel/00000000-28a1-1627-806e-0a3fce3c0000.xml#m00000000-28a1-1627-806e-0a3fce3c0000">
+<RefTables>
+<RefPresentationTable refId="m00000000-4db3-1639-b3c9-ac1d81d00000-m00000000-4c39-1639-b3c9-ac1d81d00000" presentationTableRef="/oracle/bi/server/base/PresentationTable/00000000-4c39-1639-b3c9-ac1d81d00000.xml#m00000000-4c39-1639-b3c9-ac1d81d00000"/>
+<RefPresentationTable refId="m00000000-4db3-1639-b3c9-ac1d81d00000-mc0000000-4dad-1639-b3c9-ac1d81d00000" presentationTableRef="/oracle/bi/server/base/PresentationTable/c0000000-4dad-1639-b3c9-ac1d81d00000.xml#mc0000000-4dad-1639-b3c9-ac1d81d00000"/>
+<RefPresentationTable refId="m00000000-4db3-1639-b3c9-ac1d81d00000-m80000000-4c40-1639-b3c9-ac1d81d00000" presentationTableRef="/oracle/bi/server/base/PresentationTable/80000000-4c40-1639-b3c9-ac1d81d00000.xml#m80000000-4c40-1639-b3c9-ac1d81d00000"/>
+</RefTables>
+</PresentationCatalog>

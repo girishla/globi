@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m4000000b-e225-163b-ac27-0a3fce260000" name="Fact_ExecutionTaskDetail" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/80000000-e16a-163b-ac27-0a3fce260000.xml#m80000000-e16a-163b-ac27-0a3fce260000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-ce2f-11d300000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Global Reporting"."Fact - MDS ETL Tasks"."# Task Runs"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-ce2f-11d300000000-m40000007-e225-163b-ac27-0a3fce260000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/80000000-e16a-163b-ac27-0a3fce260000.xml#m40000007-e225-163b-ac27-0a3fce260000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-2731-4b1300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."DAC"."Fact_ExecutionTaskDetail"."ROW_WID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-2731-4b1300000000-m40000001-dee0-163b-ac27-0a3fce260000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-dee0-163b-ac27-0a3fce260000.xml#m40000001-dee0-163b-ac27-0a3fce260000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-d509-6ff400000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Global Reporting"."Fact - MDS ETL Tasks"."# Task Runs Rows Failed"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-d509-6ff400000000-m00000004-e235-163b-ac27-0a3fce260000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/80000000-e16a-163b-ac27-0a3fce260000.xml#m00000004-e235-163b-ac27-0a3fce260000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-b2b2-b2f800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."DAC"."Fact_ExecutionTaskDetail"."FAILED_ROWS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-b2b2-b2f800000000-m4000000e-dee0-163b-ac27-0a3fce260000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-dee0-163b-ac27-0a3fce260000.xml#m4000000e-dee0-163b-ac27-0a3fce260000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-a93d-b80600000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Global Reporting"."Fact - MDS ETL Tasks"."# Task Runs Rows Successful"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-a93d-b80600000000-m00000008-e235-163b-ac27-0a3fce260000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/80000000-e16a-163b-ac27-0a3fce260000.xml#m00000008-e235-163b-ac27-0a3fce260000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-67c4-14be00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."DAC"."Fact_ExecutionTaskDetail"."SUCESS_ROWS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-67c4-14be00000000-m4000000d-dee0-163b-ac27-0a3fce260000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-dee0-163b-ac27-0a3fce260000.xml#m4000000d-dee0-163b-ac27-0a3fce260000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/40000000-dee0-163b-ac27-0a3fce260000.xml#m40000000-dee0-163b-ac27-0a3fce260000">
+</Link>
+<WhereClause mdsid="m00000007-01f4-0000-74a7-a7c400000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000008-01f4-0000-59bb-ae9500000000" name="GroupBy">
+<ExprText><![CDATA[ GROUPBYLEVEL("%1", "%2")]]></ExprText>
+<ExprTextDesc><![CDATA[ GROUPBYLEVEL("Global Reporting"."Hier - MDS ETL Execution Plan"."Detail", "Global Reporting"."Hier - MDS ETL Execution Task"."Task Run")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-59bb-ae9500000000-m80000001-e243-163b-ac27-0a3fce260000" objectTypeId="2025" objectRef="/oracle/bi/server/base/Dimension/80000000-e243-163b-ac27-0a3fce260000.xml#m80000001-e243-163b-ac27-0a3fce260000"/>
+<RefObject refId="m00000008-01f4-0000-59bb-ae9500000000-m40000001-e244-163b-ac27-0a3fce260000" objectTypeId="2025" objectRef="/oracle/bi/server/base/Dimension/40000000-e244-163b-ac27-0a3fce260000.xml#m40000001-e244-163b-ac27-0a3fce260000"/>
+</ObjectRefList>
+</GroupBy>
+<FragmentContent mdsid="m00000009-01f4-0000-affa-21e600000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

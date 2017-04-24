@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m40000000-c51a-162a-98ff-0a3fce3e0000" name="Measure - User Currency" iconIndex="89" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/40000000-ccd7-1627-b306-ac1d80d30000.xml#m40000000-ccd7-1627-b306-ac1d80d30000">
+<PresentationColumn mdsid="mc0000001-c522-162a-98ff-0a3fce3e0000" name="Amount" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-cc63-1627-b306-ac1d80d30000.xml#mc0000004-c47e-162a-98ff-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000003-c522-162a-98ff-0a3fce3e0000" name="Discount" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-cc63-1627-b306-ac1d80d30000.xml#mc000000c-c47e-162a-98ff-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000005-c522-162a-98ff-0a3fce3e0000" name="MPO" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-cc63-1627-b306-ac1d80d30000.xml#mc0000014-c47e-162a-98ff-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000007-c522-162a-98ff-0a3fce3e0000" name="RRP" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-cc63-1627-b306-ac1d80d30000.xml#mc000001c-c47e-162a-98ff-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000009-c522-162a-98ff-0a3fce3e0000" name="Tax" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-cc63-1627-b306-ac1d80d30000.xml#mc0000024-c47e-162a-98ff-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000002-65ff-162f-98ff-0a3fce190000" name="Billed Amount" iconIndex="70" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-cc63-1627-b306-ac1d80d30000.xml#m40000002-65db-162f-98ff-0a3fce190000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000005-65ff-162f-98ff-0a3fce190000" name="Open Amount" iconIndex="70" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-cc63-1627-b306-ac1d80d30000.xml#m40000007-65db-162f-98ff-0a3fce190000">
+</PresentationColumn>
+</PresentationTable>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationHierarchy mdsid="mc0000023-932c-163b-b3c9-ac1d82620000" name="Hier - User - L01 - User" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" dispName="User Hierarhcy" hasDispName="true" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/c0000021-932c-163b-b3c9-ac1d82620000.xml#mc0000021-932c-163b-b3c9-ac1d82620000" logicalDimensionRef="/oracle/bi/server/base/Dimension/00000000-4d78-1637-98ff-0a3fce410000.xml#m00000000-4d78-1637-98ff-0a3fce410000">
+<PresentationLevel mdsid="mc0000025-932c-163b-b3c9-ac1d82620000" name="Total" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/c0000023-932c-163b-b3c9-ac1d82620000.xml#mc0000023-932c-163b-b3c9-ac1d82620000" logicalLevelRef="/oracle/bi/server/base/Dimension/00000000-4d78-1637-98ff-0a3fce410000.xml#m00000003-4d78-1637-98ff-0a3fce410000">
+</PresentationLevel>
+<PresentationLevel mdsid="mc0000027-932c-163b-b3c9-ac1d82620000" name="L01 - User" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/c0000023-932c-163b-b3c9-ac1d82620000.xml#mc0000023-932c-163b-b3c9-ac1d82620000" logicalLevelRef="/oracle/bi/server/base/Dimension/00000000-4d78-1637-98ff-0a3fce410000.xml#m00000000-92c8-163b-b3c9-ac1d82620000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="mc0000027-932c-163b-b3c9-ac1d82620000-mc000000b-932c-163b-b3c9-ac1d82620000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/c0000021-932c-163b-b3c9-ac1d82620000.xml#mc000000b-932c-163b-b3c9-ac1d82620000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="mc0000029-932c-163b-b3c9-ac1d82620000" name="L02 - User" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/c0000023-932c-163b-b3c9-ac1d82620000.xml#mc0000023-932c-163b-b3c9-ac1d82620000" logicalLevelRef="/oracle/bi/server/base/Dimension/00000000-4d78-1637-98ff-0a3fce410000.xml#m40000000-92cf-163b-b3c9-ac1d82620000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="mc0000029-932c-163b-b3c9-ac1d82620000-mc000000d-932c-163b-b3c9-ac1d82620000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/c0000021-932c-163b-b3c9-ac1d82620000.xml#mc000000d-932c-163b-b3c9-ac1d82620000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="mc000002b-932c-163b-b3c9-ac1d82620000" name="L03 - User" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/c0000023-932c-163b-b3c9-ac1d82620000.xml#mc0000023-932c-163b-b3c9-ac1d82620000" logicalLevelRef="/oracle/bi/server/base/Dimension/00000000-4d78-1637-98ff-0a3fce410000.xml#m00000000-92d1-163b-b3c9-ac1d82620000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="mc000002b-932c-163b-b3c9-ac1d82620000-mc000000f-932c-163b-b3c9-ac1d82620000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/c0000021-932c-163b-b3c9-ac1d82620000.xml#mc000000f-932c-163b-b3c9-ac1d82620000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="mc000002d-932c-163b-b3c9-ac1d82620000" name="L04 - User" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/c0000023-932c-163b-b3c9-ac1d82620000.xml#mc0000023-932c-163b-b3c9-ac1d82620000" logicalLevelRef="/oracle/bi/server/base/Dimension/00000000-4d78-1637-98ff-0a3fce410000.xml#mc0000000-92d2-163b-b3c9-ac1d82620000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="mc000002d-932c-163b-b3c9-ac1d82620000-mc0000011-932c-163b-b3c9-ac1d82620000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/c0000021-932c-163b-b3c9-ac1d82620000.xml#mc0000011-932c-163b-b3c9-ac1d82620000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="mc000002f-932c-163b-b3c9-ac1d82620000" name="L05 - User" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/c0000023-932c-163b-b3c9-ac1d82620000.xml#mc0000023-932c-163b-b3c9-ac1d82620000" logicalLevelRef="/oracle/bi/server/base/Dimension/00000000-4d78-1637-98ff-0a3fce410000.xml#m80000000-92d4-163b-b3c9-ac1d82620000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="mc000002f-932c-163b-b3c9-ac1d82620000-mc0000013-932c-163b-b3c9-ac1d82620000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/c0000021-932c-163b-b3c9-ac1d82620000.xml#mc0000013-932c-163b-b3c9-ac1d82620000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="mc0000031-932c-163b-b3c9-ac1d82620000" name="L06 - User" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/c0000023-932c-163b-b3c9-ac1d82620000.xml#mc0000023-932c-163b-b3c9-ac1d82620000" logicalLevelRef="/oracle/bi/server/base/Dimension/00000000-4d78-1637-98ff-0a3fce410000.xml#m40000000-92d6-163b-b3c9-ac1d82620000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="mc0000031-932c-163b-b3c9-ac1d82620000-mc0000015-932c-163b-b3c9-ac1d82620000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/c0000021-932c-163b-b3c9-ac1d82620000.xml#mc0000015-932c-163b-b3c9-ac1d82620000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="mc0000033-932c-163b-b3c9-ac1d82620000" name="L07 - User" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/c0000023-932c-163b-b3c9-ac1d82620000.xml#mc0000023-932c-163b-b3c9-ac1d82620000" logicalLevelRef="/oracle/bi/server/base/Dimension/00000000-4d78-1637-98ff-0a3fce410000.xml#m40000000-92d8-163b-b3c9-ac1d82620000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="mc0000033-932c-163b-b3c9-ac1d82620000-mc0000017-932c-163b-b3c9-ac1d82620000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/c0000021-932c-163b-b3c9-ac1d82620000.xml#mc0000017-932c-163b-b3c9-ac1d82620000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="mc0000035-932c-163b-b3c9-ac1d82620000" name="L08 - User" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/c0000023-932c-163b-b3c9-ac1d82620000.xml#mc0000023-932c-163b-b3c9-ac1d82620000" logicalLevelRef="/oracle/bi/server/base/Dimension/00000000-4d78-1637-98ff-0a3fce410000.xml#mc0000000-92d9-163b-b3c9-ac1d82620000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="mc0000035-932c-163b-b3c9-ac1d82620000-mc0000019-932c-163b-b3c9-ac1d82620000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/c0000021-932c-163b-b3c9-ac1d82620000.xml#mc0000019-932c-163b-b3c9-ac1d82620000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="mc0000037-932c-163b-b3c9-ac1d82620000" name="L09 - User" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/c0000023-932c-163b-b3c9-ac1d82620000.xml#mc0000023-932c-163b-b3c9-ac1d82620000" logicalLevelRef="/oracle/bi/server/base/Dimension/00000000-4d78-1637-98ff-0a3fce410000.xml#m40000000-92dd-163b-b3c9-ac1d82620000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="mc0000037-932c-163b-b3c9-ac1d82620000-mc000001b-932c-163b-b3c9-ac1d82620000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/c0000021-932c-163b-b3c9-ac1d82620000.xml#mc000001b-932c-163b-b3c9-ac1d82620000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="mc0000039-932c-163b-b3c9-ac1d82620000" name="Detail" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/c0000023-932c-163b-b3c9-ac1d82620000.xml#mc0000023-932c-163b-b3c9-ac1d82620000" logicalLevelRef="/oracle/bi/server/base/Dimension/00000000-4d78-1637-98ff-0a3fce410000.xml#m00000001-4d78-1637-98ff-0a3fce410000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="mc0000039-932c-163b-b3c9-ac1d82620000-mc000001f-932c-163b-b3c9-ac1d82620000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/c0000021-932c-163b-b3c9-ac1d82620000.xml#mc000001f-932c-163b-b3c9-ac1d82620000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+</PresentationHierarchy>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m00000000-c40b-162a-98ff-0a3fce3e0000" name="USER_DEFAULTS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isSessionVar="true" refreshPeriod="86400" connectionPoolRef="/oracle/bi/server/base/ConnectionPool/40000000-c408-162a-98ff-0a3fce3e0000.xml#m40000000-c408-162a-98ff-0a3fce3e0000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[SELECT
+'GBP',
+'Daily',
+3
+FROM
+DUAL]]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="m00000000-c40b-162a-98ff-0a3fce3e0000-m00000000-c411-162a-98ff-0a3fce3e0000" variableRef="/oracle/bi/server/base/Variable/00000000-c411-162a-98ff-0a3fce3e0000.xml#m00000000-c411-162a-98ff-0a3fce3e0000"/>
+<RefVariable refId="m00000000-c40b-162a-98ff-0a3fce3e0000-mc0000001-1978-162b-8a27-0a3fce3e0000" variableRef="/oracle/bi/server/base/Variable/c0000001-1978-162b-8a27-0a3fce3e0000.xml#mc0000001-1978-162b-8a27-0a3fce3e0000"/>
+<RefVariable refId="m00000000-c40b-162a-98ff-0a3fce3e0000-m00000000-1e01-162b-8a27-0a3fce3e0000" variableRef="/oracle/bi/server/base/Variable/00000000-1e01-162b-8a27-0a3fce3e0000.xml#m00000000-1e01-162b-8a27-0a3fce3e0000"/>
+</RefVariables>
+<InitString><![CDATA[SELECT
+'GBP',
+'Daily',
+3
+FROM
+DUAL]]></InitString>
+</InitBlock>

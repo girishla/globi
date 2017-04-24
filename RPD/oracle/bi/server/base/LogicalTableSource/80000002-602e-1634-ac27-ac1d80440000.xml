@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m80000002-602e-1634-ac27-ac1d80440000" name="Fact_Pipeline_ITD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m80000000-c235-162b-ac27-0aac74cf0000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-3384-6ae800000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Global Reporting"."Fact - Pipeline"."Document ITD Amount"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-3384-6ae800000000-m40000002-5f4d-1634-ac27-ac1d80440000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m40000002-5f4d-1634-ac27-ac1d80440000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-0252-f94f00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Fact_Pipeline_ITD"."DOC_AMT_MOV"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-0252-f94f00000000-m00000043-5f03-1634-ac27-ac1d80440000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-5f03-1634-ac27-ac1d80440000.xml#m00000043-5f03-1634-ac27-ac1d80440000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/00000001-5f03-1634-ac27-ac1d80440000.xml#m00000001-5f03-1634-ac27-ac1d80440000">
+</Link>
+<WhereClause mdsid="m00000003-01f4-0000-c28a-883900000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000004-01f4-0000-e2ae-213200000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m00000005-01f4-0000-5641-2d5c00000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

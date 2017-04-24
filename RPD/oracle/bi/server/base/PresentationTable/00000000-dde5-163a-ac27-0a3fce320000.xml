@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m00000000-dde5-163a-ac27-0a3fce320000" name="Start Date - System" iconIndex="82" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-d870-163a-ac27-0a3fce320000.xml#m80000000-d870-163a-ac27-0a3fce320000">
+<PresentationColumn mdsid="m40000002-df11-163a-ac27-0a3fce320000" name="Key (WID)" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000a5-cc9b-1627-b306-ac1d80d30000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000005-df11-163a-ac27-0a3fce320000" name="Integration ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc0000092-cc9b-1627-b306-ac1d80d30000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000008-df11-163a-ac27-0a3fce320000" name="PGUID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc000009d-cc9b-1627-b306-ac1d80d30000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000002-df13-163a-ac27-0a3fce320000" name="-------------[ System Attributes ]------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#m0000000c-ce37-1627-b306-ac1d80d30000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000005-df13-163a-ac27-0a3fce320000" name="Datasource ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc0000082-cc9b-1627-b306-ac1d80d30000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000008-df13-163a-ac27-0a3fce320000" name="ETL Process WID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc000008a-cc9b-1627-b306-ac1d80d30000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000000b-df13-163a-ac27-0a3fce320000" name="DWH Created Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000a6-cc9b-1627-b306-ac1d80d30000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000000e-df13-163a-ac27-0a3fce320000" name="DWH Updated Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000a7-cc9b-1627-b306-ac1d80d30000">
+</PresentationColumn>
+</PresentationTable>

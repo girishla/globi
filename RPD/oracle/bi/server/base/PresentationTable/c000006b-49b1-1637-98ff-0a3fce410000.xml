@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mc000006b-49b1-1637-98ff-0a3fce410000" name="Position Hierarchy" iconIndex="89" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/40000000-ccd7-1627-b306-ac1d80d30000.xml#m40000000-ccd7-1627-b306-ac1d80d30000">
+<PresentationColumn mdsid="mc0000001-8cd7-1637-98ff-0a3fce410000" name="Hierarchy Active Flag" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#mc0000002-8cb4-1637-98ff-0a3fce410000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000003-8cd7-1637-98ff-0a3fce410000" name="Hierarchy As Was Flag" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m00000000-4609-1637-98ff-0a3fce410000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000005-8cd7-1637-98ff-0a3fce410000" name="Hierarchy Data Source" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m40000002-4a16-1637-98ff-0a3fce410000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000007-8cd7-1637-98ff-0a3fce410000" name="-------------[ Position Hierarchy ]------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m80000002-454a-1637-98ff-0a3fce410000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000009-8cd7-1637-98ff-0a3fce410000" name="L01 Position" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m80000003-4548-1637-98ff-0a3fce410000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000000b-8cd7-1637-98ff-0a3fce410000" name="L02 Position" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m80000007-4548-1637-98ff-0a3fce410000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000000d-8cd7-1637-98ff-0a3fce410000" name="L03 Position" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m8000000b-4548-1637-98ff-0a3fce410000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000000f-8cd7-1637-98ff-0a3fce410000" name="L04 Position" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m8000000f-4548-1637-98ff-0a3fce410000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000011-8cd7-1637-98ff-0a3fce410000" name="L05 Position" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m80000013-4548-1637-98ff-0a3fce410000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000013-8cd7-1637-98ff-0a3fce410000" name="L06 Position" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m80000017-4548-1637-98ff-0a3fce410000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000015-8cd7-1637-98ff-0a3fce410000" name="L07 Position" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m8000001b-4548-1637-98ff-0a3fce410000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000017-8cd7-1637-98ff-0a3fce410000" name="L08 Position" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m8000001f-4548-1637-98ff-0a3fce410000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000019-8cd7-1637-98ff-0a3fce410000" name="L09 Position" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m80000023-4548-1637-98ff-0a3fce410000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000001b-8cd7-1637-98ff-0a3fce410000" name="L10 Position" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m80000027-4548-1637-98ff-0a3fce410000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000001d-8cd7-1637-98ff-0a3fce410000" name="------------[ Employee Hierarchy ]------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m80000002-4586-1637-98ff-0a3fce410000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000001f-8cd7-1637-98ff-0a3fce410000" name="L01 Employee" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m80000001-4548-1637-98ff-0a3fce410000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000021-8cd7-1637-98ff-0a3fce410000" name="L02 Employee" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m80000005-4548-1637-98ff-0a3fce410000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000023-8cd7-1637-98ff-0a3fce410000" name="L03 Employee" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m80000009-4548-1637-98ff-0a3fce410000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000025-8cd7-1637-98ff-0a3fce410000" name="L04 Employee" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m8000000d-4548-1637-98ff-0a3fce410000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000027-8cd7-1637-98ff-0a3fce410000" name="L05 Employee" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m80000011-4548-1637-98ff-0a3fce410000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000029-8cd7-1637-98ff-0a3fce410000" name="L06 Employee" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m80000015-4548-1637-98ff-0a3fce410000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000002b-8cd7-1637-98ff-0a3fce410000" name="L07 Employee" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m80000019-4548-1637-98ff-0a3fce410000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000002d-8cd7-1637-98ff-0a3fce410000" name="L08 Employee" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m8000001d-4548-1637-98ff-0a3fce410000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000002f-8cd7-1637-98ff-0a3fce410000" name="L09 Employee" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m80000021-4548-1637-98ff-0a3fce410000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000031-8cd7-1637-98ff-0a3fce410000" name="L10 Employee" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-bf56-162a-98ff-0a3fce3e0000.xml#m80000025-4548-1637-98ff-0a3fce410000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="mc000006b-49b1-1637-98ff-0a3fce410000-mc0000033-8cd7-1637-98ff-0a3fce410000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/c0000033-8cd7-1637-98ff-0a3fce410000.xml#mc0000033-8cd7-1637-98ff-0a3fce410000"/>
+<RefPresentationHierarchy refId="mc000006b-49b1-1637-98ff-0a3fce410000-mc0000035-8cd7-1637-98ff-0a3fce410000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/c0000035-8cd7-1637-98ff-0a3fce410000.xml#mc0000035-8cd7-1637-98ff-0a3fce410000"/>
+</RefHierarchies>
+</PresentationTable>

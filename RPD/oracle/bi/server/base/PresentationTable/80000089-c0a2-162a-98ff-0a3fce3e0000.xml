@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m80000089-c0a2-162a-98ff-0a3fce3e0000" name="Order" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/40000000-ccd7-1627-b306-ac1d80d30000.xml#m40000000-ccd7-1627-b306-ac1d80d30000">
+<PresentationColumn mdsid="m8000007f-c0a2-162a-98ff-0a3fce3e0000" name="Integration_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-bdd8-162a-98ff-0a3fce3e0000.xml#m40000008-bede-162a-98ff-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000080-c0a2-162a-98ff-0a3fce3e0000" name="PGUID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-bdd8-162a-98ff-0a3fce3e0000.xml#m4000000c-bede-162a-98ff-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000081-c0a2-162a-98ff-0a3fce3e0000" name="------------------[ Attributes ]------------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-bdd8-162a-98ff-0a3fce3e0000.xml#m40000010-bede-162a-98ff-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000082-c0a2-162a-98ff-0a3fce3e0000" name="MYD Flag" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-bdd8-162a-98ff-0a3fce3e0000.xml#m80000003-bee7-162a-98ff-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000083-c0a2-162a-98ff-0a3fce3e0000" name="MYD Term" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-bdd8-162a-98ff-0a3fce3e0000.xml#m8000000d-bee9-162a-98ff-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000084-c0a2-162a-98ff-0a3fce3e0000" name="MYD Year" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-bdd8-162a-98ff-0a3fce3e0000.xml#m8000000e-bee9-162a-98ff-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000085-c0a2-162a-98ff-0a3fce3e0000" name="Order Number" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-bdd8-162a-98ff-0a3fce3e0000.xml#m8000000f-bee9-162a-98ff-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000086-c0a2-162a-98ff-0a3fce3e0000" name="Order Status" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-bdd8-162a-98ff-0a3fce3e0000.xml#m80000010-bee9-162a-98ff-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000087-c0a2-162a-98ff-0a3fce3e0000" name="Order Status Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-bdd8-162a-98ff-0a3fce3e0000.xml#m80000011-bee9-162a-98ff-0a3fce3e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000088-c0a2-162a-98ff-0a3fce3e0000" name="Order Type" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-bdd8-162a-98ff-0a3fce3e0000.xml#m80000012-bee9-162a-98ff-0a3fce3e0000">
+</PresentationColumn>
+<RefContentFolders>
+<RefPresentationTable refId="m80000089-c0a2-162a-98ff-0a3fce3e0000-m80000094-c0a2-162a-98ff-0a3fce3e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/80000094-c0a2-162a-98ff-0a3fce3e0000.xml#m80000094-c0a2-162a-98ff-0a3fce3e0000"/>
+</RefContentFolders>
+</PresentationTable>

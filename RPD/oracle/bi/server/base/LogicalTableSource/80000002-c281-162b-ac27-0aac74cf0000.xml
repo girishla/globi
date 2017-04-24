@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m80000002-c281-162b-ac27-0aac74cf0000" name="Fact_Pipeline" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m80000000-c235-162b-ac27-0aac74cf0000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-b70e-a95100000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Global Reporting"."Fact - Pipeline"."Display Flag"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-b70e-a95100000000-m80000002-c297-162b-ac27-0aac74cf0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m80000002-c297-162b-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-dfaf-ae1b00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Fact_Pipeline"."DISP_FLG"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-dfaf-ae1b00000000-m0000000e-c1ef-162b-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-c1ef-162b-ac27-0aac74cf0000.xml#m0000000e-c1ef-162b-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-1f7d-8f0300000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Global Reporting"."Fact - Pipeline"."Document Movement"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-1f7d-8f0300000000-m40000002-5877-1634-98ff-0a3fce390000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m40000002-5877-1634-98ff-0a3fce390000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-18ac-c69c00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Fact_Pipeline"."DOC_AMT_MOV"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-18ac-c69c00000000-m00000020-5689-1634-98ff-0a3fce390000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-c1ef-162b-ac27-0aac74cf0000.xml#m00000020-5689-1634-98ff-0a3fce390000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/00000000-c1ef-162b-ac27-0aac74cf0000.xml#m00000000-c1ef-162b-ac27-0aac74cf0000">
+</Link>
+<WhereClause mdsid="m00000005-01f4-0000-48a6-2c8000000000" name="WhereClause">
+<ExprText><![CDATA["%1" = 'Y']]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Fact_Pipeline"."DISP_FLG" = 'Y']]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-48a6-2c8000000000-m0000000e-c1ef-162b-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-c1ef-162b-ac27-0aac74cf0000.xml#m0000000e-c1ef-162b-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</WhereClause>
+<GroupBy mdsid="m00000006-01f4-0000-4334-157d00000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m00000007-01f4-0000-8da5-0ac200000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

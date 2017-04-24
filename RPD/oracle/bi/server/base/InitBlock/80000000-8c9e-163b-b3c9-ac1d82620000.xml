@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m80000000-8c9e-163b-b3c9-ac1d82620000" name="Environment Work Stream" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" refreshPeriod="86400" baseTime="2017-04-13 00:00:00" connectionPoolRef="/oracle/bi/server/base/ConnectionPool/40000000-c408-162a-98ff-0a3fce3e0000.xml#m40000000-c408-162a-98ff-0a3fce3e0000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[SELECT P_VAL FROM S_LAW_PARAM WHERE P_NAME='Environment']]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="m80000000-8c9e-163b-b3c9-ac1d82620000-m00000000-8cb0-163b-b3c9-ac1d82620000" variableRef="/oracle/bi/server/base/Variable/00000000-8cb0-163b-b3c9-ac1d82620000.xml#m00000000-8cb0-163b-b3c9-ac1d82620000"/>
+</RefVariables>
+<InitString><![CDATA[SELECT P_VAL FROM S_LAW_PARAM WHERE P_NAME='Environment']]></InitString>
+</InitBlock>

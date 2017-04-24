@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m80000000-e3a7-163b-ac27-0a3fce260000" name="Task Measures" iconIndex="89" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-e39c-163b-ac27-0a3fce260000.xml#m80000000-e39c-163b-ac27-0a3fce260000">
+<PresentationColumn mdsid="m80000002-e3b3-163b-ac27-0a3fce260000" name="# Rows Failed" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-e16a-163b-ac27-0a3fce260000.xml#m8000000a-e17c-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000005-e3b3-163b-ac27-0a3fce260000" name="# Rows Successful" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-e16a-163b-ac27-0a3fce260000.xml#m80000006-e17c-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000008-e3b3-163b-ac27-0a3fce260000" name="# Tasks" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-e16a-163b-ac27-0a3fce260000.xml#mc0000003-e1a9-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000000b-e3b3-163b-ac27-0a3fce260000" name="Duration" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-e16a-163b-ac27-0a3fce260000.xml#m80000008-e17c-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000000e-e3b3-163b-ac27-0a3fce260000" name="Duration Average" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-e16a-163b-ac27-0a3fce260000.xml#m40000001-e1b3-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000011-e3b3-163b-ac27-0a3fce260000" name="# Task Runs" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-e16a-163b-ac27-0a3fce260000.xml#m40000007-e225-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000014-e3b3-163b-ac27-0a3fce260000" name="# Task Runs Rows Failed" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-e16a-163b-ac27-0a3fce260000.xml#m00000004-e235-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000017-e3b3-163b-ac27-0a3fce260000" name="# Task Runs Rows Successful" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-e16a-163b-ac27-0a3fce260000.xml#m00000008-e235-163b-ac27-0a3fce260000">
+</PresentationColumn>
+</PresentationTable>

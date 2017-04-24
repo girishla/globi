@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m40000000-cde0-1627-b306-ac1d80d30000" name="Date" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/40000000-ccd7-1627-b306-ac1d80d30000.xml#m40000000-ccd7-1627-b306-ac1d80d30000">
+<RefContentFolders>
+<RefPresentationTable refId="m40000000-cde0-1627-b306-ac1d80d30000-m40000001-6663-162e-ac27-0aac74cf0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/40000001-6663-162e-ac27-0aac74cf0000.xml#m40000001-6663-162e-ac27-0aac74cf0000"/>
+<RefPresentationTable refId="m40000000-cde0-1627-b306-ac1d80d30000-m80000062-bd7a-1629-ac27-0a3fce1e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/80000062-bd7a-1629-ac27-0a3fce1e0000.xml#m80000062-bd7a-1629-ac27-0a3fce1e0000"/>
+<RefPresentationTable refId="m40000000-cde0-1627-b306-ac1d80d30000-m80000000-bd7a-1629-ac27-0a3fce1e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/80000000-bd7a-1629-ac27-0a3fce1e0000.xml#m80000000-bd7a-1629-ac27-0a3fce1e0000"/>
+<RefPresentationTable refId="m40000000-cde0-1627-b306-ac1d80d30000-m80000001-bd7a-1629-ac27-0a3fce1e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/80000001-bd7a-1629-ac27-0a3fce1e0000.xml#m80000001-bd7a-1629-ac27-0a3fce1e0000"/>
+<RefPresentationTable refId="m40000000-cde0-1627-b306-ac1d80d30000-mc0000001-ef31-1638-b07b-ac1d84090000" presentationTableRef="/oracle/bi/server/base/PresentationTable/c0000001-ef31-1638-b07b-ac1d84090000.xml#mc0000001-ef31-1638-b07b-ac1d84090000"/>
+</RefContentFolders>
+</PresentationTable>

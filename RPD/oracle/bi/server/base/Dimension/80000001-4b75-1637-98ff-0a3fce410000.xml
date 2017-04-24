@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dimension mdsid="m80000001-4b75-1637-98ff-0a3fce410000" name="Hier - Date - Start" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isTimeDim="true" isValueBased="false" isRagged="false" isSkipped="false" defaultRootLevelRef="/oracle/bi/server/base/Dimension/80000001-4b75-1637-98ff-0a3fce410000.xml#m80000005-4b75-1637-98ff-0a3fce410000" subjectAreaRef="/oracle/bi/server/base/BusinessModel/00000000-28a1-1627-806e-0a3fce3c0000.xml#m00000000-28a1-1627-806e-0a3fce3c0000">
+<LogicalLevel mdsid="m80000005-4b75-1637-98ff-0a3fce410000" name="Total" isGTA="true" isFDUC="true" memberCount="1" levelConst="&apos;Total&apos;">
+<RefChildLevels>
+<RefLogicalLevel refId="m80000005-4b75-1637-98ff-0a3fce410000_m80000007-4b75-1637-98ff-0a3fce410000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/80000001-4b75-1637-98ff-0a3fce410000.xml#m80000007-4b75-1637-98ff-0a3fce410000"/>
+</RefChildLevels>
+<AbsoluteSequenceNumber>
+</AbsoluteSequenceNumber>
+</LogicalLevel>
+<LogicalLevel mdsid="m80000007-4b75-1637-98ff-0a3fce410000" name="Year" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Year&apos;">
+<LogicalKey mdsid="m80000015-4b75-1637-98ff-0a3fce410000" name="PK" isPrimary="true" isChronKey="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m80000015-4b75-1637-98ff-0a3fce410000-mc00000b3-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000b3-cc9b-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="m80000007-4b75-1637-98ff-0a3fce410000_m80000009-4b75-1637-98ff-0a3fce410000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/80000001-4b75-1637-98ff-0a3fce410000.xml#m80000009-4b75-1637-98ff-0a3fce410000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m80000007-4b75-1637-98ff-0a3fce410000-mc00000af-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000af-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m80000007-4b75-1637-98ff-0a3fce410000-mc00000b0-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000b0-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m80000007-4b75-1637-98ff-0a3fce410000-mc00000b3-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000b3-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m80000007-4b75-1637-98ff-0a3fce410000-mc00000b5-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000b5-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m80000007-4b75-1637-98ff-0a3fce410000-mc00000b6-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000b6-cc9b-1627-b306-ac1d80d30000"/>
+</RefLogicalColumns>
+<AbsoluteSequenceNumber>
+</AbsoluteSequenceNumber>
+</LogicalLevel>
+<LogicalLevel mdsid="m80000009-4b75-1637-98ff-0a3fce410000" name="Half" isGTA="false" isFDUC="true" memberCount="2" levelConst="&apos;Half&apos;">
+<LogicalKey mdsid="m80000017-4b75-1637-98ff-0a3fce410000" name="PK" isPrimary="true" isChronKey="true">
+<RefColumns>
+<RefLogicalColumn refId="m80000017-4b75-1637-98ff-0a3fce410000-mc000008d-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc000008d-cc9b-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</LogicalKey>
+<LogicalKey mdsid="m80000019-4b75-1637-98ff-0a3fce410000" name="Half" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m80000019-4b75-1637-98ff-0a3fce410000-mc000008e-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc000008e-cc9b-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="m80000009-4b75-1637-98ff-0a3fce410000_m8000000b-4b75-1637-98ff-0a3fce410000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/80000001-4b75-1637-98ff-0a3fce410000.xml#m8000000b-4b75-1637-98ff-0a3fce410000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m80000009-4b75-1637-98ff-0a3fce410000-mc000008b-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc000008b-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m80000009-4b75-1637-98ff-0a3fce410000-mc000008c-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc000008c-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m80000009-4b75-1637-98ff-0a3fce410000-mc000008d-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc000008d-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m80000009-4b75-1637-98ff-0a3fce410000-mc000008e-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc000008e-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m80000009-4b75-1637-98ff-0a3fce410000-mc000008f-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc000008f-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m80000009-4b75-1637-98ff-0a3fce410000-mc0000090-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc0000090-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m80000009-4b75-1637-98ff-0a3fce410000-mc0000091-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc0000091-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m80000009-4b75-1637-98ff-0a3fce410000-mc00000b1-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000b1-cc9b-1627-b306-ac1d80d30000"/>
+</RefLogicalColumns>
+<AbsoluteSequenceNumber>
+</AbsoluteSequenceNumber>
+</LogicalLevel>
+<LogicalLevel mdsid="m8000000b-4b75-1637-98ff-0a3fce410000" name="Quarter" isGTA="false" isFDUC="true" memberCount="4" levelConst="&apos;Quarter&apos;">
+<LogicalKey mdsid="m8000001b-4b75-1637-98ff-0a3fce410000" name="PK" isPrimary="true" isChronKey="true">
+<RefColumns>
+<RefLogicalColumn refId="m8000001b-4b75-1637-98ff-0a3fce410000-mc00000a0-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000a0-cc9b-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</LogicalKey>
+<LogicalKey mdsid="m8000001d-4b75-1637-98ff-0a3fce410000" name="Quarter" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m8000001d-4b75-1637-98ff-0a3fce410000-mc00000a1-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000a1-cc9b-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="m8000000b-4b75-1637-98ff-0a3fce410000_m8000000d-4b75-1637-98ff-0a3fce410000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/80000001-4b75-1637-98ff-0a3fce410000.xml#m8000000d-4b75-1637-98ff-0a3fce410000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m8000000b-4b75-1637-98ff-0a3fce410000-mc000009e-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc000009e-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m8000000b-4b75-1637-98ff-0a3fce410000-mc000009f-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc000009f-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m8000000b-4b75-1637-98ff-0a3fce410000-mc00000a0-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000a0-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m8000000b-4b75-1637-98ff-0a3fce410000-mc00000a1-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000a1-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m8000000b-4b75-1637-98ff-0a3fce410000-mc00000a2-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000a2-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m8000000b-4b75-1637-98ff-0a3fce410000-mc00000a3-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000a3-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m8000000b-4b75-1637-98ff-0a3fce410000-mc00000a4-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000a4-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m8000000b-4b75-1637-98ff-0a3fce410000-mc00000b4-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000b4-cc9b-1627-b306-ac1d80d30000"/>
+</RefLogicalColumns>
+<AbsoluteSequenceNumber>
+</AbsoluteSequenceNumber>
+</LogicalLevel>
+<LogicalLevel mdsid="m8000000d-4b75-1637-98ff-0a3fce410000" name="Month" isGTA="false" isFDUC="true" memberCount="12" levelConst="&apos;Month&apos;">
+<LogicalKey mdsid="m8000001f-4b75-1637-98ff-0a3fce410000" name="PK" isPrimary="true" isChronKey="true">
+<RefColumns>
+<RefLogicalColumn refId="m8000001f-4b75-1637-98ff-0a3fce410000-mc0000095-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc0000095-cc9b-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</LogicalKey>
+<LogicalKey mdsid="m80000021-4b75-1637-98ff-0a3fce410000" name="Month" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m80000021-4b75-1637-98ff-0a3fce410000-mc0000096-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc0000096-cc9b-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="m8000000d-4b75-1637-98ff-0a3fce410000_m8000000f-4b75-1637-98ff-0a3fce410000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/80000001-4b75-1637-98ff-0a3fce410000.xml#m8000000f-4b75-1637-98ff-0a3fce410000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m8000000d-4b75-1637-98ff-0a3fce410000-mc0000093-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc0000093-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m8000000d-4b75-1637-98ff-0a3fce410000-mc0000094-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc0000094-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m8000000d-4b75-1637-98ff-0a3fce410000-mc0000095-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc0000095-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m8000000d-4b75-1637-98ff-0a3fce410000-mc0000096-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc0000096-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m8000000d-4b75-1637-98ff-0a3fce410000-mc0000097-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc0000097-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m8000000d-4b75-1637-98ff-0a3fce410000-mc0000098-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc0000098-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m8000000d-4b75-1637-98ff-0a3fce410000-mc0000099-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc0000099-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m8000000d-4b75-1637-98ff-0a3fce410000-mc000009a-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc000009a-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m8000000d-4b75-1637-98ff-0a3fce410000-mc000009b-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc000009b-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m8000000d-4b75-1637-98ff-0a3fce410000-mc000009c-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc000009c-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m8000000d-4b75-1637-98ff-0a3fce410000-mc00000b2-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000b2-cc9b-1627-b306-ac1d80d30000"/>
+</RefLogicalColumns>
+<AbsoluteSequenceNumber>
+</AbsoluteSequenceNumber>
+</LogicalLevel>
+<LogicalLevel mdsid="m8000000f-4b75-1637-98ff-0a3fce410000" name="Week" isGTA="false" isFDUC="true" memberCount="52" levelConst="&apos;Week&apos;">
+<LogicalKey mdsid="m80000023-4b75-1637-98ff-0a3fce410000" name="PK" isPrimary="true" isChronKey="true">
+<RefColumns>
+<RefLogicalColumn refId="m80000023-4b75-1637-98ff-0a3fce410000-mc00000aa-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000aa-cc9b-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</LogicalKey>
+<LogicalKey mdsid="m80000025-4b75-1637-98ff-0a3fce410000" name="Week" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m80000025-4b75-1637-98ff-0a3fce410000-mc00000ab-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000ab-cc9b-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="m8000000f-4b75-1637-98ff-0a3fce410000_m80000003-4b75-1637-98ff-0a3fce410000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/80000001-4b75-1637-98ff-0a3fce410000.xml#m80000003-4b75-1637-98ff-0a3fce410000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m8000000f-4b75-1637-98ff-0a3fce410000-mc00000a8-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000a8-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m8000000f-4b75-1637-98ff-0a3fce410000-mc00000a9-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000a9-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m8000000f-4b75-1637-98ff-0a3fce410000-mc00000aa-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000aa-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m8000000f-4b75-1637-98ff-0a3fce410000-mc00000ab-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000ab-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m8000000f-4b75-1637-98ff-0a3fce410000-mc00000ac-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000ac-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m8000000f-4b75-1637-98ff-0a3fce410000-mc00000ad-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000ad-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m8000000f-4b75-1637-98ff-0a3fce410000-mc00000ae-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000ae-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m8000000f-4b75-1637-98ff-0a3fce410000-mc00000b7-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000b7-cc9b-1627-b306-ac1d80d30000"/>
+</RefLogicalColumns>
+<AbsoluteSequenceNumber>
+</AbsoluteSequenceNumber>
+</LogicalLevel>
+<LogicalLevel mdsid="m80000003-4b75-1637-98ff-0a3fce410000" name="Detail" isGTA="false" isFDUC="true" memberCount="365" levelConst="&apos;Detail&apos;">
+<LogicalKey mdsid="m80000011-4b75-1637-98ff-0a3fce410000" name="PK" isPrimary="true" isChronKey="true">
+<RefColumns>
+<RefLogicalColumn refId="m80000011-4b75-1637-98ff-0a3fce410000-mc00000a5-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000a5-cc9b-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</LogicalKey>
+<LogicalKey mdsid="m80000013-4b75-1637-98ff-0a3fce410000" name="Date" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m80000013-4b75-1637-98ff-0a3fce410000-mc0000083-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc0000083-cc9b-1627-b306-ac1d80d30000"/>
+</RefColumns>
+</LogicalKey>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m80000003-4b75-1637-98ff-0a3fce410000-mc00000a5-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000a5-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m80000003-4b75-1637-98ff-0a3fce410000-mc0000092-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc0000092-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m80000003-4b75-1637-98ff-0a3fce410000-mc000009d-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc000009d-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m80000003-4b75-1637-98ff-0a3fce410000-mc0000083-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc0000083-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m80000003-4b75-1637-98ff-0a3fce410000-mc0000088-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc0000088-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m80000003-4b75-1637-98ff-0a3fce410000-mc0000089-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc0000089-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m80000003-4b75-1637-98ff-0a3fce410000-mc0000084-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc0000084-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m80000003-4b75-1637-98ff-0a3fce410000-mc0000085-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc0000085-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m80000003-4b75-1637-98ff-0a3fce410000-mc0000086-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc0000086-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m80000003-4b75-1637-98ff-0a3fce410000-mc0000087-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc0000087-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m80000003-4b75-1637-98ff-0a3fce410000-mc0000082-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc0000082-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m80000003-4b75-1637-98ff-0a3fce410000-mc000008a-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc000008a-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m80000003-4b75-1637-98ff-0a3fce410000-mc00000a6-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000a6-cc9b-1627-b306-ac1d80d30000"/>
+<RefLogicalColumn refId="m80000003-4b75-1637-98ff-0a3fce410000-mc00000a7-cc9b-1627-b306-ac1d80d30000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc00000a7-cc9b-1627-b306-ac1d80d30000"/>
+</RefLogicalColumns>
+<AbsoluteSequenceNumber>
+</AbsoluteSequenceNumber>
+</LogicalLevel>
+</Dimension>

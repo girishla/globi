@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mc000000d-7ec0-1639-b3c9-ac1d81d00000" name="Sales Stage" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/c0000000-c2a3-162b-ac27-0aac74cf0000.xml#mc0000000-c2a3-162b-ac27-0aac74cf0000">
+<PresentationColumn mdsid="mc0000001-7ec0-1639-b3c9-ac1d81d00000" name="PGUID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-676e-162e-ac27-0aac74cf0000.xml#mc0000040-6771-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000003-7ec0-1639-b3c9-ac1d81d00000" name="------------------[ Attributes ]------------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-676e-162e-ac27-0aac74cf0000.xml#m80000003-6790-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000005-7ec0-1639-b3c9-ac1d81d00000" name="Stage Code" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-676e-162e-ac27-0aac74cf0000.xml#mc000001e-6771-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000007-7ec0-1639-b3c9-ac1d81d00000" name="Stage Description" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-676e-162e-ac27-0aac74cf0000.xml#mc0000020-6771-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000009-7ec0-1639-b3c9-ac1d81d00000" name="Stage Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-676e-162e-ac27-0aac74cf0000.xml#mc0000022-6771-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000000b-7ec0-1639-b3c9-ac1d81d00000" name="Stage Number" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-676e-162e-ac27-0aac74cf0000.xml#mc0000024-6771-162e-ac27-0aac74cf0000">
+</PresentationColumn>
+</PresentationTable>

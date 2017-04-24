@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m00000000-c31d-162b-ac27-0aac74cf0000" name="Pipeline Status" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" dispName="Pipeline" hasDispName="true" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/c0000000-c2a3-162b-ac27-0aac74cf0000.xml#mc0000000-c2a3-162b-ac27-0aac74cf0000">
+<PresentationColumn mdsid="m40000002-57a6-1634-98ff-0a3fce390000" name="Integration ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-c244-162b-ac27-0aac74cf0000.xml#m8000004b-4fb5-1634-98ff-0a3fce390000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000001-57a6-1634-98ff-0a3fce390000" name="PGUID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-c244-162b-ac27-0aac74cf0000.xml#m80000007-4fb5-1634-98ff-0a3fce390000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000004-57a6-1634-98ff-0a3fce390000" name="------------------[ Attributes ]------------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-c244-162b-ac27-0aac74cf0000.xml#m80000003-4fdb-1634-98ff-0a3fce390000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000007-57a6-1634-98ff-0a3fce390000" name="Action Code" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-c244-162b-ac27-0aac74cf0000.xml#m80000029-4fb5-1634-98ff-0a3fce390000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000000a-57a6-1634-98ff-0a3fce390000" name="Category" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-c244-162b-ac27-0aac74cf0000.xml#m80000009-4fb5-1634-98ff-0a3fce390000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000000d-57a6-1634-98ff-0a3fce390000" name="Confidence Level" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-c244-162b-ac27-0aac74cf0000.xml#m8000002d-4fb5-1634-98ff-0a3fce390000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000010-57a6-1634-98ff-0a3fce390000" name="Display Flag" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-c244-162b-ac27-0aac74cf0000.xml#m80000035-4fb5-1634-98ff-0a3fce390000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000013-57a6-1634-98ff-0a3fce390000" name="Entity" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-c244-162b-ac27-0aac74cf0000.xml#m8000000b-4fb5-1634-98ff-0a3fce390000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000016-57a6-1634-98ff-0a3fce390000" name="Line Number" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-c244-162b-ac27-0aac74cf0000.xml#m80000001-4fb5-1634-98ff-0a3fce390000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000019-57a6-1634-98ff-0a3fce390000" name="Modification Number" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-c244-162b-ac27-0aac74cf0000.xml#m80000003-4fb5-1634-98ff-0a3fce390000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000001c-57a6-1634-98ff-0a3fce390000" name="MYD_Flag" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-c244-162b-ac27-0aac74cf0000.xml#m80000005-4fb5-1634-98ff-0a3fce390000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000001f-57a6-1634-98ff-0a3fce390000" name="Risk" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-c244-162b-ac27-0aac74cf0000.xml#m80000015-4fb5-1634-98ff-0a3fce390000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000022-57a6-1634-98ff-0a3fce390000" name="Stage" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-c244-162b-ac27-0aac74cf0000.xml#m8000001f-4fb5-1634-98ff-0a3fce390000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000025-57a6-1634-98ff-0a3fce390000" name="Status" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-c244-162b-ac27-0aac74cf0000.xml#m8000001d-4fb5-1634-98ff-0a3fce390000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000028-57a6-1634-98ff-0a3fce390000" name="Sub Category" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-c244-162b-ac27-0aac74cf0000.xml#m80000011-4fb5-1634-98ff-0a3fce390000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000002b-57a6-1634-98ff-0a3fce390000" name="Trial Flag" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-c244-162b-ac27-0aac74cf0000.xml#m80000021-4fb5-1634-98ff-0a3fce390000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000002e-57a6-1634-98ff-0a3fce390000" name="--------------[ SCD Attributes ]--------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-c244-162b-ac27-0aac74cf0000.xml#m80000008-4fdb-1634-98ff-0a3fce390000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000031-57a6-1634-98ff-0a3fce390000" name="Current Flag" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-c244-162b-ac27-0aac74cf0000.xml#m8000002f-4fb5-1634-98ff-0a3fce390000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000034-57a6-1634-98ff-0a3fce390000" name="Effective End Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-c244-162b-ac27-0aac74cf0000.xml#m80000043-4fb5-1634-98ff-0a3fce390000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000037-57a6-1634-98ff-0a3fce390000" name="Effective Start Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-c244-162b-ac27-0aac74cf0000.xml#m80000041-4fb5-1634-98ff-0a3fce390000">
+</PresentationColumn>
+</PresentationTable>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="mc0000000-e132-163b-ac27-0a3fce260000" name="Fact - MDS ETL Execution" iconIndex="98" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/00000000-28a1-1627-806e-0a3fce3c0000.xml#m00000000-28a1-1627-806e-0a3fce3c0000">
+<LogicalColumn mdsid="m00000002-e1a1-163b-ac27-0a3fce260000" name="# Runs" isWriteable="false">
+<MeasureDefn mdsid="m40000000-e1a3-163b-ac27-0a3fce260000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m40000001-e1a3-163b-ac27-0a3fce260000" name="AggRule_2050:263541492092557" isDefault="true">
+<Expr mdsid="m00000001-01f4-0000-0d07-ef0700000000" name="Expr">
+<ExprText><![CDATA[ COUNT("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ COUNT("Global Reporting"."Fact - MDS ETL Execution"."# Runs")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-0d07-ef0700000000-m00000002-e1a1-163b-ac27-0a3fce260000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-e132-163b-ac27-0a3fce260000.xml#m00000002-e1a1-163b-ac27-0a3fce260000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttributeDefn mdsid="m00000002-01f4-0000-2c7c-347300000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."DAC"."Fact_ExecutionRun"."ROW_WID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-2c7c-347300000000-mc000000a-dee7-163b-ac27-0a3fce260000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-dee7-163b-ac27-0a3fce260000.xml#mc000000a-dee7-163b-ac27-0a3fce260000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc000000c-e144-163b-ac27-0a3fce260000" name="# Steps" isWriteable="false">
+<MeasureDefn mdsid="m80000000-e154-163b-ac27-0a3fce260000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m80000001-e154-163b-ac27-0a3fce260000" name="AggRule_2050:263161492092242" isDefault="true">
+<Expr mdsid="m00000003-01f4-0000-50ce-859500000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - MDS ETL Execution"."# Steps")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-50ce-859500000000-mc000000c-e144-163b-ac27-0a3fce260000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-e132-163b-ac27-0a3fce260000.xml#mc000000c-e144-163b-ac27-0a3fce260000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttributeDefn mdsid="m00000004-01f4-0000-0a4e-65ec00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."DAC"."Fact_ExecutionRun"."TOTAL_STEPS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-0a4e-65ec00000000-mc0000013-dee7-163b-ac27-0a3fce260000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-dee7-163b-ac27-0a3fce260000.xml#mc0000013-dee7-163b-ac27-0a3fce260000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc000000e-e144-163b-ac27-0a3fce260000" name="# Steps Failed" isWriteable="false">
+<MeasureDefn mdsid="m80000000-e155-163b-ac27-0a3fce260000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m80000001-e155-163b-ac27-0a3fce260000" name="AggRule_2050:263181492092246" isDefault="true">
+<Expr mdsid="m00000005-01f4-0000-ae17-cac400000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - MDS ETL Execution"."# Steps Failed")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-ae17-cac400000000-mc000000e-e144-163b-ac27-0a3fce260000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-e132-163b-ac27-0a3fce260000.xml#mc000000e-e144-163b-ac27-0a3fce260000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttributeDefn mdsid="m00000006-01f4-0000-29db-2fbb00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."DAC"."Fact_ExecutionRun"."FAILED_STEPS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-29db-2fbb00000000-mc0000006-dee7-163b-ac27-0a3fce260000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-dee7-163b-ac27-0a3fce260000.xml#mc0000006-dee7-163b-ac27-0a3fce260000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc0000010-e144-163b-ac27-0a3fce260000" name="# Steps Queued" isWriteable="false">
+<MeasureDefn mdsid="m00000000-e157-163b-ac27-0a3fce260000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m00000001-e157-163b-ac27-0a3fce260000" name="AggRule_2050:263201492092252" isDefault="true">
+<Expr mdsid="m00000007-01f4-0000-be8a-918a00000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - MDS ETL Execution"."# Steps Queued")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-be8a-918a00000000-mc0000010-e144-163b-ac27-0a3fce260000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-e132-163b-ac27-0a3fce260000.xml#mc0000010-e144-163b-ac27-0a3fce260000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttributeDefn mdsid="m00000008-01f4-0000-87c4-936a00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."DAC"."Fact_ExecutionRun"."QUEUED_STEPS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-87c4-936a00000000-mc0000009-dee7-163b-ac27-0a3fce260000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-dee7-163b-ac27-0a3fce260000.xml#mc0000009-dee7-163b-ac27-0a3fce260000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc0000012-e144-163b-ac27-0a3fce260000" name="# Steps Runnable" isWriteable="false">
+<MeasureDefn mdsid="m00000000-e158-163b-ac27-0a3fce260000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m00000001-e158-163b-ac27-0a3fce260000" name="AggRule_2050:263221492092256" isDefault="true">
+<Expr mdsid="m00000009-01f4-0000-41de-804400000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - MDS ETL Execution"."# Steps Runnable")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-41de-804400000000-mc0000012-e144-163b-ac27-0a3fce260000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-e132-163b-ac27-0a3fce260000.xml#mc0000012-e144-163b-ac27-0a3fce260000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttributeDefn mdsid="m0000000a-01f4-0000-1ca1-ae7a00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."DAC"."Fact_ExecutionRun"."RUNNABLE_STEPS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-1ca1-ae7a00000000-mc000000b-dee7-163b-ac27-0a3fce260000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-dee7-163b-ac27-0a3fce260000.xml#mc000000b-dee7-163b-ac27-0a3fce260000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc0000008-e144-163b-ac27-0a3fce260000" name="# Steps Running" isWriteable="false">
+<MeasureDefn mdsid="m00000000-e153-163b-ac27-0a3fce260000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m00000001-e153-163b-ac27-0a3fce260000" name="AggRule_2050:263121492092236" isDefault="true">
+<Expr mdsid="m0000000b-01f4-0000-f646-a19e00000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - MDS ETL Execution"."# Steps Running")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-f646-a19e00000000-mc0000008-e144-163b-ac27-0a3fce260000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-e132-163b-ac27-0a3fce260000.xml#mc0000008-e144-163b-ac27-0a3fce260000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttributeDefn mdsid="m0000000c-01f4-0000-c4a4-fdbd00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."DAC"."Fact_ExecutionRun"."RUNNING_STEPS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-c4a4-fdbd00000000-mc000000c-dee7-163b-ac27-0a3fce260000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-dee7-163b-ac27-0a3fce260000.xml#mc000000c-dee7-163b-ac27-0a3fce260000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc000000a-e144-163b-ac27-0a3fce260000" name="# Steps Successful" isWriteable="false">
+<MeasureDefn mdsid="mc0000000-e153-163b-ac27-0a3fce260000" name="Measure" isCommutative="false">
+<AggrRule mdsid="mc0000001-e153-163b-ac27-0a3fce260000" name="AggRule_2050:263141492092239" isDefault="true">
+<Expr mdsid="m0000000d-01f4-0000-92b4-d6fc00000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - MDS ETL Execution"."# Steps Successful")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-92b4-d6fc00000000-mc000000a-e144-163b-ac27-0a3fce260000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-e132-163b-ac27-0a3fce260000.xml#mc000000a-e144-163b-ac27-0a3fce260000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttributeDefn mdsid="m0000000e-01f4-0000-bc17-87bc00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."DAC"."Fact_ExecutionRun"."SUCC_STEPS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-bc17-87bc00000000-mc0000012-dee7-163b-ac27-0a3fce260000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-dee7-163b-ac27-0a3fce260000.xml#mc0000012-dee7-163b-ac27-0a3fce260000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<RefTableSources>
+<RefLogicalTableSource refId="mc0000000-e132-163b-ac27-0a3fce260000-mc0000014-e144-163b-ac27-0a3fce260000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/c0000014-e144-163b-ac27-0a3fce260000.xml#mc0000014-e144-163b-ac27-0a3fce260000"/>
+</RefTableSources>
+</LogicalTable>

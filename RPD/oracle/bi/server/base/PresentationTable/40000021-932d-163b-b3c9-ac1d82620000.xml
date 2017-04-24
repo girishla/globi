@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m40000021-932d-163b-b3c9-ac1d82620000" name="User Hierarchy" iconIndex="89" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000000-c0ad-162a-98ff-0a3fce3e0000.xml#m00000000-c0ad-162a-98ff-0a3fce3e0000">
+<PresentationColumn mdsid="m4000000b-932d-163b-b3c9-ac1d82620000" name="L01 User" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m0000001e-9299-163b-b3c9-ac1d82620000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000000d-932d-163b-b3c9-ac1d82620000" name="L02 User" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m0000000c-9299-163b-b3c9-ac1d82620000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000000f-932d-163b-b3c9-ac1d82620000" name="L03 User" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m0000000e-9299-163b-b3c9-ac1d82620000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000011-932d-163b-b3c9-ac1d82620000" name="L04 User" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000010-9299-163b-b3c9-ac1d82620000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000013-932d-163b-b3c9-ac1d82620000" name="L05 User" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000012-9299-163b-b3c9-ac1d82620000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000015-932d-163b-b3c9-ac1d82620000" name="L06 User" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000014-9299-163b-b3c9-ac1d82620000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000017-932d-163b-b3c9-ac1d82620000" name="L07 User" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000016-9299-163b-b3c9-ac1d82620000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000019-932d-163b-b3c9-ac1d82620000" name="L08 User" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000018-9299-163b-b3c9-ac1d82620000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000001b-932d-163b-b3c9-ac1d82620000" name="L09 User" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m0000001a-9299-163b-b3c9-ac1d82620000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000001d-932d-163b-b3c9-ac1d82620000" name="L10 User" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m0000001c-9299-163b-b3c9-ac1d82620000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000001f-932d-163b-b3c9-ac1d82620000" name="Login" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000059-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="m40000021-932d-163b-b3c9-ac1d82620000-m40000023-932d-163b-b3c9-ac1d82620000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/40000023-932d-163b-b3c9-ac1d82620000.xml#m40000023-932d-163b-b3c9-ac1d82620000"/>
+</RefHierarchies>
+</PresentationTable>

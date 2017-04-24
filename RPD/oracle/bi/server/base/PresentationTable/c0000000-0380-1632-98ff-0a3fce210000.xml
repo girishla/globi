@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mc0000000-0380-1632-98ff-0a3fce210000" name="User" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000000-2989-1627-806e-0a3fce3c0000.xml#m00000000-2989-1627-806e-0a3fce3c0000">
+<PresentationColumn mdsid="m40000002-0383-1632-98ff-0a3fce210000" name="Integration ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000037-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000005-0383-1632-98ff-0a3fce210000" name="PGUID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000045-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000008-0383-1632-98ff-0a3fce210000" name="------------------[ Attributes ]------------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000003-0352-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000000b-0383-1632-98ff-0a3fce210000" name="Company" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000063-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000000e-0383-1632-98ff-0a3fce210000" name="Country" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000053-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000011-0383-1632-98ff-0a3fce210000" name="Delivery Office" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000069-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000014-0383-1632-98ff-0a3fce210000" name="Deptartment" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000055-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000017-0383-1632-98ff-0a3fce210000" name="Domain" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m0000006d-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000001a-0383-1632-98ff-0a3fce210000" name="Email" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m0000002b-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000001d-0383-1632-98ff-0a3fce210000" name="Employee ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m0000003b-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000020-0383-1632-98ff-0a3fce210000" name="Expiry Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000057-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000001-0383-1632-98ff-0a3fce210000" name="First Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m0000002f-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000004-0383-1632-98ff-0a3fce210000" name="Full Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000031-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000007-0383-1632-98ff-0a3fce210000" name="Job Title" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000039-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000000a-0383-1632-98ff-0a3fce210000" name="Last Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000043-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000000d-0383-1632-98ff-0a3fce210000" name="Ldap Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000041-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000010-0383-1632-98ff-0a3fce210000" name="Login" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000059-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000013-0383-1632-98ff-0a3fce210000" name="Manager Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m0000003f-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000016-0383-1632-98ff-0a3fce210000" name="Principal Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m0000005b-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000019-0383-1632-98ff-0a3fce210000" name="Team Owner" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m0000004d-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000001c-0383-1632-98ff-0a3fce210000" name="Telephone" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m0000004f-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000001f-0383-1632-98ff-0a3fce210000" name="Time Zone" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000051-0315-1632-98ff-0a3fce210000">
+</PresentationColumn>
+<RefContentFolders>
+<RefPresentationTable refId="mc0000000-0380-1632-98ff-0a3fce210000-m40000000-9307-163b-b3c9-ac1d82620000" presentationTableRef="/oracle/bi/server/base/PresentationTable/40000000-9307-163b-b3c9-ac1d82620000.xml#m40000000-9307-163b-b3c9-ac1d82620000"/>
+</RefContentFolders>
+</PresentationTable>

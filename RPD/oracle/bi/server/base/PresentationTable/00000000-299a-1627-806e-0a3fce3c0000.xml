@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m00000000-299a-1627-806e-0a3fce3c0000" name="Measure - Document Currency" iconIndex="89" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000000-2989-1627-806e-0a3fce3c0000.xml#m00000000-2989-1627-806e-0a3fce3c0000">
+<PresentationColumn mdsid="m00000001-29a4-1627-806e-0a3fce3c0000" name="Document Amount" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#m40000087-28bc-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000003-29a4-1627-806e-0a3fce3c0000" name="Document Discount" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#m40000089-28bc-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000005-29a4-1627-806e-0a3fce3c0000" name="Document MPO" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#m4000008b-28bc-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000007-29a4-1627-806e-0a3fce3c0000" name="Document RRP" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#m4000008c-28bc-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000000-29a4-1627-806e-0a3fce3c0000" name="Document Tax" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#m4000008d-28bc-1627-806e-0a3fce3c0000">
+</PresentationColumn>
+</PresentationTable>

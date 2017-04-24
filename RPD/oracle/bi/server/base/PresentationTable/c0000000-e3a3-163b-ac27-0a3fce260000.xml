@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mc0000000-e3a3-163b-ac27-0a3fce260000" name="Measures" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-e39c-163b-ac27-0a3fce260000.xml#m80000000-e39c-163b-ac27-0a3fce260000">
+<RefContentFolders>
+<RefPresentationTable refId="mc0000000-e3a3-163b-ac27-0a3fce260000-mc0000000-e3a5-163b-ac27-0a3fce260000" presentationTableRef="/oracle/bi/server/base/PresentationTable/c0000000-e3a5-163b-ac27-0a3fce260000.xml#mc0000000-e3a5-163b-ac27-0a3fce260000"/>
+<RefPresentationTable refId="mc0000000-e3a3-163b-ac27-0a3fce260000-m80000000-e3a7-163b-ac27-0a3fce260000" presentationTableRef="/oracle/bi/server/base/PresentationTable/80000000-e3a7-163b-ac27-0a3fce260000.xml#m80000000-e3a7-163b-ac27-0a3fce260000"/>
+</RefContentFolders>
+</PresentationTable>

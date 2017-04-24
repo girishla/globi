@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m00000000-e3a2-163b-ac27-0a3fce260000" name="Execution Task" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-e39c-163b-ac27-0a3fce260000.xml#m80000000-e39c-163b-ac27-0a3fce260000">
+<PresentationColumn mdsid="m00000002-e3ad-163b-ac27-0a3fce260000" name="---------------------[ Tasks ]--------------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#m00000002-e29f-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000005-e3ad-163b-ac27-0a3fce260000" name="Execution Type" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#m80000010-e06b-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000008-e3ad-163b-ac27-0a3fce260000" name="Phase" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#m80000014-e06b-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000000b-e3ad-163b-ac27-0a3fce260000" name="Physical Folder" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#m80000016-e06b-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000000e-e3ad-163b-ac27-0a3fce260000" name="Physical Source" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#m80000018-e06b-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000011-e3ad-163b-ac27-0a3fce260000" name="Physical Target" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#m8000001a-e06b-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000014-e3ad-163b-ac27-0a3fce260000" name="Run Mode" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#m8000001e-e06b-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000017-e3ad-163b-ac27-0a3fce260000" name="Task Depth" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#m80000028-e06b-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000001a-e3ad-163b-ac27-0a3fce260000" name="Task Duration" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#m40000002-e0b1-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000001d-e3ad-163b-ac27-0a3fce260000" name="Task End Time" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#m00000002-e0e2-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000020-e3ad-163b-ac27-0a3fce260000" name="Task Error Code" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#m00000002-e073-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000023-e3ad-163b-ac27-0a3fce260000" name="Task Group" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#m80000012-e06b-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000026-e3ad-163b-ac27-0a3fce260000" name="Task Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#m80000026-e06b-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000029-e3ad-163b-ac27-0a3fce260000" name="Task Start Time" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#m80000002-e06f-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000002c-e3ad-163b-ac27-0a3fce260000" name="Task Status" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#m80000022-e06b-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000002f-e3ad-163b-ac27-0a3fce260000" name="Task Status Description" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#m80000024-e06b-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000032-e3ad-163b-ac27-0a3fce260000" name="------------------[ Task Runs ]------------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#m40000004-e292-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000035-e3ad-163b-ac27-0a3fce260000" name="Task Run Connection" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#mc0000016-e089-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000038-e3ad-163b-ac27-0a3fce260000" name="Task Run End Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#mc0000018-e089-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000003b-e3ad-163b-ac27-0a3fce260000" name="Task Run Error Code" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#mc000001a-e089-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000003e-e3ad-163b-ac27-0a3fce260000" name="Task Run Error Description" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#mc000001c-e089-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000041-e3ad-163b-ac27-0a3fce260000" name="Task Run Instance" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#m00000002-e108-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000044-e3ad-163b-ac27-0a3fce260000" name="Task Run Sequence" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#mc0000028-e089-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000047-e3ad-163b-ac27-0a3fce260000" name="Task Run Start Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#mc000002a-e089-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000001-e3ad-163b-ac27-0a3fce260000" name="Task Run Status" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#mc0000010-e089-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000004-e3ad-163b-ac27-0a3fce260000" name="Task Run Status Description" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#mc0000012-e089-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000007-e3ad-163b-ac27-0a3fce260000" name="Task Run Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#mc0000022-e089-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000000a-e3ad-163b-ac27-0a3fce260000" name="Task Run Type" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#m40000002-e103-163b-ac27-0a3fce260000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="m00000000-e3a2-163b-ac27-0a3fce260000-mc0000007-e3bd-163b-ac27-0a3fce260000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/c0000007-e3bd-163b-ac27-0a3fce260000.xml#mc0000007-e3bd-163b-ac27-0a3fce260000"/>
+</RefHierarchies>
+</PresentationTable>

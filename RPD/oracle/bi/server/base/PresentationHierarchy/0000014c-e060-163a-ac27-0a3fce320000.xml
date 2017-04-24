@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationHierarchy mdsid="m0000014c-e060-163a-ac27-0a3fce320000" name="Hier - Product" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/0000014a-e060-163a-ac27-0a3fce320000.xml#m0000014a-e060-163a-ac27-0a3fce320000" logicalDimensionRef="/oracle/bi/server/base/Dimension/80000000-4d43-1637-98ff-0a3fce410000.xml#m80000000-4d43-1637-98ff-0a3fce410000">
+<PresentationLevel mdsid="m0000014e-e060-163a-ac27-0a3fce320000" name="Total" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/0000014c-e060-163a-ac27-0a3fce320000.xml#m0000014c-e060-163a-ac27-0a3fce320000" logicalLevelRef="/oracle/bi/server/base/Dimension/80000000-4d43-1637-98ff-0a3fce410000.xml#m80000003-4d43-1637-98ff-0a3fce410000">
+</PresentationLevel>
+<PresentationLevel mdsid="m00000150-e060-163a-ac27-0a3fce320000" name="Detail" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/0000014c-e060-163a-ac27-0a3fce320000.xml#m0000014c-e060-163a-ac27-0a3fce320000" logicalLevelRef="/oracle/bi/server/base/Dimension/80000000-4d43-1637-98ff-0a3fce410000.xml#m80000001-4d43-1637-98ff-0a3fce410000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m00000150-e060-163a-ac27-0a3fce320000-m00000124-e060-163a-ac27-0a3fce320000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/0000014a-e060-163a-ac27-0a3fce320000.xml#m00000124-e060-163a-ac27-0a3fce320000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+</PresentationHierarchy>

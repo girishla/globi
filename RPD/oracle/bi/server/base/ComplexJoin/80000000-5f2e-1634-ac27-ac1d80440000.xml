@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ComplexJoin mdsid="m80000000-5f2e-1634-ac27-ac1d80440000" name="Dim_PeriodDate_Fact_Pipeline_ITD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" cardinality=" ONE TO MANY" table1Ref="/oracle/bi/server/base/PhysicalTable/00000001-5f03-1634-ac27-ac1d80440000.xml#m00000001-5f03-1634-ac27-ac1d80440000" table2Ref="/oracle/bi/server/base/PhysicalTable/c0000000-b8ba-1629-ac27-0a3fce1e0000.xml#mc0000000-b8ba-1629-ac27-0a3fce1e0000">
+<Expr mdsid="m00000001-01f4-0000-3d92-5e1000000000" name="Expr">
+<ExprText><![CDATA["%1" = "%2" AND "%3" > "%4"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate"."BU_WID" = "GLOBI".""."LAW"."Fact_Pipeline_ITD"."BU_WID" AND "GLOBI".""."LAW"."Dim_PeriodDate"."PER_DT_WID" > "GLOBI".""."LAW"."Fact_Pipeline_ITD"."DT_EFF_START_WID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-3d92-5e1000000000-mc0000006-b8ba-1629-ac27-0a3fce1e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-b8ba-1629-ac27-0a3fce1e0000.xml#mc0000006-b8ba-1629-ac27-0a3fce1e0000"/>
+<RefObject refId="m00000001-01f4-0000-3d92-5e1000000000-m0000002f-5f03-1634-ac27-ac1d80440000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-5f03-1634-ac27-ac1d80440000.xml#m0000002f-5f03-1634-ac27-ac1d80440000"/>
+<RefObject refId="m00000001-01f4-0000-3d92-5e1000000000-mc0000019-b8ba-1629-ac27-0a3fce1e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-b8ba-1629-ac27-0a3fce1e0000.xml#mc0000019-b8ba-1629-ac27-0a3fce1e0000"/>
+<RefObject refId="m00000001-01f4-0000-3d92-5e1000000000-m0000004b-5f03-1634-ac27-ac1d80440000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-5f03-1634-ac27-ac1d80440000.xml#m0000004b-5f03-1634-ac27-ac1d80440000"/>
+</ObjectRefList>
+</Expr>
+</ComplexJoin>
