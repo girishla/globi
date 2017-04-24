@@ -12,166 +12,270 @@
 </Expr>
 </AggrRule>
 </MeasureDefn>
+<AttributeDefn mdsid="m00000002-01f4-0000-ab75-2ae300000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Fact_OpportunityLine"."OPTY_WID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-ab75-2ae300000000-m00000011-28a8-1627-806e-0a3fce3c0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-28a8-1627-806e-0a3fce3c0000.xml#m00000011-28a8-1627-806e-0a3fce3c0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m80000000-1786-162b-98ff-0a3fce3e0000" name="# Opportunity Lines" isWriteable="false">
 <MeasureDefn mdsid="m0000007b-5964-162b-98ff-0aac74cf0000" name="Measure" isCommutative="false">
 <AggrRule mdsid="m0000007c-5964-162b-98ff-0aac74cf0000" name="AggRule_2050:80741487691323" isDefault="true">
-<Expr mdsid="m00000002-01f4-0000-c488-2ce500000000" name="Expr">
+<Expr mdsid="m00000003-01f4-0000-27e2-e94b00000000" name="Expr">
 <ExprText><![CDATA[ COUNT("%1")]]></ExprText>
 <ExprTextDesc><![CDATA[ COUNT("Global Reporting"."Fact - Opportunity Line"."# Opportunity Lines")]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000002-01f4-0000-c488-2ce500000000-m80000000-1786-162b-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#m80000000-1786-162b-98ff-0a3fce3e0000"/>
+<RefObject refId="m00000003-01f4-0000-27e2-e94b00000000-m80000000-1786-162b-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#m80000000-1786-162b-98ff-0a3fce3e0000"/>
 </ObjectRefList>
 </Expr>
 </AggrRule>
 </MeasureDefn>
+<AttributeDefn mdsid="m00000004-01f4-0000-1696-d26700000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Fact_OpportunityLine"."ROW_WID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-1696-d26700000000-m00000016-28a8-1627-806e-0a3fce3c0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-28a8-1627-806e-0a3fce3c0000.xml#m00000016-28a8-1627-806e-0a3fce3c0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000095-28bc-1627-806e-0a3fce3c0000" name="Quantity" isWriteable="false">
 <MeasureDefn mdsid="m0000002e-5964-162b-98ff-0aac74cf0000" name="Measure" isCommutative="false">
 <AggrRule mdsid="m0000002f-5964-162b-98ff-0aac74cf0000" name="AggRule_2050:12251486661151" isDefault="true">
-<Expr mdsid="m00000003-01f4-0000-6409-296f00000000" name="Expr">
+<Expr mdsid="m00000005-01f4-0000-9b29-a5d600000000" name="Expr">
 <ExprText><![CDATA[ SUM("%1")]]></ExprText>
 <ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Opportunity Line"."Quantity")]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000003-01f4-0000-6409-296f00000000-m40000095-28bc-1627-806e-0a3fce3c0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#m40000095-28bc-1627-806e-0a3fce3c0000"/>
+<RefObject refId="m00000005-01f4-0000-9b29-a5d600000000-m40000095-28bc-1627-806e-0a3fce3c0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#m40000095-28bc-1627-806e-0a3fce3c0000"/>
 </ObjectRefList>
 </Expr>
 </AggrRule>
 </MeasureDefn>
+<AttributeDefn mdsid="m00000006-01f4-0000-66c7-b99300000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Fact_OpportunityLine"."QTY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-66c7-b99300000000-m00000015-28a8-1627-806e-0a3fce3c0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-28a8-1627-806e-0a3fce3c0000.xml#m00000015-28a8-1627-806e-0a3fce3c0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m80000003-c45f-162a-98ff-0a3fce3e0000" name="------------------[ Document ]------------------" isWriteable="false">
+<AttributeDefn mdsid="m00000007-01f4-0000-b803-ef8d00000000" name="AttributeDefn">
+<ExprText><![CDATA['Do Not Use']]></ExprText>
+<ExprTextDesc><![CDATA['Do Not Use']]></ExprTextDesc>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000087-28bc-1627-806e-0a3fce3c0000" name="Document Amount" isWriteable="false">
 <MeasureDefn mdsid="m00000024-5964-162b-98ff-0aac74cf0000" name="Measure" isCommutative="false">
 <AggrRule mdsid="m00000025-5964-162b-98ff-0aac74cf0000" name="AggRule_2050:12011486661136" isDefault="true">
-<Expr mdsid="m00000004-01f4-0000-7d27-b4e200000000" name="Expr">
+<Expr mdsid="m00000008-01f4-0000-dd23-094100000000" name="Expr">
 <ExprText><![CDATA[ SUM("%1")]]></ExprText>
 <ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Opportunity Line"."Document Amount")]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000004-01f4-0000-7d27-b4e200000000-m40000087-28bc-1627-806e-0a3fce3c0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#m40000087-28bc-1627-806e-0a3fce3c0000"/>
+<RefObject refId="m00000008-01f4-0000-dd23-094100000000-m40000087-28bc-1627-806e-0a3fce3c0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#m40000087-28bc-1627-806e-0a3fce3c0000"/>
 </ObjectRefList>
 </Expr>
 </AggrRule>
 </MeasureDefn>
+<AttributeDefn mdsid="m00000009-01f4-0000-813e-a4ef00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Fact_OpportunityLine"."DOC_AMT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-813e-a4ef00000000-m00000007-28a8-1627-806e-0a3fce3c0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-28a8-1627-806e-0a3fce3c0000.xml#m00000007-28a8-1627-806e-0a3fce3c0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000089-28bc-1627-806e-0a3fce3c0000" name="Document Discount" isWriteable="false">
 <MeasureDefn mdsid="m00000026-5964-162b-98ff-0aac74cf0000" name="Measure" isCommutative="false">
 <AggrRule mdsid="m00000027-5964-162b-98ff-0aac74cf0000" name="AggRule_2050:12031486661138" isDefault="true">
-<Expr mdsid="m00000005-01f4-0000-1ed4-2e0a00000000" name="Expr">
+<Expr mdsid="m0000000a-01f4-0000-2465-75dc00000000" name="Expr">
 <ExprText><![CDATA[ SUM("%1")]]></ExprText>
 <ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Opportunity Line"."Document Discount")]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000005-01f4-0000-1ed4-2e0a00000000-m40000089-28bc-1627-806e-0a3fce3c0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#m40000089-28bc-1627-806e-0a3fce3c0000"/>
+<RefObject refId="m0000000a-01f4-0000-2465-75dc00000000-m40000089-28bc-1627-806e-0a3fce3c0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#m40000089-28bc-1627-806e-0a3fce3c0000"/>
 </ObjectRefList>
 </Expr>
 </AggrRule>
 </MeasureDefn>
+<AttributeDefn mdsid="m0000000b-01f4-0000-e5d0-af2d00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Fact_OpportunityLine"."DOC_DISCNT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-e5d0-af2d00000000-m00000009-28a8-1627-806e-0a3fce3c0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-28a8-1627-806e-0a3fce3c0000.xml#m00000009-28a8-1627-806e-0a3fce3c0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m4000008b-28bc-1627-806e-0a3fce3c0000" name="Document MPO" isWriteable="false">
 <MeasureDefn mdsid="m00000028-5964-162b-98ff-0aac74cf0000" name="Measure" isCommutative="false">
 <AggrRule mdsid="m00000029-5964-162b-98ff-0aac74cf0000" name="AggRule_2050:12191486661145" isDefault="true">
-<Expr mdsid="m00000006-01f4-0000-3c7a-9b5e00000000" name="Expr">
+<Expr mdsid="m0000000c-01f4-0000-037c-fdc900000000" name="Expr">
 <ExprText><![CDATA[ SUM("%1")]]></ExprText>
 <ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Opportunity Line"."Document MPO")]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000006-01f4-0000-3c7a-9b5e00000000-m4000008b-28bc-1627-806e-0a3fce3c0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#m4000008b-28bc-1627-806e-0a3fce3c0000"/>
+<RefObject refId="m0000000c-01f4-0000-037c-fdc900000000-m4000008b-28bc-1627-806e-0a3fce3c0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#m4000008b-28bc-1627-806e-0a3fce3c0000"/>
 </ObjectRefList>
 </Expr>
 </AggrRule>
 </MeasureDefn>
+<AttributeDefn mdsid="m0000000d-01f4-0000-2fd4-6fa500000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Fact_OpportunityLine"."DOC_MPO"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-2fd4-6fa500000000-m0000000b-28a8-1627-806e-0a3fce3c0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-28a8-1627-806e-0a3fce3c0000.xml#m0000000b-28a8-1627-806e-0a3fce3c0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m4000008c-28bc-1627-806e-0a3fce3c0000" name="Document RRP" isWriteable="false">
 <MeasureDefn mdsid="m0000002a-5964-162b-98ff-0aac74cf0000" name="Measure" isCommutative="false">
 <AggrRule mdsid="m0000002b-5964-162b-98ff-0aac74cf0000" name="AggRule_2050:12211486661146" isDefault="true">
-<Expr mdsid="m00000007-01f4-0000-6c91-df4100000000" name="Expr">
+<Expr mdsid="m0000000e-01f4-0000-7f6f-c78500000000" name="Expr">
 <ExprText><![CDATA[ SUM("%1")]]></ExprText>
 <ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Opportunity Line"."Document RRP")]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000007-01f4-0000-6c91-df4100000000-m4000008c-28bc-1627-806e-0a3fce3c0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#m4000008c-28bc-1627-806e-0a3fce3c0000"/>
+<RefObject refId="m0000000e-01f4-0000-7f6f-c78500000000-m4000008c-28bc-1627-806e-0a3fce3c0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#m4000008c-28bc-1627-806e-0a3fce3c0000"/>
 </ObjectRefList>
 </Expr>
 </AggrRule>
 </MeasureDefn>
+<AttributeDefn mdsid="m0000000f-01f4-0000-05d7-b99500000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Fact_OpportunityLine"."DOC_RRP"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000f-01f4-0000-05d7-b99500000000-m0000000c-28a8-1627-806e-0a3fce3c0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-28a8-1627-806e-0a3fce3c0000.xml#m0000000c-28a8-1627-806e-0a3fce3c0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m4000008d-28bc-1627-806e-0a3fce3c0000" name="Document Tax" isWriteable="false">
 <MeasureDefn mdsid="m0000002c-5964-162b-98ff-0aac74cf0000" name="Measure" isCommutative="false">
 <AggrRule mdsid="m0000002d-5964-162b-98ff-0aac74cf0000" name="AggRule_2050:12231486661149" isDefault="true">
-<Expr mdsid="m00000008-01f4-0000-3786-6b8d00000000" name="Expr">
+<Expr mdsid="m00000010-01f4-0000-5744-b08000000000" name="Expr">
 <ExprText><![CDATA[ SUM("%1")]]></ExprText>
 <ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Opportunity Line"."Document Tax")]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000008-01f4-0000-3786-6b8d00000000-m4000008d-28bc-1627-806e-0a3fce3c0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#m4000008d-28bc-1627-806e-0a3fce3c0000"/>
+<RefObject refId="m00000010-01f4-0000-5744-b08000000000-m4000008d-28bc-1627-806e-0a3fce3c0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#m4000008d-28bc-1627-806e-0a3fce3c0000"/>
 </ObjectRefList>
 </Expr>
 </AggrRule>
 </MeasureDefn>
+<AttributeDefn mdsid="m00000011-01f4-0000-c974-cf9d00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Fact_OpportunityLine"."DOC_TAX"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000011-01f4-0000-c974-cf9d00000000-m0000000d-28a8-1627-806e-0a3fce3c0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-28a8-1627-806e-0a3fce3c0000.xml#m0000000d-28a8-1627-806e-0a3fce3c0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="mc0000002-c45f-162a-98ff-0a3fce3e0000" name="---------------[ User Currency ]---------------" isWriteable="false">
+<AttributeDefn mdsid="m00000012-01f4-0000-6c56-2b1100000000" name="AttributeDefn">
+<ExprText><![CDATA['Do Not Use']]></ExprText>
+<ExprTextDesc><![CDATA['Do Not Use']]></ExprTextDesc>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="mc0000004-c449-162a-98ff-0a3fce3e0000" name="Amount" isWriteable="false">
 <MeasureDefn mdsid="mc0000005-c449-162a-98ff-0a3fce3e0000" name="Measure" isCommutative="false">
 <AggrRule mdsid="mc0000006-c449-162a-98ff-0a3fce3e0000" name="AggRule_2050:77341487606055" isDefault="true">
-<Expr mdsid="m00000009-01f4-0000-788e-92e800000000" name="Expr">
+<Expr mdsid="m00000013-01f4-0000-8fe2-5bc000000000" name="Expr">
 <ExprText><![CDATA[ SUM("%1")]]></ExprText>
 <ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Opportunity Line"."Amount")]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000009-01f4-0000-788e-92e800000000-mc0000004-c449-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#mc0000004-c449-162a-98ff-0a3fce3e0000"/>
+<RefObject refId="m00000013-01f4-0000-8fe2-5bc000000000-mc0000004-c449-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#mc0000004-c449-162a-98ff-0a3fce3e0000"/>
 </ObjectRefList>
 </Expr>
 </AggrRule>
 </MeasureDefn>
+<AttributeDefn mdsid="m00000014-01f4-0000-f0f8-b4b700000000" name="AttributeDefn">
+<ExprText><![CDATA["%1" * "%2" ]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Fact_OpportunityLine"."DOC_AMT" * "GLOBI".""."LAW"."Dim_ExchangeRate"."EXCH_RATE" ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000014-01f4-0000-f0f8-b4b700000000-m00000007-28a8-1627-806e-0a3fce3c0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-28a8-1627-806e-0a3fce3c0000.xml#m00000007-28a8-1627-806e-0a3fce3c0000"/>
+<RefObject refId="m00000014-01f4-0000-f0f8-b4b700000000-m80000005-c3bc-162a-98ff-0a3fce3e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-c3bc-162a-98ff-0a3fce3e0000.xml#m80000005-c3bc-162a-98ff-0a3fce3e0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="mc000000c-c449-162a-98ff-0a3fce3e0000" name="Discount" isWriteable="false">
 <MeasureDefn mdsid="mc000000d-c449-162a-98ff-0a3fce3e0000" name="Measure" isCommutative="false">
 <AggrRule mdsid="mc000000e-c449-162a-98ff-0a3fce3e0000" name="AggRule_2050:77421487606055" isDefault="true">
-<Expr mdsid="m0000000a-01f4-0000-e394-525500000000" name="Expr">
+<Expr mdsid="m00000015-01f4-0000-c282-618f00000000" name="Expr">
 <ExprText><![CDATA[ SUM("%1")]]></ExprText>
 <ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Opportunity Line"."Discount")]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m0000000a-01f4-0000-e394-525500000000-mc000000c-c449-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#mc000000c-c449-162a-98ff-0a3fce3e0000"/>
+<RefObject refId="m00000015-01f4-0000-c282-618f00000000-mc000000c-c449-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#mc000000c-c449-162a-98ff-0a3fce3e0000"/>
 </ObjectRefList>
 </Expr>
 </AggrRule>
 </MeasureDefn>
+<AttributeDefn mdsid="m00000016-01f4-0000-4f35-503500000000" name="AttributeDefn">
+<ExprText><![CDATA["%1" * "%2"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Fact_OpportunityLine"."DOC_DISCNT" * "GLOBI".""."LAW"."Dim_ExchangeRate"."EXCH_RATE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000016-01f4-0000-4f35-503500000000-m00000009-28a8-1627-806e-0a3fce3c0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-28a8-1627-806e-0a3fce3c0000.xml#m00000009-28a8-1627-806e-0a3fce3c0000"/>
+<RefObject refId="m00000016-01f4-0000-4f35-503500000000-m80000005-c3bc-162a-98ff-0a3fce3e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-c3bc-162a-98ff-0a3fce3e0000.xml#m80000005-c3bc-162a-98ff-0a3fce3e0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="mc0000014-c449-162a-98ff-0a3fce3e0000" name="MPO" isWriteable="false">
 <MeasureDefn mdsid="mc0000015-c449-162a-98ff-0a3fce3e0000" name="Measure" isCommutative="false">
 <AggrRule mdsid="mc0000016-c449-162a-98ff-0a3fce3e0000" name="AggRule_2050:77501487606055" isDefault="true">
-<Expr mdsid="m0000000b-01f4-0000-d14c-92c500000000" name="Expr">
+<Expr mdsid="m00000017-01f4-0000-75db-449400000000" name="Expr">
 <ExprText><![CDATA[ SUM("%1")]]></ExprText>
 <ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Opportunity Line"."MPO")]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m0000000b-01f4-0000-d14c-92c500000000-mc0000014-c449-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#mc0000014-c449-162a-98ff-0a3fce3e0000"/>
+<RefObject refId="m00000017-01f4-0000-75db-449400000000-mc0000014-c449-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#mc0000014-c449-162a-98ff-0a3fce3e0000"/>
 </ObjectRefList>
 </Expr>
 </AggrRule>
 </MeasureDefn>
+<AttributeDefn mdsid="m00000018-01f4-0000-6238-903e00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1" * "%2" ]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Fact_OpportunityLine"."DOC_MPO" * "GLOBI".""."LAW"."Dim_ExchangeRate"."EXCH_RATE" ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000018-01f4-0000-6238-903e00000000-m0000000b-28a8-1627-806e-0a3fce3c0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-28a8-1627-806e-0a3fce3c0000.xml#m0000000b-28a8-1627-806e-0a3fce3c0000"/>
+<RefObject refId="m00000018-01f4-0000-6238-903e00000000-m80000005-c3bc-162a-98ff-0a3fce3e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-c3bc-162a-98ff-0a3fce3e0000.xml#m80000005-c3bc-162a-98ff-0a3fce3e0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="mc000001c-c449-162a-98ff-0a3fce3e0000" name="RRP" isWriteable="false">
 <MeasureDefn mdsid="mc000001d-c449-162a-98ff-0a3fce3e0000" name="Measure" isCommutative="false">
 <AggrRule mdsid="mc000001e-c449-162a-98ff-0a3fce3e0000" name="AggRule_2050:77581487606055" isDefault="true">
-<Expr mdsid="m0000000c-01f4-0000-8104-aa8100000000" name="Expr">
+<Expr mdsid="m00000019-01f4-0000-96ee-1f0900000000" name="Expr">
 <ExprText><![CDATA[ SUM("%1")]]></ExprText>
 <ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Opportunity Line"."RRP")]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m0000000c-01f4-0000-8104-aa8100000000-mc000001c-c449-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#mc000001c-c449-162a-98ff-0a3fce3e0000"/>
+<RefObject refId="m00000019-01f4-0000-96ee-1f0900000000-mc000001c-c449-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#mc000001c-c449-162a-98ff-0a3fce3e0000"/>
 </ObjectRefList>
 </Expr>
 </AggrRule>
 </MeasureDefn>
+<AttributeDefn mdsid="m0000001a-01f4-0000-d6cc-366500000000" name="AttributeDefn">
+<ExprText><![CDATA["%1" * "%2" ]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Fact_OpportunityLine"."DOC_RRP" * "GLOBI".""."LAW"."Dim_ExchangeRate"."EXCH_RATE" ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001a-01f4-0000-d6cc-366500000000-m0000000c-28a8-1627-806e-0a3fce3c0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-28a8-1627-806e-0a3fce3c0000.xml#m0000000c-28a8-1627-806e-0a3fce3c0000"/>
+<RefObject refId="m0000001a-01f4-0000-d6cc-366500000000-m80000005-c3bc-162a-98ff-0a3fce3e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-c3bc-162a-98ff-0a3fce3e0000.xml#m80000005-c3bc-162a-98ff-0a3fce3e0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="mc0000024-c449-162a-98ff-0a3fce3e0000" name="Tax" isWriteable="false">
 <MeasureDefn mdsid="mc0000025-c449-162a-98ff-0a3fce3e0000" name="Measure" isCommutative="false">
 <AggrRule mdsid="mc0000026-c449-162a-98ff-0a3fce3e0000" name="AggRule_2050:77661487606055" isDefault="true">
-<Expr mdsid="m0000000d-01f4-0000-ee0b-480f00000000" name="Expr">
+<Expr mdsid="m0000001b-01f4-0000-5083-b7f400000000" name="Expr">
 <ExprText><![CDATA[ SUM("%1")]]></ExprText>
 <ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Opportunity Line"."Tax")]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m0000000d-01f4-0000-ee0b-480f00000000-mc0000024-c449-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#mc0000024-c449-162a-98ff-0a3fce3e0000"/>
+<RefObject refId="m0000001b-01f4-0000-5083-b7f400000000-mc0000024-c449-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/4000007e-28bc-1627-806e-0a3fce3c0000.xml#mc0000024-c449-162a-98ff-0a3fce3e0000"/>
 </ObjectRefList>
 </Expr>
 </AggrRule>
 </MeasureDefn>
+<AttributeDefn mdsid="m0000001c-01f4-0000-2136-5e3500000000" name="AttributeDefn">
+<ExprText><![CDATA["%1" * "%2" ]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Fact_OpportunityLine"."DOC_TAX" * "GLOBI".""."LAW"."Dim_ExchangeRate"."EXCH_RATE" ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001c-01f4-0000-2136-5e3500000000-m0000000d-28a8-1627-806e-0a3fce3c0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-28a8-1627-806e-0a3fce3c0000.xml#m0000000d-28a8-1627-806e-0a3fce3c0000"/>
+<RefObject refId="m0000001c-01f4-0000-2136-5e3500000000-m80000005-c3bc-162a-98ff-0a3fce3e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-c3bc-162a-98ff-0a3fce3e0000.xml#m80000005-c3bc-162a-98ff-0a3fce3e0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <RefTableSources>
 <RefLogicalTableSource refId="m4000007e-28bc-1627-806e-0a3fce3c0000-m40000080-28bc-1627-806e-0a3fce3c0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/40000080-28bc-1627-806e-0a3fce3c0000.xml#m40000080-28bc-1627-806e-0a3fce3c0000"/>

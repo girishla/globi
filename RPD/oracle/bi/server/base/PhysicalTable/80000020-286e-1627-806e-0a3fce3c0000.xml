@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<PhysicalTable mdsid="m80000020-286e-1627-806e-0a3fce3c0000" name="D_OPTY_LN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="0.0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000001-286e-1627-806e-0a3fce3c0000.xml#m40000001-286e-1627-806e-0a3fce3c0000">
-<PhysicalColumn mdsid="m80000021-286e-1627-806e-0a3fce3c0000" name="ACTN_CD" dataType="VARCHAR" precision="30" nullable="true" rowCount="0.0" specialType="none">
+<PhysicalTable mdsid="m80000020-286e-1627-806e-0a3fce3c0000" name="D_OPTY_LN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000001-286e-1627-806e-0a3fce3c0000.xml#m40000001-286e-1627-806e-0a3fce3c0000">
+<PhysicalColumn mdsid="m80000021-286e-1627-806e-0a3fce3c0000" name="ACTN_CD" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m80000022-286e-1627-806e-0a3fce3c0000" name="BU_PGUID" dataType="VARCHAR" precision="100" rowCount="0.0" specialType="none">
+<PhysicalColumn mdsid="m80000022-286e-1627-806e-0a3fce3c0000" name="BU_PGUID" dataType="VARCHAR" precision="100" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m80000023-286e-1627-806e-0a3fce3c0000" name="CURRENT_FLG" dataType="VARCHAR" precision="1" rowCount="0.0" specialType="none">
+<PhysicalColumn mdsid="m80000023-286e-1627-806e-0a3fce3c0000" name="CURRENT_FLG" dataType="VARCHAR" precision="1" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m80000024-286e-1627-806e-0a3fce3c0000" name="DATASOURCE_NUM_ID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none">
+<PhysicalColumn mdsid="m80000024-286e-1627-806e-0a3fce3c0000" name="DATASOURCE_NUM_ID" dataType="DOUBLE" precision="10" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m80000025-286e-1627-806e-0a3fce3c0000" name="DELETE_FLG" dataType="VARCHAR" precision="1" rowCount="0.0" specialType="none">
+<PhysicalColumn mdsid="m80000025-286e-1627-806e-0a3fce3c0000" name="DELETE_FLG" dataType="VARCHAR" precision="1" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m80000026-286e-1627-806e-0a3fce3c0000" name="DOC_CURCY_CD" dataType="VARCHAR" precision="3" nullable="true" rowCount="0.0" specialType="none">
+<PhysicalColumn mdsid="m80000026-286e-1627-806e-0a3fce3c0000" name="DOC_CURCY_CD" dataType="VARCHAR" precision="3" nullable="true" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m80000027-286e-1627-806e-0a3fce3c0000" name="DOC_FX_DT" dataType="DATETIME" precision="3" nullable="true" rowCount="0.0" specialType="none">
+<PhysicalColumn mdsid="m80000027-286e-1627-806e-0a3fce3c0000" name="DOC_FX_DT" dataType="DATETIME" precision="3" nullable="true" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m80000028-286e-1627-806e-0a3fce3c0000" name="EFF_END_DT" dataType="DATETIME" precision="3" rowCount="0.0" specialType="none">
+<PhysicalColumn mdsid="m80000028-286e-1627-806e-0a3fce3c0000" name="EFF_END_DT" dataType="DATETIME" precision="3" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m80000029-286e-1627-806e-0a3fce3c0000" name="EFF_START_DT" dataType="DATETIME" precision="3" rowCount="0.0" specialType="none">
+<PhysicalColumn mdsid="m80000029-286e-1627-806e-0a3fce3c0000" name="EFF_START_DT" dataType="DATETIME" precision="3" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m8000002a-286e-1627-806e-0a3fce3c0000" name="END_DT" dataType="DATETIME" precision="3" nullable="true" rowCount="0.0" specialType="none">
+<PhysicalColumn mdsid="m8000002a-286e-1627-806e-0a3fce3c0000" name="END_DT" dataType="DATETIME" precision="3" nullable="true" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m8000002b-286e-1627-806e-0a3fce3c0000" name="ETL_PROC_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none">
+<PhysicalColumn mdsid="m8000002b-286e-1627-806e-0a3fce3c0000" name="ETL_PROC_WID" dataType="DOUBLE" precision="10" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m8000002c-286e-1627-806e-0a3fce3c0000" name="HASH_RECORD" dataType="VARCHAR" precision="32" rowCount="0.0" specialType="none">
+<PhysicalColumn mdsid="m8000002c-286e-1627-806e-0a3fce3c0000" name="HASH_RECORD" dataType="VARCHAR" precision="32" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m8000002d-286e-1627-806e-0a3fce3c0000" name="HASH_SCD" dataType="VARCHAR" precision="32" nullable="true" rowCount="0.0" specialType="none">
+<PhysicalColumn mdsid="m8000002d-286e-1627-806e-0a3fce3c0000" name="HASH_SCD" dataType="VARCHAR" precision="32" nullable="true" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m8000002e-286e-1627-806e-0a3fce3c0000" name="INTEGRATION_ID" dataType="VARCHAR" precision="100" rowCount="0.0" specialType="none">
+<PhysicalColumn mdsid="m8000002e-286e-1627-806e-0a3fce3c0000" name="INTEGRATION_ID" dataType="VARCHAR" precision="100" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m8000002f-286e-1627-806e-0a3fce3c0000" name="MYD_FLG" dataType="VARCHAR" precision="1" rowCount="0.0" specialType="none">
+<PhysicalColumn mdsid="m8000002f-286e-1627-806e-0a3fce3c0000" name="MYD_FLG" dataType="VARCHAR" precision="1" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m80000030-286e-1627-806e-0a3fce3c0000" name="PGUID" dataType="VARCHAR" precision="100" rowCount="0.0" specialType="none">
+<PhysicalColumn mdsid="m80000030-286e-1627-806e-0a3fce3c0000" name="PGUID" dataType="VARCHAR" precision="100" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m80000031-286e-1627-806e-0a3fce3c0000" name="ROW_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none">
+<PhysicalColumn mdsid="m80000031-286e-1627-806e-0a3fce3c0000" name="ROW_WID" dataType="DOUBLE" precision="10" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m80000032-286e-1627-806e-0a3fce3c0000" name="START_DT" dataType="DATETIME" precision="10" nullable="true" rowCount="0.0" specialType="none">
+<PhysicalColumn mdsid="m80000032-286e-1627-806e-0a3fce3c0000" name="START_DT" dataType="DATETIME" precision="10" nullable="true" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m80000033-286e-1627-806e-0a3fce3c0000" name="S_CREATED_DT" dataType="DATETIME" precision="10" rowCount="0.0" specialType="none">
+<PhysicalColumn mdsid="m80000033-286e-1627-806e-0a3fce3c0000" name="S_CREATED_DT" dataType="DATETIME" precision="10" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m80000034-286e-1627-806e-0a3fce3c0000" name="S_UPDATED_DT" dataType="DATETIME" precision="10" rowCount="0.0" specialType="none">
+<PhysicalColumn mdsid="m80000034-286e-1627-806e-0a3fce3c0000" name="S_UPDATED_DT" dataType="DATETIME" precision="10" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m80000035-286e-1627-806e-0a3fce3c0000" name="TRIAL_FLG" dataType="VARCHAR" precision="1" nullable="true" rowCount="0.0" specialType="none">
+<PhysicalColumn mdsid="m80000035-286e-1627-806e-0a3fce3c0000" name="TRIAL_FLG" dataType="VARCHAR" precision="1" nullable="true" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m80000036-286e-1627-806e-0a3fce3c0000" name="TZ_NAME" dataType="VARCHAR" precision="100" rowCount="0.0" specialType="none">
+<PhysicalColumn mdsid="m80000036-286e-1627-806e-0a3fce3c0000" name="TZ_NAME" dataType="VARCHAR" precision="100" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m80000037-286e-1627-806e-0a3fce3c0000" name="W_CREATED_DT" dataType="DATETIME" precision="100" rowCount="0.0" specialType="none">
+<PhysicalColumn mdsid="m80000037-286e-1627-806e-0a3fce3c0000" name="W_CREATED_DT" dataType="DATETIME" precision="100" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m80000038-286e-1627-806e-0a3fce3c0000" name="W_UPDATED_DT" dataType="DATETIME" precision="100" rowCount="0.0" specialType="none">
+<PhysicalColumn mdsid="m80000038-286e-1627-806e-0a3fce3c0000" name="W_UPDATED_DT" dataType="DATETIME" precision="100" specialType="none">
 </PhysicalColumn>
 </PhysicalTable>
