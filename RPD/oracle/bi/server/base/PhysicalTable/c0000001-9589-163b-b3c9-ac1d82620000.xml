@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<PhysicalTable mdsid="mc0000001-9589-163b-b3c9-ac1d82620000" name="S_LAW_LINKS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/00000001-9251-163b-b3c9-ac1d82620000.xml#m00000001-9251-163b-b3c9-ac1d82620000">
-<PhysicalColumn mdsid="mc000000d-9589-163b-b3c9-ac1d82620000" name="LINK_NAME" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+<PhysicalTable mdsid="mc0000001-9589-163b-b3c9-ac1d82620000" name="S_LAW_LINKS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="0.0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/00000001-9251-163b-b3c9-ac1d82620000.xml#m00000001-9251-163b-b3c9-ac1d82620000">
+<PhysicalColumn mdsid="mc000000d-9589-163b-b3c9-ac1d82620000" name="LINK_NAME" dataType="VARCHAR" precision="50" nullable="true" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="mc000000f-9589-163b-b3c9-ac1d82620000" name="LINK_ROL" dataType="VARCHAR" precision="250" nullable="true" specialType="none">
+<PhysicalColumn mdsid="mc000000f-9589-163b-b3c9-ac1d82620000" name="LINK_ROL" dataType="VARCHAR" precision="250" nullable="true" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="mc0000011-9589-163b-b3c9-ac1d82620000" name="LINK_URL" dataType="VARCHAR" precision="4000" nullable="true" specialType="none">
+<PhysicalColumn mdsid="mc0000011-9589-163b-b3c9-ac1d82620000" name="LINK_URL" dataType="VARCHAR" precision="4000" nullable="true" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="mc0000013-9589-163b-b3c9-ac1d82620000" name="UPDATED_BY" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+<PhysicalColumn mdsid="mc0000013-9589-163b-b3c9-ac1d82620000" name="UPDATED_BY" dataType="VARCHAR" precision="50" nullable="true" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="mc0000015-9589-163b-b3c9-ac1d82620000" name="UPDATED_DT" dataType="DATETIME" precision="50" nullable="true" specialType="none">
+<PhysicalColumn mdsid="mc0000015-9589-163b-b3c9-ac1d82620000" name="UPDATED_DT" dataType="DATETIME" precision="50" nullable="true" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="mc0000003-9589-163b-b3c9-ac1d82620000" name="CREATED_DT" dataType="DATETIME" nullable="true" specialType="none">
+<PhysicalColumn mdsid="mc0000003-9589-163b-b3c9-ac1d82620000" name="CREATED_DT" dataType="DATETIME" nullable="true" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="mc0000005-9589-163b-b3c9-ac1d82620000" name="LINK_CAT" dataType="VARCHAR" precision="32" nullable="true" specialType="none">
+<PhysicalColumn mdsid="mc0000005-9589-163b-b3c9-ac1d82620000" name="LINK_CAT" dataType="VARCHAR" precision="32" nullable="true" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="mc0000007-9589-163b-b3c9-ac1d82620000" name="LINK_DESC" dataType="VARCHAR" precision="250" nullable="true" specialType="none">
+<PhysicalColumn mdsid="mc0000007-9589-163b-b3c9-ac1d82620000" name="LINK_DESC" dataType="VARCHAR" precision="250" nullable="true" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="mc0000009-9589-163b-b3c9-ac1d82620000" name="LINK_ICON" dataType="VARCHAR" precision="30" nullable="true" specialType="none">
+<PhysicalColumn mdsid="mc0000009-9589-163b-b3c9-ac1d82620000" name="LINK_ICON" dataType="VARCHAR" precision="30" nullable="true" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="mc000000b-9589-163b-b3c9-ac1d82620000" name="LINK_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none">
+<PhysicalColumn mdsid="mc000000b-9589-163b-b3c9-ac1d82620000" name="LINK_ID" dataType="DOUBLE" precision="10" nullable="true" rowCount="0.0" specialType="none">
 </PhysicalColumn>
 </PhysicalTable>
