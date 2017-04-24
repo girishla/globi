@@ -70,6 +70,15 @@
 </LogicalColumn>
 <LogicalColumn mdsid="m00000056-b740-162a-ac27-0a3fce3e0000" name="Time Zone" isWriteable="false">
 </LogicalColumn>
+<LogicalColumn mdsid="m00000003-874b-163f-a6f5-0a3fce360000" name="ROW_WID" isWriteable="false">
+<AttributeDefn mdsid="m00000002-01f4-0000-5787-d29d00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_Agreement_Common"."ROW_WID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-5787-d29d00000000-m00000005-b679-162a-ac27-0a3fce3e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-b679-162a-ac27-0a3fce3e0000.xml#m00000005-b679-162a-ac27-0a3fce3e0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
 <LogicalKey mdsid="m00000059-b740-162a-ac27-0a3fce3e0000" name="PK" isPrimary="true">
 <RefColumns>
 <RefLogicalColumn refId="m00000059-b740-162a-ac27-0a3fce3e0000-m00000052-b740-162a-ac27-0a3fce3e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-b73c-162a-ac27-0a3fce3e0000.xml#m00000052-b740-162a-ac27-0a3fce3e0000"/>
