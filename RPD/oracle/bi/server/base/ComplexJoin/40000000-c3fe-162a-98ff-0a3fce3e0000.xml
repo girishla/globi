@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
 <ComplexJoin mdsid="m40000000-c3fe-162a-98ff-0a3fce3e0000" name="Dim_ExchangeRate_Fact_OpportunityLine" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" cardinality=" ONE TO MANY" table1Ref="/oracle/bi/server/base/PhysicalTable/00000000-28a8-1627-806e-0a3fce3c0000.xml#m00000000-28a8-1627-806e-0a3fce3c0000" table2Ref="/oracle/bi/server/base/PhysicalTable/80000000-c3bc-162a-98ff-0a3fce3e0000.xml#m80000000-c3bc-162a-98ff-0a3fce3e0000">
 <Expr mdsid="m00000001-01f4-0000-6021-36cc00000000" name="Expr">
 <ExprText><![CDATA["%1" = VALUEOF(NQ_SESSION."%2") AND "%3" = "%4" AND "%5" =  VALUEOF(NQ_SESSION."%6")]]></ExprText>

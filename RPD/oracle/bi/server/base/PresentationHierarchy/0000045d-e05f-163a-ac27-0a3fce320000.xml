@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
 <PresentationHierarchy mdsid="m0000045d-e05f-163a-ac27-0a3fce320000" name="Hier - Date - End" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/0000045b-e05f-163a-ac27-0a3fce320000.xml#m0000045b-e05f-163a-ac27-0a3fce320000" logicalDimensionRef="/oracle/bi/server/base/Dimension/80000001-4b31-1637-98ff-0a3fce410000.xml#m80000001-4b31-1637-98ff-0a3fce410000">
 <PresentationLevel mdsid="m0000045f-e05f-163a-ac27-0a3fce320000" name="Total" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/0000045d-e05f-163a-ac27-0a3fce320000.xml#m0000045d-e05f-163a-ac27-0a3fce320000" logicalLevelRef="/oracle/bi/server/base/Dimension/80000001-4b31-1637-98ff-0a3fce410000.xml#m80000005-4b31-1637-98ff-0a3fce410000">
 </PresentationLevel>

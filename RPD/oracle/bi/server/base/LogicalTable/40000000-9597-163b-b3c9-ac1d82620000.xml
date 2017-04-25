@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
 <LogicalTable mdsid="m40000000-9597-163b-b3c9-ac1d82620000" name="Fact - MDS Links" iconIndex="98" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/00000000-28a1-1627-806e-0a3fce3c0000.xml#m00000000-28a1-1627-806e-0a3fce3c0000">
 <LogicalColumn mdsid="mc0000009-95a5-163b-b3c9-ac1d82620000" name="Key (WID)" isWriteable="false">
 <AttributeDefn mdsid="m00000001-01f4-0000-596e-57c800000000" name="AttributeDefn">

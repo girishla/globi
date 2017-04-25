@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
 <PresentationHierarchy mdsid="m40000023-932d-163b-b3c9-ac1d82620000" name="Hier - User - L01 - User" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" dispName="User Hierarhcy" hasDispName="true" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/40000021-932d-163b-b3c9-ac1d82620000.xml#m40000021-932d-163b-b3c9-ac1d82620000" logicalDimensionRef="/oracle/bi/server/base/Dimension/00000000-4d78-1637-98ff-0a3fce410000.xml#m00000000-4d78-1637-98ff-0a3fce410000">
 <PresentationLevel mdsid="m40000025-932d-163b-b3c9-ac1d82620000" name="Total" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/40000023-932d-163b-b3c9-ac1d82620000.xml#m40000023-932d-163b-b3c9-ac1d82620000" logicalLevelRef="/oracle/bi/server/base/Dimension/00000000-4d78-1637-98ff-0a3fce410000.xml#m00000003-4d78-1637-98ff-0a3fce410000">
 </PresentationLevel>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
 <PresentationHierarchy mdsid="mc0000064-e05e-163a-ac27-0a3fce320000" name="Hier - Agreement" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/c0000062-e05e-163a-ac27-0a3fce320000.xml#mc0000062-e05e-163a-ac27-0a3fce320000" logicalDimensionRef="/oracle/bi/server/base/Dimension/80000000-4a80-1637-98ff-0a3fce410000.xml#m80000000-4a80-1637-98ff-0a3fce410000">
 <PresentationLevel mdsid="mc0000066-e05e-163a-ac27-0a3fce320000" name="Total" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/c0000064-e05e-163a-ac27-0a3fce320000.xml#mc0000064-e05e-163a-ac27-0a3fce320000" logicalLevelRef="/oracle/bi/server/base/Dimension/80000000-4a80-1637-98ff-0a3fce410000.xml#m40000000-4a83-1637-98ff-0a3fce410000">
 </PresentationLevel>

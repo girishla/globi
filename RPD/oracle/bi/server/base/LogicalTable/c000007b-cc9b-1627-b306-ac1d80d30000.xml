@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
 <LogicalTable mdsid="mc000007b-cc9b-1627-b306-ac1d80d30000" name="Dim - Date - Start" iconIndex="94" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/00000000-28a1-1627-806e-0a3fce3c0000.xml#m00000000-28a1-1627-806e-0a3fce3c0000">
 <LogicalColumn mdsid="mc00000a5-cc9b-1627-b306-ac1d80d30000" name="Key (WID)" isWriteable="false">
 <AttributeDefn mdsid="m00000001-01f4-0000-ef18-9ffa00000000" name="AttributeDefn">
