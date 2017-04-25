@@ -3,7 +3,7 @@
 <FilterMapping status="enable" objectTypeId="2035" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-b899-162a-ac27-0a3fce3e0000.xml#mc0000000-b899-162a-ac27-0a3fce3e0000">
 <Expr mdsid="m00000001-01f4-0000-3b47-b0a400000000" name="Expr">
 <ExprText><![CDATA["%1" = 'United Kingdom']]></ExprText>
-<ExprTextDesc><![CDATA["Global Reporting"."Dim - Customer"."BU PGUID" = 'United Kingdom']]></ExprTextDesc>
+<ExprTextDesc><![CDATA["Global Reporting"."Dim - Account"."BU PGUID" = 'United Kingdom']]></ExprTextDesc>
 <ObjectRefList>
 <RefObject refId="m00000001-01f4-0000-3b47-b0a400000000-mc0000030-b89c-162a-ac27-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-b899-162a-ac27-0a3fce3e0000.xml#mc0000030-b89c-162a-ac27-0a3fce3e0000"/>
 </ObjectRefList>
