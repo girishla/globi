@@ -64,7 +64,7 @@
 <ColumnMapping>
 <LogicalColumnExpr mdsid="m00000009-01f4-0000-dccd-13c900000000" name="LogicalColumnExpr">
 <ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["Global Reporting"."Dim - Customer"."Customer Name"]]></ExprTextDesc>
+<ExprTextDesc><![CDATA["Global Reporting"."Dim - Customer"."Customer"]]></ExprTextDesc>
 <ObjectRefList>
 <RefObject refId="m00000009-01f4-0000-dccd-13c900000000-mc000002c-b89c-162a-ac27-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-b899-162a-ac27-0a3fce3e0000.xml#mc000002c-b89c-162a-ac27-0a3fce3e0000"/>
 </ObjectRefList>

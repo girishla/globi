@@ -7,7 +7,8 @@
 <PresentationColumn mdsid="m80000008-c0a2-162a-98ff-0a3fce3e0000" name="------------------[ Attributes ]------------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-b899-162a-ac27-0a3fce3e0000.xml#m00000003-b8c7-162a-ac27-0a3fce3e0000">
 <Alias name="---[ Attributes ]------------------"/>
 </PresentationColumn>
-<PresentationColumn mdsid="m80000009-c0a2-162a-98ff-0a3fce3e0000" name="Customer Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-b899-162a-ac27-0a3fce3e0000.xml#mc000002c-b89c-162a-ac27-0a3fce3e0000">
+<PresentationColumn mdsid="m80000009-c0a2-162a-98ff-0a3fce3e0000" name="Customer" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-b899-162a-ac27-0a3fce3e0000.xml#mc000002c-b89c-162a-ac27-0a3fce3e0000">
+<Alias name="Customer Name"/>
 </PresentationColumn>
 <PresentationColumn mdsid="m8000000a-c0a2-162a-98ff-0a3fce3e0000" name="Customer Number" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-b899-162a-ac27-0a3fce3e0000.xml#mc000002d-b89c-162a-ac27-0a3fce3e0000">
 </PresentationColumn>
