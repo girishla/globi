@@ -41,8 +41,6 @@
 </PresentationColumn>
 <PresentationColumn mdsid="m000000b8-e05f-163a-ac27-0a3fce320000" name="Data Source ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-b899-162a-ac27-0a3fce3e0000.xml#mc0000032-b89c-162a-ac27-0a3fce3e0000">
 </PresentationColumn>
-<PresentationColumn mdsid="m000000ba-e05f-163a-ac27-0a3fce320000" name="Delete Flag" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-b899-162a-ac27-0a3fce3e0000.xml#mc0000033-b89c-162a-ac27-0a3fce3e0000">
-</PresentationColumn>
 <PresentationColumn mdsid="m000000bc-e05f-163a-ac27-0a3fce320000" name="DWH Created Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-b899-162a-ac27-0a3fce3e0000.xml#mc000003f-b89c-162a-ac27-0a3fce3e0000">
 </PresentationColumn>
 <PresentationColumn mdsid="m000000be-e05f-163a-ac27-0a3fce320000" name="DWH Updated Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-b899-162a-ac27-0a3fce3e0000.xml#mc0000040-b89c-162a-ac27-0a3fce3e0000">
