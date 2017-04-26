@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <PresentationCatalog mdsid="m80000000-d870-163a-ac27-0a3fce320000" name="Administration - Global Reporting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" isAutoAggr="true" subjectAreaRef="/oracle/bi/server/base/BusinessModel/00000000-28a1-1627-806e-0a3fce3c0000.xml#m00000000-28a1-1627-806e-0a3fce3c0000">
 <RefTables>
 <RefPresentationTable refId="m80000000-d870-163a-ac27-0a3fce320000-mc0000001-ddc6-163a-ac27-0a3fce320000" presentationTableRef="/oracle/bi/server/base/PresentationTable/c0000001-ddc6-163a-ac27-0a3fce320000.xml#mc0000001-ddc6-163a-ac27-0a3fce320000"/>
