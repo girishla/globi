@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <PresentationHierarchy mdsid="mc0000007-e3bd-163b-ac27-0a3fce260000" name="Hier - MDS ETL Execution Task" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" dispName="Task Hierarchy" hasDispName="true" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/00000000-e3a2-163b-ac27-0a3fce260000.xml#m00000000-e3a2-163b-ac27-0a3fce260000" logicalDimensionRef="/oracle/bi/server/base/Dimension/40000000-e244-163b-ac27-0a3fce260000.xml#m40000000-e244-163b-ac27-0a3fce260000">
 <PresentationLevel mdsid="mc0000009-e3bd-163b-ac27-0a3fce260000" name="Total" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/c0000007-e3bd-163b-ac27-0a3fce260000.xml#mc0000007-e3bd-163b-ac27-0a3fce260000" logicalLevelRef="/oracle/bi/server/base/Dimension/40000000-e244-163b-ac27-0a3fce260000.xml#m40000003-e244-163b-ac27-0a3fce260000">
 </PresentationLevel>
