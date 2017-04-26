@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <Database mdsid="m80000001-3088-1637-98ff-0a3fce410000" name="DELETE (Use for Import)" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="Oracle11g" dbName="Oracle 11g" dbTypeId="57">
 <Feature name="LEFT_OUTER_JOIN_SUPPORTED" value="true"/>
 <Feature name="RIGHT_OUTER_JOIN_SUPPORTED" value="true"/>

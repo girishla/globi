@@ -1,63 +1,63 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
-<PhysicalTable mdsid="m800001a3-286e-1627-806e-0a3fce3c0000" name="F_INVOICE_LN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000001-286e-1627-806e-0a3fce3c0000.xml#m40000001-286e-1627-806e-0a3fce3c0000">
-<PhysicalColumn mdsid="m800001a4-286e-1627-806e-0a3fce3c0000" name="AGREE_WID" dataType="DOUBLE" precision="10" specialType="none">
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m800001a3-286e-1627-806e-0a3fce3c0000" name="F_INVOICE_LN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="0.0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000001-286e-1627-806e-0a3fce3c0000.xml#m40000001-286e-1627-806e-0a3fce3c0000">
+<PhysicalColumn mdsid="m800001a4-286e-1627-806e-0a3fce3c0000" name="AGREE_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001a5-286e-1627-806e-0a3fce3c0000" name="BU_WID" dataType="DOUBLE" precision="10" specialType="none">
+<PhysicalColumn mdsid="m800001a5-286e-1627-806e-0a3fce3c0000" name="BU_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001a6-286e-1627-806e-0a3fce3c0000" name="CAMP_WID" dataType="DOUBLE" precision="10" specialType="none">
+<PhysicalColumn mdsid="m800001a6-286e-1627-806e-0a3fce3c0000" name="CAMP_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001a7-286e-1627-806e-0a3fce3c0000" name="CON_WID" dataType="DOUBLE" precision="10" specialType="none">
+<PhysicalColumn mdsid="m800001a7-286e-1627-806e-0a3fce3c0000" name="CON_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001a8-286e-1627-806e-0a3fce3c0000" name="CUST_WID" dataType="DOUBLE" precision="10" specialType="none">
+<PhysicalColumn mdsid="m800001a8-286e-1627-806e-0a3fce3c0000" name="CUST_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001a9-286e-1627-806e-0a3fce3c0000" name="DOC_AMT" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none">
+<PhysicalColumn mdsid="m800001a9-286e-1627-806e-0a3fce3c0000" name="DOC_AMT" dataType="DOUBLE" scale="7" precision="22" nullable="true" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001aa-286e-1627-806e-0a3fce3c0000" name="DOC_CURCY_CD" dataType="VARCHAR" precision="3" nullable="true" specialType="none">
+<PhysicalColumn mdsid="m800001aa-286e-1627-806e-0a3fce3c0000" name="DOC_CURCY_CD" dataType="VARCHAR" precision="3" nullable="true" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001ab-286e-1627-806e-0a3fce3c0000" name="DOC_DISCNT" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none">
+<PhysicalColumn mdsid="m800001ab-286e-1627-806e-0a3fce3c0000" name="DOC_DISCNT" dataType="DOUBLE" scale="7" precision="22" nullable="true" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001ac-286e-1627-806e-0a3fce3c0000" name="DOC_FX_DT" dataType="DATETIME" precision="22" nullable="true" specialType="none">
+<PhysicalColumn mdsid="m800001ac-286e-1627-806e-0a3fce3c0000" name="DOC_FX_DT" dataType="DATETIME" precision="22" nullable="true" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001ad-286e-1627-806e-0a3fce3c0000" name="DOC_FX_DT_WID" dataType="DOUBLE" precision="10" specialType="none">
+<PhysicalColumn mdsid="m800001ad-286e-1627-806e-0a3fce3c0000" name="DOC_FX_DT_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001ae-286e-1627-806e-0a3fce3c0000" name="DOC_RRP" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none">
+<PhysicalColumn mdsid="m800001ae-286e-1627-806e-0a3fce3c0000" name="DOC_RRP" dataType="DOUBLE" scale="7" precision="22" nullable="true" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001af-286e-1627-806e-0a3fce3c0000" name="DOC_TAX" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none">
+<PhysicalColumn mdsid="m800001af-286e-1627-806e-0a3fce3c0000" name="DOC_TAX" dataType="DOUBLE" scale="7" precision="22" nullable="true" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001b0-286e-1627-806e-0a3fce3c0000" name="END_DT_WID" dataType="DOUBLE" precision="10" specialType="none">
+<PhysicalColumn mdsid="m800001b0-286e-1627-806e-0a3fce3c0000" name="END_DT_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001b1-286e-1627-806e-0a3fce3c0000" name="FA_WID" dataType="DOUBLE" precision="10" specialType="none">
+<PhysicalColumn mdsid="m800001b1-286e-1627-806e-0a3fce3c0000" name="FA_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001b2-286e-1627-806e-0a3fce3c0000" name="INV_DT_WID" dataType="DOUBLE" precision="10" specialType="none">
+<PhysicalColumn mdsid="m800001b2-286e-1627-806e-0a3fce3c0000" name="INV_DT_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001b3-286e-1627-806e-0a3fce3c0000" name="INV_WID" dataType="DOUBLE" precision="10" specialType="none">
+<PhysicalColumn mdsid="m800001b3-286e-1627-806e-0a3fce3c0000" name="INV_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001b4-286e-1627-806e-0a3fce3c0000" name="MYD_FLG" dataType="DOUBLE" precision="10" specialType="none">
+<PhysicalColumn mdsid="m800001b4-286e-1627-806e-0a3fce3c0000" name="MYD_FLG" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001b5-286e-1627-806e-0a3fce3c0000" name="ODR_LN_WID" dataType="DOUBLE" precision="10" specialType="none">
+<PhysicalColumn mdsid="m800001b5-286e-1627-806e-0a3fce3c0000" name="ODR_LN_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001b6-286e-1627-806e-0a3fce3c0000" name="ODR_WID" dataType="DOUBLE" precision="10" specialType="none">
+<PhysicalColumn mdsid="m800001b6-286e-1627-806e-0a3fce3c0000" name="ODR_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001b7-286e-1627-806e-0a3fce3c0000" name="OPTY_LN_WID" dataType="DOUBLE" precision="10" specialType="none">
+<PhysicalColumn mdsid="m800001b7-286e-1627-806e-0a3fce3c0000" name="OPTY_LN_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001b8-286e-1627-806e-0a3fce3c0000" name="OPTY_WID" dataType="DOUBLE" precision="10" specialType="none">
+<PhysicalColumn mdsid="m800001b8-286e-1627-806e-0a3fce3c0000" name="OPTY_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001b9-286e-1627-806e-0a3fce3c0000" name="POSTN_WID" dataType="DOUBLE" precision="10" specialType="none">
+<PhysicalColumn mdsid="m800001b9-286e-1627-806e-0a3fce3c0000" name="POSTN_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001ba-286e-1627-806e-0a3fce3c0000" name="PROD_WID" dataType="DOUBLE" precision="10" specialType="none">
+<PhysicalColumn mdsid="m800001ba-286e-1627-806e-0a3fce3c0000" name="PROD_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001bb-286e-1627-806e-0a3fce3c0000" name="QTY" dataType="DOUBLE" scale="7" precision="22" nullable="true" specialType="none">
+<PhysicalColumn mdsid="m800001bb-286e-1627-806e-0a3fce3c0000" name="QTY" dataType="DOUBLE" scale="7" precision="22" nullable="true" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001bc-286e-1627-806e-0a3fce3c0000" name="QT_LN_WID" dataType="DOUBLE" precision="10" specialType="none">
+<PhysicalColumn mdsid="m800001bc-286e-1627-806e-0a3fce3c0000" name="QT_LN_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001bd-286e-1627-806e-0a3fce3c0000" name="QT_WID" dataType="DOUBLE" precision="10" specialType="none">
+<PhysicalColumn mdsid="m800001bd-286e-1627-806e-0a3fce3c0000" name="QT_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001be-286e-1627-806e-0a3fce3c0000" name="ROW_WID" dataType="DOUBLE" precision="10" specialType="none">
+<PhysicalColumn mdsid="m800001be-286e-1627-806e-0a3fce3c0000" name="ROW_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001bf-286e-1627-806e-0a3fce3c0000" name="START_DT_WID" dataType="DOUBLE" precision="10" specialType="none">
+<PhysicalColumn mdsid="m800001bf-286e-1627-806e-0a3fce3c0000" name="START_DT_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m800001c0-286e-1627-806e-0a3fce3c0000" name="SUB_WID" dataType="DOUBLE" precision="10" specialType="none">
+<PhysicalColumn mdsid="m800001c0-286e-1627-806e-0a3fce3c0000" name="SUB_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none">
 </PhysicalColumn>
-<PhysicalColumn mdsid="mc0000002-ff84-163b-8edd-ac1d82620000" name="DSRC_WID" dataType="DOUBLE" precision="10" specialType="none">
+<PhysicalColumn mdsid="mc0000002-ff84-163b-8edd-ac1d82620000" name="DSRC_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none">
 </PhysicalColumn>
 </PhysicalTable>

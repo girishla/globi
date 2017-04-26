@@ -1,13 +1,3 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <PresentationTable mdsid="m0000018a-c0b0-162a-98ff-0a3fce3e0000" name="Measure - Document Currency" iconIndex="89" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000000-c0ad-162a-98ff-0a3fce3e0000.xml#m00000000-c0ad-162a-98ff-0a3fce3e0000">
-<PresentationColumn mdsid="m40000001-c0cb-162a-98ff-0a3fce3e0000" name="Document Amount" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000001-c025-162a-98ff-0a3fce3e0000">
-</PresentationColumn>
-<PresentationColumn mdsid="m40000003-c0cb-162a-98ff-0a3fce3e0000" name="Document Discount" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000002-c025-162a-98ff-0a3fce3e0000">
-</PresentationColumn>
-<PresentationColumn mdsid="m40000005-c0cb-162a-98ff-0a3fce3e0000" name="Document MPO" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000003-c025-162a-98ff-0a3fce3e0000">
-</PresentationColumn>
-<PresentationColumn mdsid="m40000007-c0cb-162a-98ff-0a3fce3e0000" name="Document RRP" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000004-c025-162a-98ff-0a3fce3e0000">
-</PresentationColumn>
-<PresentationColumn mdsid="m40000009-c0cb-162a-98ff-0a3fce3e0000" name="Document Tax" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000005-c025-162a-98ff-0a3fce3e0000">
-</PresentationColumn>
 </PresentationTable>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <LogicalTable mdsid="mc0000000-e132-163b-ac27-0a3fce260000" name="Fact - MDS ETL Execution" iconIndex="98" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/00000000-28a1-1627-806e-0a3fce3c0000.xml#m00000000-28a1-1627-806e-0a3fce3c0000">
 <LogicalColumn mdsid="m00000002-e1a1-163b-ac27-0a3fce260000" name="# Runs" isWriteable="false">
 <MeasureDefn mdsid="m40000000-e1a3-163b-ac27-0a3fce260000" name="Measure" isCommutative="false">
