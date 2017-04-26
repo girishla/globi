@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<LogicalTable mdsid="m00000000-c025-162a-98ff-0a3fce3e0000" name="Fact - Quote" iconIndex="90" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/00000000-28a1-1627-806e-0a3fce3c0000.xml#m00000000-28a1-1627-806e-0a3fce3c0000">
+<LogicalTable mdsid="m00000000-c025-162a-98ff-0a3fce3e0000" name="Fact - Quotation" iconIndex="90" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/00000000-28a1-1627-806e-0a3fce3c0000.xml#m00000000-28a1-1627-806e-0a3fce3c0000">
 <LogicalColumn mdsid="m40000005-17ad-162b-98ff-0a3fce3e0000" name="# Quotes" isWriteable="false">
 <MeasureDefn mdsid="m40000006-17ad-162b-98ff-0a3fce3e0000" name="Measure" isCommutative="false">
 <AggrRule mdsid="m40000007-17ad-162b-98ff-0a3fce3e0000" name="AggRule_2050:81001487691445" isDefault="true">
-<Expr mdsid="m00000001-01f4-0000-ce26-d00600000000" name="Expr">
+<Expr mdsid="m00000001-01f4-0000-4185-3c2000000000" name="Expr">
 <ExprText><![CDATA[ COUNT(DISTINCT "%1")]]></ExprText>
-<ExprTextDesc><![CDATA[ COUNT(DISTINCT "Global Reporting"."Fact - Quote"."# Quotes")]]></ExprTextDesc>
+<ExprTextDesc><![CDATA[ COUNT(DISTINCT "Global Reporting"."Fact - Quotation"."# Quotes")]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000001-01f4-0000-ce26-d00600000000-m40000005-17ad-162b-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m40000005-17ad-162b-98ff-0a3fce3e0000"/>
+<RefObject refId="m00000001-01f4-0000-4185-3c2000000000-m40000005-17ad-162b-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m40000005-17ad-162b-98ff-0a3fce3e0000"/>
 </ObjectRefList>
 </Expr>
 </AggrRule>
@@ -16,11 +16,11 @@
 <LogicalColumn mdsid="m4000000e-17ad-162b-98ff-0a3fce3e0000" name="# Quote Lines" isWriteable="false">
 <MeasureDefn mdsid="m4000000f-17ad-162b-98ff-0a3fce3e0000" name="Measure" isCommutative="false">
 <AggrRule mdsid="m40000010-17ad-162b-98ff-0a3fce3e0000" name="AggRule_2050:81091487691445" isDefault="true">
-<Expr mdsid="m00000002-01f4-0000-a040-4dc100000000" name="Expr">
+<Expr mdsid="m00000002-01f4-0000-8cca-037500000000" name="Expr">
 <ExprText><![CDATA[ COUNT("%1")]]></ExprText>
-<ExprTextDesc><![CDATA[ COUNT("Global Reporting"."Fact - Quote"."# Quote Lines")]]></ExprTextDesc>
+<ExprTextDesc><![CDATA[ COUNT("Global Reporting"."Fact - Quotation"."# Quote Lines")]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000002-01f4-0000-a040-4dc100000000-m4000000e-17ad-162b-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m4000000e-17ad-162b-98ff-0a3fce3e0000"/>
+<RefObject refId="m00000002-01f4-0000-8cca-037500000000-m4000000e-17ad-162b-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m4000000e-17ad-162b-98ff-0a3fce3e0000"/>
 </ObjectRefList>
 </Expr>
 </AggrRule>
@@ -29,11 +29,11 @@
 <LogicalColumn mdsid="m00000006-c025-162a-98ff-0a3fce3e0000" name="Quantity" isWriteable="false">
 <MeasureDefn mdsid="m0000000d-c025-162a-98ff-0a3fce3e0000" name="Measure" isCommutative="false">
 <AggrRule mdsid="m00000013-c025-162a-98ff-0a3fce3e0000" name="AggRule_2050:66281487601812" isDefault="true">
-<Expr mdsid="m00000003-01f4-0000-161a-665800000000" name="Expr">
+<Expr mdsid="m00000003-01f4-0000-75de-754400000000" name="Expr">
 <ExprText><![CDATA[ SUM("%1")]]></ExprText>
-<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Quote"."Quantity")]]></ExprTextDesc>
+<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Quotation"."Quantity")]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000003-01f4-0000-161a-665800000000-m00000006-c025-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000006-c025-162a-98ff-0a3fce3e0000"/>
+<RefObject refId="m00000003-01f4-0000-75de-754400000000-m00000006-c025-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000006-c025-162a-98ff-0a3fce3e0000"/>
 </ObjectRefList>
 </Expr>
 </AggrRule>
@@ -44,11 +44,11 @@
 <LogicalColumn mdsid="m00000001-c025-162a-98ff-0a3fce3e0000" name="Document Amount" isWriteable="false">
 <MeasureDefn mdsid="m00000008-c025-162a-98ff-0a3fce3e0000" name="Measure" isCommutative="false">
 <AggrRule mdsid="m0000000e-c025-162a-98ff-0a3fce3e0000" name="AggRule_2050:66231487601812" isDefault="true">
-<Expr mdsid="m00000004-01f4-0000-0a2b-529100000000" name="Expr">
+<Expr mdsid="m00000004-01f4-0000-7087-1e5a00000000" name="Expr">
 <ExprText><![CDATA[ SUM("%1")]]></ExprText>
-<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Quote"."Document Amount")]]></ExprTextDesc>
+<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Quotation"."Document Amount")]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000004-01f4-0000-0a2b-529100000000-m00000001-c025-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000001-c025-162a-98ff-0a3fce3e0000"/>
+<RefObject refId="m00000004-01f4-0000-7087-1e5a00000000-m00000001-c025-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000001-c025-162a-98ff-0a3fce3e0000"/>
 </ObjectRefList>
 </Expr>
 </AggrRule>
@@ -57,11 +57,11 @@
 <LogicalColumn mdsid="m00000002-c025-162a-98ff-0a3fce3e0000" name="Document Discount" isWriteable="false">
 <MeasureDefn mdsid="m00000009-c025-162a-98ff-0a3fce3e0000" name="Measure" isCommutative="false">
 <AggrRule mdsid="m0000000f-c025-162a-98ff-0a3fce3e0000" name="AggRule_2050:66241487601812" isDefault="true">
-<Expr mdsid="m00000005-01f4-0000-34ac-306c00000000" name="Expr">
+<Expr mdsid="m00000005-01f4-0000-8dc6-11de00000000" name="Expr">
 <ExprText><![CDATA[ SUM("%1")]]></ExprText>
-<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Quote"."Document Discount")]]></ExprTextDesc>
+<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Quotation"."Document Discount")]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000005-01f4-0000-34ac-306c00000000-m00000002-c025-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000002-c025-162a-98ff-0a3fce3e0000"/>
+<RefObject refId="m00000005-01f4-0000-8dc6-11de00000000-m00000002-c025-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000002-c025-162a-98ff-0a3fce3e0000"/>
 </ObjectRefList>
 </Expr>
 </AggrRule>
@@ -70,11 +70,11 @@
 <LogicalColumn mdsid="m00000003-c025-162a-98ff-0a3fce3e0000" name="Document MPO" isWriteable="false">
 <MeasureDefn mdsid="m0000000a-c025-162a-98ff-0a3fce3e0000" name="Measure" isCommutative="false">
 <AggrRule mdsid="m00000010-c025-162a-98ff-0a3fce3e0000" name="AggRule_2050:66251487601812" isDefault="true">
-<Expr mdsid="m00000006-01f4-0000-4c63-92f100000000" name="Expr">
+<Expr mdsid="m00000006-01f4-0000-057e-ab3900000000" name="Expr">
 <ExprText><![CDATA[ SUM("%1")]]></ExprText>
-<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Quote"."Document MPO")]]></ExprTextDesc>
+<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Quotation"."Document MPO")]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000006-01f4-0000-4c63-92f100000000-m00000003-c025-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000003-c025-162a-98ff-0a3fce3e0000"/>
+<RefObject refId="m00000006-01f4-0000-057e-ab3900000000-m00000003-c025-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000003-c025-162a-98ff-0a3fce3e0000"/>
 </ObjectRefList>
 </Expr>
 </AggrRule>
@@ -83,11 +83,11 @@
 <LogicalColumn mdsid="m00000004-c025-162a-98ff-0a3fce3e0000" name="Document RRP" isWriteable="false">
 <MeasureDefn mdsid="m0000000b-c025-162a-98ff-0a3fce3e0000" name="Measure" isCommutative="false">
 <AggrRule mdsid="m00000011-c025-162a-98ff-0a3fce3e0000" name="AggRule_2050:66261487601812" isDefault="true">
-<Expr mdsid="m00000007-01f4-0000-39ae-520400000000" name="Expr">
+<Expr mdsid="m00000007-01f4-0000-9b61-c24c00000000" name="Expr">
 <ExprText><![CDATA[ SUM("%1")]]></ExprText>
-<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Quote"."Document RRP")]]></ExprTextDesc>
+<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Quotation"."Document RRP")]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000007-01f4-0000-39ae-520400000000-m00000004-c025-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000004-c025-162a-98ff-0a3fce3e0000"/>
+<RefObject refId="m00000007-01f4-0000-9b61-c24c00000000-m00000004-c025-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000004-c025-162a-98ff-0a3fce3e0000"/>
 </ObjectRefList>
 </Expr>
 </AggrRule>
@@ -96,11 +96,11 @@
 <LogicalColumn mdsid="m00000005-c025-162a-98ff-0a3fce3e0000" name="Document Tax" isWriteable="false">
 <MeasureDefn mdsid="m0000000c-c025-162a-98ff-0a3fce3e0000" name="Measure" isCommutative="false">
 <AggrRule mdsid="m00000012-c025-162a-98ff-0a3fce3e0000" name="AggRule_2050:66271487601812" isDefault="true">
-<Expr mdsid="m00000008-01f4-0000-8cbc-999900000000" name="Expr">
+<Expr mdsid="m00000008-01f4-0000-515c-c53200000000" name="Expr">
 <ExprText><![CDATA[ SUM("%1")]]></ExprText>
-<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Quote"."Document Tax")]]></ExprTextDesc>
+<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Quotation"."Document Tax")]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000008-01f4-0000-8cbc-999900000000-m00000005-c025-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000005-c025-162a-98ff-0a3fce3e0000"/>
+<RefObject refId="m00000008-01f4-0000-515c-c53200000000-m00000005-c025-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000005-c025-162a-98ff-0a3fce3e0000"/>
 </ObjectRefList>
 </Expr>
 </AggrRule>
@@ -111,11 +111,11 @@
 <LogicalColumn mdsid="mc0000004-c492-162a-98ff-0a3fce3e0000" name="Amount" isWriteable="false">
 <MeasureDefn mdsid="mc0000005-c492-162a-98ff-0a3fce3e0000" name="Measure" isCommutative="false">
 <AggrRule mdsid="mc0000006-c492-162a-98ff-0a3fce3e0000" name="AggRule_2050:78461487606347" isDefault="true">
-<Expr mdsid="m00000009-01f4-0000-648a-774a00000000" name="Expr">
+<Expr mdsid="m00000009-01f4-0000-39ae-661300000000" name="Expr">
 <ExprText><![CDATA[ SUM("%1")]]></ExprText>
-<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Quote"."Amount")]]></ExprTextDesc>
+<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Quotation"."Amount")]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000009-01f4-0000-648a-774a00000000-mc0000004-c492-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#mc0000004-c492-162a-98ff-0a3fce3e0000"/>
+<RefObject refId="m00000009-01f4-0000-39ae-661300000000-mc0000004-c492-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#mc0000004-c492-162a-98ff-0a3fce3e0000"/>
 </ObjectRefList>
 </Expr>
 </AggrRule>
@@ -124,11 +124,11 @@
 <LogicalColumn mdsid="mc000000c-c492-162a-98ff-0a3fce3e0000" name="Discount" isWriteable="false">
 <MeasureDefn mdsid="mc000000d-c492-162a-98ff-0a3fce3e0000" name="Measure" isCommutative="false">
 <AggrRule mdsid="mc000000e-c492-162a-98ff-0a3fce3e0000" name="AggRule_2050:78541487606347" isDefault="true">
-<Expr mdsid="m0000000a-01f4-0000-8d93-95d100000000" name="Expr">
+<Expr mdsid="m0000000a-01f4-0000-5759-f7f800000000" name="Expr">
 <ExprText><![CDATA[ SUM("%1")]]></ExprText>
-<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Quote"."Discount")]]></ExprTextDesc>
+<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Quotation"."Discount")]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m0000000a-01f4-0000-8d93-95d100000000-mc000000c-c492-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#mc000000c-c492-162a-98ff-0a3fce3e0000"/>
+<RefObject refId="m0000000a-01f4-0000-5759-f7f800000000-mc000000c-c492-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#mc000000c-c492-162a-98ff-0a3fce3e0000"/>
 </ObjectRefList>
 </Expr>
 </AggrRule>
@@ -137,11 +137,11 @@
 <LogicalColumn mdsid="m00000000-c493-162a-98ff-0a3fce3e0000" name="MPO" isWriteable="false">
 <MeasureDefn mdsid="m00000001-c493-162a-98ff-0a3fce3e0000" name="Measure" isCommutative="false">
 <AggrRule mdsid="m00000002-c493-162a-98ff-0a3fce3e0000" name="AggRule_2050:78621487606348" isDefault="true">
-<Expr mdsid="m0000000b-01f4-0000-d9c3-30da00000000" name="Expr">
+<Expr mdsid="m0000000b-01f4-0000-1fbe-8c8700000000" name="Expr">
 <ExprText><![CDATA[ SUM("%1")]]></ExprText>
-<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Quote"."MPO")]]></ExprTextDesc>
+<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Quotation"."MPO")]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m0000000b-01f4-0000-d9c3-30da00000000-m00000000-c493-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000000-c493-162a-98ff-0a3fce3e0000"/>
+<RefObject refId="m0000000b-01f4-0000-1fbe-8c8700000000-m00000000-c493-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000000-c493-162a-98ff-0a3fce3e0000"/>
 </ObjectRefList>
 </Expr>
 </AggrRule>
@@ -150,11 +150,11 @@
 <LogicalColumn mdsid="m00000008-c493-162a-98ff-0a3fce3e0000" name="RRP" isWriteable="false">
 <MeasureDefn mdsid="m00000009-c493-162a-98ff-0a3fce3e0000" name="Measure" isCommutative="false">
 <AggrRule mdsid="m0000000a-c493-162a-98ff-0a3fce3e0000" name="AggRule_2050:78701487606348" isDefault="true">
-<Expr mdsid="m0000000c-01f4-0000-1ff4-aeb500000000" name="Expr">
+<Expr mdsid="m0000000c-01f4-0000-3fa3-203200000000" name="Expr">
 <ExprText><![CDATA[ SUM("%1")]]></ExprText>
-<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Quote"."RRP")]]></ExprTextDesc>
+<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Quotation"."RRP")]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m0000000c-01f4-0000-1ff4-aeb500000000-m00000008-c493-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000008-c493-162a-98ff-0a3fce3e0000"/>
+<RefObject refId="m0000000c-01f4-0000-3fa3-203200000000-m00000008-c493-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000008-c493-162a-98ff-0a3fce3e0000"/>
 </ObjectRefList>
 </Expr>
 </AggrRule>
@@ -163,11 +163,11 @@
 <LogicalColumn mdsid="m00000010-c493-162a-98ff-0a3fce3e0000" name="Tax" isWriteable="false">
 <MeasureDefn mdsid="m00000011-c493-162a-98ff-0a3fce3e0000" name="Measure" isCommutative="false">
 <AggrRule mdsid="m00000012-c493-162a-98ff-0a3fce3e0000" name="AggRule_2050:78781487606348" isDefault="true">
-<Expr mdsid="m0000000d-01f4-0000-2fa3-903900000000" name="Expr">
+<Expr mdsid="m0000000d-01f4-0000-3d01-7de300000000" name="Expr">
 <ExprText><![CDATA[ SUM("%1")]]></ExprText>
-<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Quote"."Tax")]]></ExprTextDesc>
+<ExprTextDesc><![CDATA[ SUM("Global Reporting"."Fact - Quotation"."Tax")]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m0000000d-01f4-0000-2fa3-903900000000-m00000010-c493-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000010-c493-162a-98ff-0a3fce3e0000"/>
+<RefObject refId="m0000000d-01f4-0000-3d01-7de300000000-m00000010-c493-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000010-c493-162a-98ff-0a3fce3e0000"/>
 </ObjectRefList>
 </Expr>
 </AggrRule>
