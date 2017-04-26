@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <PhysicalTable mdsid="m800001a3-286e-1627-806e-0a3fce3c0000" name="F_INVOICE_LN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="0.0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000001-286e-1627-806e-0a3fce3c0000.xml#m40000001-286e-1627-806e-0a3fce3c0000">
 <PhysicalColumn mdsid="m800001a4-286e-1627-806e-0a3fce3c0000" name="AGREE_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none">
 </PhysicalColumn>

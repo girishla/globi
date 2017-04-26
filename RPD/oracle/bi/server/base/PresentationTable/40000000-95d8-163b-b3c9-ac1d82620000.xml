@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <PresentationTable mdsid="m40000000-95d8-163b-b3c9-ac1d82620000" name="Links" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-95d1-163b-b3c9-ac1d82620000.xml#m80000000-95d1-163b-b3c9-ac1d82620000">
 <PresentationColumn mdsid="mc0000002-95da-163b-b3c9-ac1d82620000" name="Link Category" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-9597-163b-b3c9-ac1d82620000.xml#mc0000011-95a5-163b-b3c9-ac1d82620000">
 </PresentationColumn>

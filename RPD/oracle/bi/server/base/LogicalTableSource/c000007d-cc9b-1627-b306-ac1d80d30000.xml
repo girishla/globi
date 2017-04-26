@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <LogicalTableSource mdsid="mc000007d-cc9b-1627-b306-ac1d80d30000" name="Dim_Date_Start" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#mc000007b-cc9b-1627-b306-ac1d80d30000">
 <ColumnMapping>
 <LogicalColumnExpr mdsid="m00000001-01f4-0000-0d2d-f39600000000" name="LogicalColumnExpr">

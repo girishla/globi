@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <PhysicalTable mdsid="m80000000-df1e-163b-ac27-0a3fce260000" name="Fact_ExecutionTask" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" rowCount="0.0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/80000000-decb-163b-ac27-0a3fce260000.xml#m80000000-decb-163b-ac27-0a3fce260000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/00000005-decd-163b-ac27-0a3fce260000.xml#m00000005-decd-163b-ac27-0a3fce260000">
 <PhysicalColumn mdsid="m8000000e-df1e-163b-ac27-0a3fce260000" name="START_TS" dataType="DATETIME" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/00000005-decd-163b-ac27-0a3fce260000.xml#m0000008f-decd-163b-ac27-0a3fce260000">
 </PhysicalColumn>

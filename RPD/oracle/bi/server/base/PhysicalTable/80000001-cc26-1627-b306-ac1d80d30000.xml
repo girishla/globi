@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <PhysicalTable mdsid="m80000001-cc26-1627-b306-ac1d80d30000" name="Dim_Subscription" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" rowCount="0.0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000001-286e-1627-806e-0a3fce3c0000.xml#m40000001-286e-1627-806e-0a3fce3c0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/80000169-286e-1627-806e-0a3fce3c0000.xml#m80000169-286e-1627-806e-0a3fce3c0000">
 <PhysicalColumn mdsid="m80000002-cc26-1627-b306-ac1d80d30000" name="ACCNT_REF" dataType="VARCHAR" precision="15" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000169-286e-1627-806e-0a3fce3c0000.xml#m8000016a-286e-1627-806e-0a3fce3c0000">
 </PhysicalColumn>

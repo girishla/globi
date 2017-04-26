@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <LogicalTableSource mdsid="m40000002-28bc-1627-806e-0a3fce3c0000" name="Dim_FinancialAccount" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" priorityGroup="1" logicalTableRef="/oracle/bi/server/base/LogicalTable/40000000-28bc-1627-806e-0a3fce3c0000.xml#m40000000-28bc-1627-806e-0a3fce3c0000">
 <ColumnMapping>
 <LogicalColumnExpr mdsid="m00000001-01f4-0000-fa6c-b81600000000" name="LogicalColumnExpr">
