@@ -1,22 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
 <PresentationTable mdsid="m8000002f-e060-163a-ac27-0a3fce320000" name="Fact - Quote Line" iconIndex="90" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-d870-163a-ac27-0a3fce320000.xml#m80000000-d870-163a-ac27-0a3fce320000">
 <PresentationColumn mdsid="m80000011-e060-163a-ac27-0a3fce320000" name="# Quotes" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m40000005-17ad-162b-98ff-0a3fce3e0000">
 </PresentationColumn>
 <PresentationColumn mdsid="m80000013-e060-163a-ac27-0a3fce320000" name="# Quote Lines" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m4000000e-17ad-162b-98ff-0a3fce3e0000">
 </PresentationColumn>
 <PresentationColumn mdsid="m80000015-e060-163a-ac27-0a3fce320000" name="Quantity" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000006-c025-162a-98ff-0a3fce3e0000">
-</PresentationColumn>
-<PresentationColumn mdsid="m80000017-e060-163a-ac27-0a3fce320000" name="------------------[ Document ]------------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000003-c470-162a-98ff-0a3fce3e0000">
-</PresentationColumn>
-<PresentationColumn mdsid="m80000019-e060-163a-ac27-0a3fce320000" name="Document Amount" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000001-c025-162a-98ff-0a3fce3e0000">
-</PresentationColumn>
-<PresentationColumn mdsid="m8000001b-e060-163a-ac27-0a3fce320000" name="Document Discount" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000002-c025-162a-98ff-0a3fce3e0000">
-</PresentationColumn>
-<PresentationColumn mdsid="m8000001d-e060-163a-ac27-0a3fce320000" name="Document MPO" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000003-c025-162a-98ff-0a3fce3e0000">
-</PresentationColumn>
-<PresentationColumn mdsid="m8000001f-e060-163a-ac27-0a3fce320000" name="Document RRP" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000004-c025-162a-98ff-0a3fce3e0000">
-</PresentationColumn>
-<PresentationColumn mdsid="m80000021-e060-163a-ac27-0a3fce320000" name="Document Tax" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000005-c025-162a-98ff-0a3fce3e0000">
 </PresentationColumn>
 <PresentationColumn mdsid="m80000023-e060-163a-ac27-0a3fce320000" name="---------------[ User Currency ]---------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000008-c470-162a-98ff-0a3fce3e0000">
 </PresentationColumn>
