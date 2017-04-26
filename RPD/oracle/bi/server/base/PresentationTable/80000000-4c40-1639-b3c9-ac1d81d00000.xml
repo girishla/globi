@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
 <PresentationTable mdsid="m80000000-4c40-1639-b3c9-ac1d81d00000" name="User Roles" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000000-4db3-1639-b3c9-ac1d81d00000.xml#m00000000-4db3-1639-b3c9-ac1d81d00000">
 <PresentationColumn mdsid="m40000002-4c44-1639-b3c9-ac1d81d00000" name="Authorisation Flag" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-4bfd-1639-b3c9-ac1d81d00000.xml#m40000003-4c01-1639-b3c9-ac1d81d00000">
 </PresentationColumn>

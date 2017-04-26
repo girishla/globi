@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
 <PresentationTable mdsid="m400000c5-c2a9-162b-ac27-0aac74cf0000" name="Order Line" iconIndex="89" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/c0000000-c2a3-162b-ac27-0aac74cf0000.xml#mc0000000-c2a3-162b-ac27-0aac74cf0000">
 <PresentationColumn mdsid="m400000b1-c2a9-162b-ac27-0aac74cf0000" name="Integration_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-bf2e-162a-98ff-0a3fce3e0000.xml#m80000008-bf31-162a-98ff-0a3fce3e0000">
 </PresentationColumn>

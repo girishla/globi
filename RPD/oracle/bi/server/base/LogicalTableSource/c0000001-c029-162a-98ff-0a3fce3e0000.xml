@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
 <LogicalTableSource mdsid="mc0000001-c029-162a-98ff-0a3fce3e0000" name="Fact_QuoteLine" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000000-c025-162a-98ff-0a3fce3e0000">
 <ColumnMapping>
 <LogicalColumnExpr mdsid="m00000001-01f4-0000-1d59-18f000000000" name="LogicalColumnExpr">
