@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <PresentationTable mdsid="mc0000000-4dad-1639-b3c9-ac1d81d00000" name="Roles" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000000-4db3-1639-b3c9-ac1d81d00000.xml#m00000000-4db3-1639-b3c9-ac1d81d00000">
 <PresentationColumn mdsid="m40000005-4db0-1639-b3c9-ac1d81d00000" name="Authorisation Email" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-4d86-1639-b3c9-ac1d81d00000.xml#m00000012-4d9c-1639-b3c9-ac1d81d00000">
 </PresentationColumn>

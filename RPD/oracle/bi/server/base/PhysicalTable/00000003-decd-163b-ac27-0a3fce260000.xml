@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <PhysicalTable mdsid="m00000003-decd-163b-ac27-0a3fce260000" name="W_ETL_RUN_SDTL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" isCacheable="false" rowCount="0.0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/80000000-decb-163b-ac27-0a3fce260000.xml#m80000000-decb-163b-ac27-0a3fce260000">
 <DBMapItem name="DefaultMulDB">
 <Value><![CDATA[W_ETL_RUN_SDTL]]></Value>

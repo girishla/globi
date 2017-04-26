@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <PresentationHierarchy mdsid="m400002e9-e05f-163a-ac27-0a3fce320000" name="Hier - Financial Account" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/400002e7-e05f-163a-ac27-0a3fce320000.xml#m400002e7-e05f-163a-ac27-0a3fce320000" logicalDimensionRef="/oracle/bi/server/base/Dimension/00000000-4c24-1637-98ff-0a3fce410000.xml#m00000000-4c24-1637-98ff-0a3fce410000">
 <PresentationLevel mdsid="m400002eb-e05f-163a-ac27-0a3fce320000" name="Total" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/400002e9-e05f-163a-ac27-0a3fce320000.xml#m400002e9-e05f-163a-ac27-0a3fce320000" logicalLevelRef="/oracle/bi/server/base/Dimension/00000000-4c24-1637-98ff-0a3fce410000.xml#m00000000-4c25-1637-98ff-0a3fce410000">
 </PresentationLevel>
