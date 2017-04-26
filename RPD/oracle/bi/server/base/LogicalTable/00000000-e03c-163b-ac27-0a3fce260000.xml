@@ -1,85 +1,22 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <LogicalTable mdsid="m00000000-e03c-163b-ac27-0a3fce260000" name="Dim - MDS ETL Execution Plan" iconIndex="98" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/00000000-28a1-1627-806e-0a3fce3c0000.xml#m00000000-28a1-1627-806e-0a3fce3c0000">
 <LogicalColumn mdsid="m00000004-e04b-163b-ac27-0a3fce260000" name="Key (WID)" isWriteable="false">
-<AttributeDefn mdsid="m00000001-01f4-0000-6abe-6ac000000000" name="AttributeDefn">
-<ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["GLOBI".""."DAC"."Dim_ExecutionPlan"."ROW_WID"]]></ExprTextDesc>
-<ObjectRefList>
-<RefObject refId="m00000001-01f4-0000-6abe-6ac000000000-m0000000a-ded5-163b-ac27-0a3fce260000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-ded5-163b-ac27-0a3fce260000.xml#m0000000a-ded5-163b-ac27-0a3fce260000"/>
-</ObjectRefList>
-</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="mc0000002-e058-163b-ac27-0a3fce260000" name="ETL Process ID" isWriteable="false">
-<AttributeDefn mdsid="m00000002-01f4-0000-0677-21fa00000000" name="AttributeDefn">
-<ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["GLOBI".""."DAC"."Dim_ExecutionPlan"."ETL_PROC_WID"]]></ExprTextDesc>
-<ObjectRefList>
-<RefObject refId="m00000002-01f4-0000-0677-21fa00000000-m00000005-ded5-163b-ac27-0a3fce260000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-ded5-163b-ac27-0a3fce260000.xml#m00000005-ded5-163b-ac27-0a3fce260000"/>
-</ObjectRefList>
-</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m80000002-e04d-163b-ac27-0a3fce260000" name="Execution Comment" isWriteable="false">
-<AttributeDefn mdsid="m00000003-01f4-0000-a8fe-704600000000" name="AttributeDefn">
-<ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["GLOBI".""."DAC"."Dim_ExecutionPlan"."COMMENTS"]]></ExprTextDesc>
-<ObjectRefList>
-<RefObject refId="m00000003-01f4-0000-a8fe-704600000000-m00000001-ded5-163b-ac27-0a3fce260000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-ded5-163b-ac27-0a3fce260000.xml#m00000001-ded5-163b-ac27-0a3fce260000"/>
-</ObjectRefList>
-</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m80000002-e4ec-163b-ac27-0a3fce260000" name="Execution End Date" isWriteable="false">
-<AttributeDefn mdsid="m00000004-01f4-0000-eb6f-a32c00000000" name="AttributeDefn">
-<ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["GLOBI".""."DAC"."Dim_ExecutionPlan"."END_TS"]]></ExprTextDesc>
-<ObjectRefList>
-<RefObject refId="m00000004-01f4-0000-eb6f-a32c00000000-m00000002-ded5-163b-ac27-0a3fce260000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-ded5-163b-ac27-0a3fce260000.xml#m00000002-ded5-163b-ac27-0a3fce260000"/>
-</ObjectRefList>
-</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m80000002-e050-163b-ac27-0a3fce260000" name="Execution Name" isWriteable="false">
-<AttributeDefn mdsid="m00000005-01f4-0000-f8c5-5a6900000000" name="AttributeDefn">
-<ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["GLOBI".""."DAC"."Dim_ExecutionPlan"."NAME"]]></ExprTextDesc>
-<ObjectRefList>
-<RefObject refId="m00000005-01f4-0000-f8c5-5a6900000000-m00000008-ded5-163b-ac27-0a3fce260000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-ded5-163b-ac27-0a3fce260000.xml#m00000008-ded5-163b-ac27-0a3fce260000"/>
-</ObjectRefList>
-</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m00000002-e04e-163b-ac27-0a3fce260000" name="Execution Plan" isWriteable="false">
-<AttributeDefn mdsid="m00000006-01f4-0000-f7aa-188300000000" name="AttributeDefn">
-<ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["GLOBI".""."DAC"."Dim_ExecutionPlan"."ETL_DEFN_NAME"]]></ExprTextDesc>
-<ObjectRefList>
-<RefObject refId="m00000006-01f4-0000-f7aa-188300000000-m00000003-ded5-163b-ac27-0a3fce260000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-ded5-163b-ac27-0a3fce260000.xml#m00000003-ded5-163b-ac27-0a3fce260000"/>
-</ObjectRefList>
-</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m00000002-e4e8-163b-ac27-0a3fce260000" name="Execution Start Date" isWriteable="false">
-<AttributeDefn mdsid="m00000007-01f4-0000-41fc-795400000000" name="AttributeDefn">
-<ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["GLOBI".""."DAC"."Dim_ExecutionPlan"."START_TS"]]></ExprTextDesc>
-<ObjectRefList>
-<RefObject refId="m00000007-01f4-0000-41fc-795400000000-m0000000e-ded5-163b-ac27-0a3fce260000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-ded5-163b-ac27-0a3fce260000.xml#m0000000e-ded5-163b-ac27-0a3fce260000"/>
-</ObjectRefList>
-</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m80000002-e054-163b-ac27-0a3fce260000" name="Execution Status" isWriteable="false">
-<AttributeDefn mdsid="m00000008-01f4-0000-1889-6a0b00000000" name="AttributeDefn">
-<ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["GLOBI".""."DAC"."Dim_ExecutionPlan"."STATUS"]]></ExprTextDesc>
-<ObjectRefList>
-<RefObject refId="m00000008-01f4-0000-1889-6a0b00000000-m0000000f-ded5-163b-ac27-0a3fce260000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-ded5-163b-ac27-0a3fce260000.xml#m0000000f-ded5-163b-ac27-0a3fce260000"/>
-</ObjectRefList>
-</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m00000002-e055-163b-ac27-0a3fce260000" name="Execution Status Description" isWriteable="false">
-<AttributeDefn mdsid="m00000009-01f4-0000-08ec-7dc300000000" name="AttributeDefn">
-<ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["GLOBI".""."DAC"."Dim_ExecutionPlan"."STATUS_DESC"]]></ExprTextDesc>
-<ObjectRefList>
-<RefObject refId="m00000009-01f4-0000-08ec-7dc300000000-m00000010-ded5-163b-ac27-0a3fce260000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-ded5-163b-ac27-0a3fce260000.xml#m00000010-ded5-163b-ac27-0a3fce260000"/>
-</ObjectRefList>
-</AttributeDefn>
 </LogicalColumn>
 <LogicalKey mdsid="m00000006-e04b-163b-ac27-0a3fce260000" name="PK" isPrimary="true">
 <RefColumns>

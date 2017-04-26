@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <PresentationTable mdsid="m00000038-c0b0-162a-98ff-0a3fce3e0000" name="Start Date" iconIndex="89" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000000-c0ad-162a-98ff-0a3fce3e0000.xml#m00000000-c0ad-162a-98ff-0a3fce3e0000">
 <PresentationColumn mdsid="m00000003-c0b0-162a-98ff-0a3fce3e0000" name="---------------[ Year Attributes ]---------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000007b-cc9b-1627-b306-ac1d80d30000.xml#m00000003-ce37-1627-b306-ac1d80d30000">
 </PresentationColumn>

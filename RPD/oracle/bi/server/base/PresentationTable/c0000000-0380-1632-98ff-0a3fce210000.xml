@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <PresentationTable mdsid="mc0000000-0380-1632-98ff-0a3fce210000" name="User" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000000-2989-1627-806e-0a3fce3c0000.xml#m00000000-2989-1627-806e-0a3fce3c0000">
 <PresentationColumn mdsid="m40000002-0383-1632-98ff-0a3fce210000" name="Integration ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-0312-1632-98ff-0a3fce210000.xml#m00000037-0315-1632-98ff-0a3fce210000">
 </PresentationColumn>

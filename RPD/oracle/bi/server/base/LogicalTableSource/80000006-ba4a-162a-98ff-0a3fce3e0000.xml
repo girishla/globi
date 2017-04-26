@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <LogicalTableSource mdsid="m80000006-ba4a-162a-98ff-0a3fce3e0000" name="Dim_OpportunityLine" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/80000001-ba3e-162a-98ff-0a3fce3e0000.xml#m80000001-ba3e-162a-98ff-0a3fce3e0000">
 <ColumnMapping>
 <LogicalColumnExpr mdsid="m00000001-01f4-0000-1dd2-373600000000" name="LogicalColumnExpr">

@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <PresentationTable mdsid="m80000000-c55e-162a-98ff-0a3fce3e0000" name="Measure" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000000-c0ad-162a-98ff-0a3fce3e0000.xml#m00000000-c0ad-162a-98ff-0a3fce3e0000">
 <PresentationColumn mdsid="mc0000001-181a-162b-98ff-0a3fce3e0000" name="# Quotes" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m40000005-17ad-162b-98ff-0a3fce3e0000">
 </PresentationColumn>
 <PresentationColumn mdsid="m40000001-181b-162b-98ff-0a3fce3e0000" name="# Quote Lines" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m4000000e-17ad-162b-98ff-0a3fce3e0000">
-</PresentationColumn>
-<PresentationColumn mdsid="m4000000b-c0cb-162a-98ff-0a3fce3e0000" name="Quantity" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-c025-162a-98ff-0a3fce3e0000.xml#m00000006-c025-162a-98ff-0a3fce3e0000">
 </PresentationColumn>
 <RefContentFolders>
 <RefPresentationTable refId="m80000000-c55e-162a-98ff-0a3fce3e0000-mc0000000-c55f-162a-98ff-0a3fce3e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/c0000000-c55f-162a-98ff-0a3fce3e0000.xml#mc0000000-c55f-162a-98ff-0a3fce3e0000"/>

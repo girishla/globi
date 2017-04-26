@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <PresentationTable mdsid="m00000000-e3a2-163b-ac27-0a3fce260000" name="Execution Task" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-e39c-163b-ac27-0a3fce260000.xml#m80000000-e39c-163b-ac27-0a3fce260000">
 <PresentationColumn mdsid="m00000002-e3ad-163b-ac27-0a3fce260000" name="---------------------[ Tasks ]--------------------" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-e05b-163b-ac27-0a3fce260000.xml#m00000002-e29f-163b-ac27-0a3fce260000">
 </PresentationColumn>
