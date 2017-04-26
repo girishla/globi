@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <LogicalTableSource mdsid="m8000000c-e17c-163b-ac27-0a3fce260000" name="Fact_ExecutionTask" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/80000000-e16a-163b-ac27-0a3fce260000.xml#m80000000-e16a-163b-ac27-0a3fce260000">
 <ColumnMapping>
 <LogicalColumnExpr mdsid="m00000001-01f4-0000-df39-a4d700000000" name="LogicalColumnExpr">

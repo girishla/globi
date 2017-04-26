@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <PresentationTable mdsid="m80000000-bd59-1629-ac27-0a3fce1e0000" name="End" iconIndex="89" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000000-2989-1627-806e-0a3fce3c0000.xml#m00000000-2989-1627-806e-0a3fce3c0000">
 <RefContentFolders>
 <RefPresentationTable refId="m80000000-bd59-1629-ac27-0a3fce1e0000-mc0000000-bd5a-1629-ac27-0a3fce1e0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/c0000000-bd5a-1629-ac27-0a3fce1e0000.xml#mc0000000-bd5a-1629-ac27-0a3fce1e0000"/>

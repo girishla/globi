@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <LogicalTableSource mdsid="m80000072-6587-162e-ac27-0aac74cf0000" name="Dim_PeriodDate_Stage" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" priorityGroup="1" logicalTableRef="/oracle/bi/server/base/LogicalTable/80000001-6587-162e-ac27-0aac74cf0000.xml#m80000001-6587-162e-ac27-0aac74cf0000">
 <ColumnMapping>
 <LogicalColumnExpr mdsid="m00000001-01f4-0000-9ad6-fd4a00000000" name="LogicalColumnExpr">
