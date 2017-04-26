@@ -1,120 +1,473 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
 <LogicalTable mdsid="m40000001-6579-162e-ac27-0aac74cf0000" name="Dim - Period - Open" iconIndex="94" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/00000000-28a1-1627-806e-0a3fce3c0000.xml#m00000000-28a1-1627-806e-0a3fce3c0000">
 <LogicalColumn mdsid="m40000028-6579-162e-ac27-0aac74cf0000" name="Key (WID)" isWriteable="false">
+<AttributeDefn mdsid="m00000001-01f4-0000-9da8-1fa400000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open_Common"."PER_DT_WID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-9da8-1fa400000000-m00000007-6533-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-6533-162e-ac27-0aac74cf0000.xml#m00000007-6533-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000006-6579-162e-ac27-0aac74cf0000" name="Key (BU WID)" isWriteable="false">
+<AttributeDefn mdsid="m00000002-01f4-0000-db6a-616500000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open_Common"."BU_WID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-db6a-616500000000-m00000003-6533-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-6533-162e-ac27-0aac74cf0000.xml#m00000003-6533-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000026-6579-162e-ac27-0aac74cf0000" name="Integration ID" isWriteable="false">
+<AttributeDefn mdsid="m00000003-01f4-0000-7fdd-78c500000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."INTEGRATION_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-7fdd-78c500000000-m00000031-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m00000031-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000038-6579-162e-ac27-0aac74cf0000" name="PGUID" isWriteable="false">
+<AttributeDefn mdsid="m00000004-01f4-0000-097f-942c00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."PGUID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-097f-942c00000000-m00000043-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m00000043-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000062-6579-162e-ac27-0aac74cf0000" name="---------------[ Year Attributes ]---------------" isWriteable="false">
+<AttributeDefn mdsid="m00000005-01f4-0000-bbcd-238e00000000" name="AttributeDefn">
+<ExprText><![CDATA['Do Not Use']]></ExprText>
+<ExprTextDesc><![CDATA['Do Not Use']]></ExprTextDesc>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000050-6579-162e-ac27-0aac74cf0000" name="Year End Date" isWriteable="false">
+<AttributeDefn mdsid="m00000006-01f4-0000-f1d1-1fb600000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."YR_END_DT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-f1d1-1fb600000000-m0000005d-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m0000005d-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000052-6579-162e-ac27-0aac74cf0000" name="Year End Date WID" isWriteable="false">
+<AttributeDefn mdsid="m00000007-01f4-0000-06d1-16e700000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."YR_END_DT_WID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-06d1-16e700000000-m0000005f-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m0000005f-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000056-6579-162e-ac27-0aac74cf0000" name="Year Name" isWriteable="false">
+<AttributeDefn mdsid="m00000008-01f4-0000-230c-ff4300000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open_Common"."YR_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-230c-ff4300000000-m00000011-6533-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-6533-162e-ac27-0aac74cf0000.xml#m00000011-6533-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000058-6579-162e-ac27-0aac74cf0000" name="Year" isWriteable="false">
+<AttributeDefn mdsid="m00000009-01f4-0000-40d6-355a00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open_Common"."YR_NUM"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-40d6-355a00000000-m00000013-6533-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-6533-162e-ac27-0aac74cf0000.xml#m00000013-6533-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m4000005e-6579-162e-ac27-0aac74cf0000" name="Year Start Date" isWriteable="false">
+<AttributeDefn mdsid="m0000000a-01f4-0000-975e-932300000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."YR_START_DT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-975e-932300000000-m0000006b-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m0000006b-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000060-6579-162e-ac27-0aac74cf0000" name="Year Start Date WID" isWriteable="false">
+<AttributeDefn mdsid="m0000000b-01f4-0000-074c-aede00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."YR_START_DT_WID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-074c-aede00000000-m0000006d-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m0000006d-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000064-6579-162e-ac27-0aac74cf0000" name="---------------[ Half Attributes ]---------------" isWriteable="false">
+<AttributeDefn mdsid="m0000000c-01f4-0000-6a75-8b1c00000000" name="AttributeDefn">
+<ExprText><![CDATA['Do Not Use']]></ExprText>
+<ExprTextDesc><![CDATA['Do Not Use']]></ExprTextDesc>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000018-6579-162e-ac27-0aac74cf0000" name="Half End Date" isWriteable="false">
+<AttributeDefn mdsid="m0000000d-01f4-0000-04f8-a29a00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."HLF_END_DT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-04f8-a29a00000000-m00000023-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m00000023-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m4000001a-6579-162e-ac27-0aac74cf0000" name="Half End Date WID" isWriteable="false">
+<AttributeDefn mdsid="m0000000e-01f4-0000-e5d8-fb7e00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."HLF_END_DT_WID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-e5d8-fb7e00000000-m00000025-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m00000025-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m4000001c-6579-162e-ac27-0aac74cf0000" name="Half Index" isWriteable="false">
+<AttributeDefn mdsid="m0000000f-01f4-0000-6d85-433600000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."HLF_INDX"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000f-01f4-0000-6d85-433600000000-m00000027-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m00000027-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m4000001e-6579-162e-ac27-0aac74cf0000" name="Half Name" isWriteable="false">
+<AttributeDefn mdsid="m00000010-01f4-0000-b79e-d1c300000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."HLF_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000010-01f4-0000-b79e-d1c300000000-m00000029-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m00000029-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000020-6579-162e-ac27-0aac74cf0000" name="Half Number" isWriteable="false">
+<AttributeDefn mdsid="m00000011-01f4-0000-d172-510100000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."HLF_NUM"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000011-01f4-0000-d172-510100000000-m0000002b-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m0000002b-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000022-6579-162e-ac27-0aac74cf0000" name="Half Start Date" isWriteable="false">
+<AttributeDefn mdsid="m00000012-01f4-0000-89a0-0f9200000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."HLF_START_DT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000012-01f4-0000-89a0-0f9200000000-m0000002d-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m0000002d-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000024-6579-162e-ac27-0aac74cf0000" name="Half Start Date WID" isWriteable="false">
+<AttributeDefn mdsid="m00000013-01f4-0000-64ba-fa0e00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."HLF_START_DT_WID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000013-01f4-0000-64ba-fa0e00000000-m0000002f-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m0000002f-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000054-6579-162e-ac27-0aac74cf0000" name="Year Half" isWriteable="false">
+<AttributeDefn mdsid="m00000014-01f4-0000-2647-c8ad00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."YR_HLF"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000014-01f4-0000-2647-c8ad00000000-m00000061-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m00000061-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000066-6579-162e-ac27-0aac74cf0000" name="-------------[ Quarter Attributes ]-------------" isWriteable="false">
+<AttributeDefn mdsid="m00000015-01f4-0000-8307-5bb200000000" name="AttributeDefn">
+<ExprText><![CDATA['Do Not Use']]></ExprText>
+<ExprTextDesc><![CDATA['Do Not Use']]></ExprTextDesc>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m4000003a-6579-162e-ac27-0aac74cf0000" name="Quarter End Date" isWriteable="false">
+<AttributeDefn mdsid="m00000016-01f4-0000-3393-2ee000000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."QTR_END_DT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000016-01f4-0000-3393-2ee000000000-m00000045-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m00000045-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m4000003c-6579-162e-ac27-0aac74cf0000" name="Quarter End Date WID" isWriteable="false">
+<AttributeDefn mdsid="m00000017-01f4-0000-e16a-0a3700000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."QTR_END_DT_WID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000017-01f4-0000-e16a-0a3700000000-m00000047-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m00000047-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m4000003e-6579-162e-ac27-0aac74cf0000" name="Quarter Index" isWriteable="false">
+<AttributeDefn mdsid="m00000018-01f4-0000-6b81-9be600000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."QTR_INDX"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000018-01f4-0000-6b81-9be600000000-m00000049-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m00000049-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000040-6579-162e-ac27-0aac74cf0000" name="Quarter Name" isWriteable="false">
+<AttributeDefn mdsid="m00000019-01f4-0000-872a-234f00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."QTR_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000019-01f4-0000-872a-234f00000000-m0000004b-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m0000004b-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000042-6579-162e-ac27-0aac74cf0000" name="Quarter Number" isWriteable="false">
+<AttributeDefn mdsid="m0000001a-01f4-0000-571e-dc8800000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."QTR_NUM"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001a-01f4-0000-571e-dc8800000000-m0000004d-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m0000004d-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000044-6579-162e-ac27-0aac74cf0000" name="Quarter Start Date" isWriteable="false">
+<AttributeDefn mdsid="m0000001b-01f4-0000-3e17-6e9900000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."QTR_START_DT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001b-01f4-0000-3e17-6e9900000000-m0000004f-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m0000004f-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000046-6579-162e-ac27-0aac74cf0000" name="Quarter Start Date WID" isWriteable="false">
+<AttributeDefn mdsid="m0000001c-01f4-0000-cdb0-a3f800000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."QTR_START_DT_WID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001c-01f4-0000-cdb0-a3f800000000-m00000051-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m00000051-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m4000005c-6579-162e-ac27-0aac74cf0000" name="Year Quarter" isWriteable="false">
+<AttributeDefn mdsid="m0000001d-01f4-0000-23fd-04bd00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."YR_QTR"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001d-01f4-0000-23fd-04bd00000000-m00000069-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m00000069-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000068-6579-162e-ac27-0aac74cf0000" name="--------------[ Month Attributes ]--------------" isWriteable="false">
+<AttributeDefn mdsid="m0000001e-01f4-0000-e4a0-ad0100000000" name="AttributeDefn">
+<ExprText><![CDATA['Do Not Use']]></ExprText>
+<ExprTextDesc><![CDATA['Do Not Use']]></ExprTextDesc>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m4000002a-6579-162e-ac27-0aac74cf0000" name="Period End Date" isWriteable="false">
+<AttributeDefn mdsid="m0000001f-01f4-0000-7993-b94d00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."PER_END_DT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001f-01f4-0000-7993-b94d00000000-m00000035-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m00000035-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m4000002c-6579-162e-ac27-0aac74cf0000" name="Period End Date WID" isWriteable="false">
+<AttributeDefn mdsid="m00000020-01f4-0000-8948-5c6b00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."PER_END_DT_WID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000020-01f4-0000-8948-5c6b00000000-m00000037-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m00000037-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m4000002e-6579-162e-ac27-0aac74cf0000" name="Period Index" isWriteable="false">
+<AttributeDefn mdsid="m00000021-01f4-0000-a3e8-6d4c00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open_Common"."PER_INDX"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000021-01f4-0000-a3e8-6d4c00000000-m00000009-6533-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-6533-162e-ac27-0aac74cf0000.xml#m00000009-6533-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000030-6579-162e-ac27-0aac74cf0000" name="Period Name" isWriteable="false" customSortOrderRef="/oracle/bi/server/base/LogicalTable/40000001-6579-162e-ac27-0aac74cf0000.xml#m4000002e-6579-162e-ac27-0aac74cf0000">
+<AttributeDefn mdsid="m00000022-01f4-0000-593e-16c100000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open_Common"."PER_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000022-01f4-0000-593e-16c100000000-m0000000b-6533-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-6533-162e-ac27-0aac74cf0000.xml#m0000000b-6533-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000032-6579-162e-ac27-0aac74cf0000" name="Period Number" isWriteable="false">
+<AttributeDefn mdsid="m00000023-01f4-0000-2161-789000000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open_Common"."PER_NUM"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000023-01f4-0000-2161-789000000000-m0000000d-6533-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-6533-162e-ac27-0aac74cf0000.xml#m0000000d-6533-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000034-6579-162e-ac27-0aac74cf0000" name="Period Start Date" isWriteable="false">
+<AttributeDefn mdsid="m00000024-01f4-0000-7db0-b8f700000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."PER_START_DT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000024-01f4-0000-7db0-b8f700000000-m0000003f-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m0000003f-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000036-6579-162e-ac27-0aac74cf0000" name="Period Start Date WID" isWriteable="false">
+<AttributeDefn mdsid="m00000025-01f4-0000-6d2c-84e800000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."PER_START_DT_WID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000025-01f4-0000-6d2c-84e800000000-m00000041-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m00000041-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m4000005a-6579-162e-ac27-0aac74cf0000" name="Year Period" isWriteable="false">
+<AttributeDefn mdsid="m00000026-01f4-0000-edaf-b01a00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open_Common"."YR_PER"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000026-01f4-0000-edaf-b01a00000000-m00000015-6533-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-6533-162e-ac27-0aac74cf0000.xml#m00000015-6533-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m4000006a-6579-162e-ac27-0aac74cf0000" name="----------------[ Day Attributes ]----------------" isWriteable="false">
+<AttributeDefn mdsid="m00000027-01f4-0000-2857-547400000000" name="AttributeDefn">
+<ExprText><![CDATA['Do Not Use']]></ExprText>
+<ExprTextDesc><![CDATA['Do Not Use']]></ExprTextDesc>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m4000000a-6579-162e-ac27-0aac74cf0000" name="Date" isWriteable="false">
+<AttributeDefn mdsid="m00000028-01f4-0000-9596-b20500000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open_Common"."DT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000028-01f4-0000-9596-b20500000000-m00000005-6533-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-6533-162e-ac27-0aac74cf0000.xml#m00000005-6533-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m4000000c-6579-162e-ac27-0aac74cf0000" name="Day Name" isWriteable="false">
+<AttributeDefn mdsid="m00000029-01f4-0000-3857-e84e00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."DT_DAY_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000029-01f4-0000-3857-e84e00000000-m00000013-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m00000013-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m4000000e-6579-162e-ac27-0aac74cf0000" name="Day Name 01" isWriteable="false">
+<AttributeDefn mdsid="m0000002a-01f4-0000-462a-f2a600000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."DT_DAY_NAME_01"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002a-01f4-0000-462a-f2a600000000-m00000015-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m00000015-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000010-6579-162e-ac27-0aac74cf0000" name="Day Name 02" isWriteable="false">
+<AttributeDefn mdsid="m0000002b-01f4-0000-4eea-a98400000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."DT_DAY_NAME_02"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002b-01f4-0000-4eea-a98400000000-m00000017-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m00000017-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000012-6579-162e-ac27-0aac74cf0000" name="Date Index" isWriteable="false">
+<AttributeDefn mdsid="m0000002c-01f4-0000-7597-43af00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."DT_INDX"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002c-01f4-0000-7597-43af00000000-m0000001b-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m0000001b-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000014-6579-162e-ac27-0aac74cf0000" name="Date Number" isWriteable="false">
+<AttributeDefn mdsid="m0000002d-01f4-0000-dbd1-1e6100000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."DT_NUM"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002d-01f4-0000-dbd1-1e6100000000-m0000001d-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m0000001d-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m4000006c-6579-162e-ac27-0aac74cf0000" name="-------------[ System Attributes ]------------" isWriteable="false">
+<AttributeDefn mdsid="m0000002e-01f4-0000-a368-074f00000000" name="AttributeDefn">
+<ExprText><![CDATA['Do Not Use']]></ExprText>
+<ExprTextDesc><![CDATA['Do Not Use']]></ExprTextDesc>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000004-6579-162e-ac27-0aac74cf0000" name="BU PGUID" isWriteable="false">
+<AttributeDefn mdsid="m0000002f-01f4-0000-0ed3-c48600000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."BU_PGUID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002f-01f4-0000-0ed3-c48600000000-m0000000b-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m0000000b-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m4000006e-6579-162e-ac27-0aac74cf0000" name="Data Source" isDerived="true" isWriteable="false" descriptorIDRef="/oracle/bi/server/base/LogicalTable/40000001-6579-162e-ac27-0aac74cf0000.xml#m40000008-6579-162e-ac27-0aac74cf0000">
-<Expr mdsid="m00000001-01f4-0000-359e-2f8a00000000" name="Expr">
+<Expr mdsid="m00000030-01f4-0000-daaa-f26800000000" name="Expr">
 <ExprText><![CDATA[Lookup(SPARSE "%1",'Unspecified', "%2" ) ]]></ExprText>
 <ExprTextDesc><![CDATA[Lookup(SPARSE "Global Reporting"."Lkup - Data Source"."Source Name",'Unspecified', "Global Reporting"."Dim - Period - Open"."Data Source ID" ) ]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000001-01f4-0000-359e-2f8a00000000-m80000003-c7cd-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/80000000-b90c-162a-ac27-0a3fce3e0000.xml#m80000003-c7cd-162a-98ff-0a3fce3e0000"/>
-<RefObject refId="m00000001-01f4-0000-359e-2f8a00000000-m40000008-6579-162e-ac27-0aac74cf0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000001-6579-162e-ac27-0aac74cf0000.xml#m40000008-6579-162e-ac27-0aac74cf0000"/>
+<RefObject refId="m00000030-01f4-0000-daaa-f26800000000-m80000003-c7cd-162a-98ff-0a3fce3e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/80000000-b90c-162a-ac27-0a3fce3e0000.xml#m80000003-c7cd-162a-98ff-0a3fce3e0000"/>
+<RefObject refId="m00000030-01f4-0000-daaa-f26800000000-m40000008-6579-162e-ac27-0aac74cf0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000001-6579-162e-ac27-0aac74cf0000.xml#m40000008-6579-162e-ac27-0aac74cf0000"/>
 </ObjectRefList>
 </Expr>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000008-6579-162e-ac27-0aac74cf0000" name="Data Source ID" isWriteable="false">
+<AttributeDefn mdsid="m00000031-01f4-0000-c098-03e800000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."DATASOURCE_NUM_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000031-01f4-0000-c098-03e800000000-m0000000f-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m0000000f-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m4000004c-6579-162e-ac27-0aac74cf0000" name="DWH Created Date" isWriteable="false">
+<AttributeDefn mdsid="m00000032-01f4-0000-d391-5ac700000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."W_CREATED_DT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000032-01f4-0000-d391-5ac700000000-m00000059-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m00000059-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m4000004e-6579-162e-ac27-0aac74cf0000" name="DWH Updated Date" isWriteable="false">
+<AttributeDefn mdsid="m00000033-01f4-0000-3772-54bc00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."W_UPDATED_DT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000033-01f4-0000-3772-54bc00000000-m0000005b-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m0000005b-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000016-6579-162e-ac27-0aac74cf0000" name="ETL Process ID" isWriteable="false">
+<AttributeDefn mdsid="m00000034-01f4-0000-f829-91ce00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."ETL_PROC_WID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000034-01f4-0000-f829-91ce00000000-m0000001f-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m0000001f-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m40000048-6579-162e-ac27-0aac74cf0000" name="Source Created Date" isWriteable="false">
+<AttributeDefn mdsid="m00000035-01f4-0000-52d4-2ea400000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."S_CREATED_DT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000035-01f4-0000-52d4-2ea400000000-m00000055-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m00000055-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="m4000004a-6579-162e-ac27-0aac74cf0000" name="Source Updated Date" isWriteable="false">
+<AttributeDefn mdsid="m00000036-01f4-0000-cec7-f58b00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GLOBI".""."LAW"."Dim_PeriodDate_Open"."S_UPDATED_DT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000036-01f4-0000-cec7-f58b00000000-m00000057-652f-162e-ac27-0aac74cf0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000001-652f-162e-ac27-0aac74cf0000.xml#m00000057-652f-162e-ac27-0aac74cf0000"/>
+</ObjectRefList>
+</AttributeDefn>
 </LogicalColumn>
 <LogicalKey mdsid="m40000070-6579-162e-ac27-0aac74cf0000" name="PK" isPrimary="true">
 <RefColumns>
