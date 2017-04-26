@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
-<PhysicalTable mdsid="m80000001-6497-162e-ac27-0aac74cf0000" name="Dim_Period_End_Common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000001-286e-1627-806e-0a3fce3c0000.xml#m40000001-286e-1627-806e-0a3fce3c0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/4000000b-1ac7-162b-8a27-0a3fce3e0000.xml#m4000000b-1ac7-162b-8a27-0a3fce3e0000">
-<PhysicalColumn mdsid="m80000003-6497-162e-ac27-0aac74cf0000" name="BU_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000000b-1ac7-162b-8a27-0a3fce3e0000.xml#m4000000c-1ac7-162b-8a27-0a3fce3e0000">
+<PhysicalTable mdsid="m80000001-6497-162e-ac27-0aac74cf0000" name="Dim_Period_End_Common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" rowCount="0.0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000001-286e-1627-806e-0a3fce3c0000.xml#m40000001-286e-1627-806e-0a3fce3c0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/4000000b-1ac7-162b-8a27-0a3fce3e0000.xml#m4000000b-1ac7-162b-8a27-0a3fce3e0000">
+<PhysicalColumn mdsid="m80000003-6497-162e-ac27-0aac74cf0000" name="BU_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000000b-1ac7-162b-8a27-0a3fce3e0000.xml#m4000000c-1ac7-162b-8a27-0a3fce3e0000">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m80000005-6497-162e-ac27-0aac74cf0000" name="PER_INDX" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000000b-1ac7-162b-8a27-0a3fce3e0000.xml#m4000000d-1ac7-162b-8a27-0a3fce3e0000">
+<PhysicalColumn mdsid="m80000005-6497-162e-ac27-0aac74cf0000" name="PER_INDX" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000000b-1ac7-162b-8a27-0a3fce3e0000.xml#m4000000d-1ac7-162b-8a27-0a3fce3e0000">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m80000007-6497-162e-ac27-0aac74cf0000" name="PER_NAME" dataType="VARCHAR" precision="15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000000b-1ac7-162b-8a27-0a3fce3e0000.xml#m4000000e-1ac7-162b-8a27-0a3fce3e0000">
+<PhysicalColumn mdsid="m80000007-6497-162e-ac27-0aac74cf0000" name="PER_NAME" dataType="VARCHAR" precision="15" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000000b-1ac7-162b-8a27-0a3fce3e0000.xml#m4000000e-1ac7-162b-8a27-0a3fce3e0000">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m80000009-6497-162e-ac27-0aac74cf0000" name="PER_NUM" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000000b-1ac7-162b-8a27-0a3fce3e0000.xml#m4000000f-1ac7-162b-8a27-0a3fce3e0000">
+<PhysicalColumn mdsid="m80000009-6497-162e-ac27-0aac74cf0000" name="PER_NUM" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000000b-1ac7-162b-8a27-0a3fce3e0000.xml#m4000000f-1ac7-162b-8a27-0a3fce3e0000">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m8000000b-6497-162e-ac27-0aac74cf0000" name="PER_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000000b-1ac7-162b-8a27-0a3fce3e0000.xml#m40000010-1ac7-162b-8a27-0a3fce3e0000">
+<PhysicalColumn mdsid="m8000000b-6497-162e-ac27-0aac74cf0000" name="PER_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000000b-1ac7-162b-8a27-0a3fce3e0000.xml#m40000010-1ac7-162b-8a27-0a3fce3e0000">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m8000000d-6497-162e-ac27-0aac74cf0000" name="ROW_WID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000000b-1ac7-162b-8a27-0a3fce3e0000.xml#m40000011-1ac7-162b-8a27-0a3fce3e0000">
+<PhysicalColumn mdsid="m8000000d-6497-162e-ac27-0aac74cf0000" name="ROW_WID" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000000b-1ac7-162b-8a27-0a3fce3e0000.xml#m40000011-1ac7-162b-8a27-0a3fce3e0000">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m8000000f-6497-162e-ac27-0aac74cf0000" name="YR_NAME" dataType="VARCHAR" precision="15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000000b-1ac7-162b-8a27-0a3fce3e0000.xml#m40000012-1ac7-162b-8a27-0a3fce3e0000">
+<PhysicalColumn mdsid="m8000000f-6497-162e-ac27-0aac74cf0000" name="YR_NAME" dataType="VARCHAR" precision="15" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000000b-1ac7-162b-8a27-0a3fce3e0000.xml#m40000012-1ac7-162b-8a27-0a3fce3e0000">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m80000011-6497-162e-ac27-0aac74cf0000" name="YR_NUM" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000000b-1ac7-162b-8a27-0a3fce3e0000.xml#m40000013-1ac7-162b-8a27-0a3fce3e0000">
+<PhysicalColumn mdsid="m80000011-6497-162e-ac27-0aac74cf0000" name="YR_NUM" dataType="DOUBLE" precision="10" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000000b-1ac7-162b-8a27-0a3fce3e0000.xml#m40000013-1ac7-162b-8a27-0a3fce3e0000">
 </PhysicalColumn>
-<PhysicalColumn mdsid="m80000013-6497-162e-ac27-0aac74cf0000" name="YR_PER" dataType="VARCHAR" precision="15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000000b-1ac7-162b-8a27-0a3fce3e0000.xml#m40000014-1ac7-162b-8a27-0a3fce3e0000">
+<PhysicalColumn mdsid="m80000013-6497-162e-ac27-0aac74cf0000" name="YR_PER" dataType="VARCHAR" precision="15" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000000b-1ac7-162b-8a27-0a3fce3e0000.xml#m40000014-1ac7-162b-8a27-0a3fce3e0000">
 </PhysicalColumn>
 <PhysicalKey mdsid="m80000015-6497-162e-ac27-0aac74cf0000" name="PK">
 <RefColumns>
