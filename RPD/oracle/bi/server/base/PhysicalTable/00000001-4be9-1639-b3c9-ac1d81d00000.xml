@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <PhysicalTable mdsid="m00000001-4be9-1639-b3c9-ac1d81d00000" name="S_LAW_ROLE_MEMBER" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="0.0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000001-286e-1627-806e-0a3fce3c0000.xml#m40000001-286e-1627-806e-0a3fce3c0000">
 <PhysicalColumn mdsid="m00000003-4be9-1639-b3c9-ac1d81d00000" name="CREATED_DT" dataType="DATETIME" precision="32" nullable="true" rowCount="0.0" specialType="none">
 </PhysicalColumn>

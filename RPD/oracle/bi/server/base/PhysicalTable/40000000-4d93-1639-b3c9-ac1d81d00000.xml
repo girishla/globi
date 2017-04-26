@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <PhysicalTable mdsid="m40000000-4d93-1639-b3c9-ac1d81d00000" name="Dim_Roles" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" rowCount="0.0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000001-286e-1627-806e-0a3fce3c0000.xml#m40000001-286e-1627-806e-0a3fce3c0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/00000001-4d79-1639-b3c9-ac1d81d00000.xml#m00000001-4d79-1639-b3c9-ac1d81d00000">
 <PhysicalColumn mdsid="m40000003-4d93-1639-b3c9-ac1d81d00000" name="ROL_ID" dataType="DOUBLE" precision="10" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/00000001-4d79-1639-b3c9-ac1d81d00000.xml#m00000007-4d79-1639-b3c9-ac1d81d00000">
 </PhysicalColumn>

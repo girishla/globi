@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <LogicalTableSource mdsid="m4000001a-c23a-162b-ac27-0aac74cf0000" name="Fact_Pipeline_Current" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/80000000-c235-162b-ac27-0aac74cf0000.xml#m80000000-c235-162b-ac27-0aac74cf0000">
 <ColumnMapping>
 <LogicalColumnExpr mdsid="m00000001-01f4-0000-14d0-4cad00000000" name="LogicalColumnExpr">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <ComplexJoin mdsid="mc0000000-5f32-1634-ac27-ac1d80440000" name="Dim_Date_Fact_Pipeline_ITD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" cardinality=" ONE TO MANY" table1Ref="/oracle/bi/server/base/PhysicalTable/00000001-5f03-1634-ac27-ac1d80440000.xml#m00000001-5f03-1634-ac27-ac1d80440000" table2Ref="/oracle/bi/server/base/PhysicalTable/00000000-cc76-1627-b306-ac1d80d30000.xml#m00000000-cc76-1627-b306-ac1d80d30000">
 <Expr mdsid="m00000001-01f4-0000-f193-257600000000" name="Expr">
 <ExprText><![CDATA["%1" > "%2"]]></ExprText>
