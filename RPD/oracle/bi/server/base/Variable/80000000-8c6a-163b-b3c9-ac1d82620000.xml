@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
 <Variable mdsid="m80000000-8c6a-163b-b3c9-ac1d82620000" name="APEX_URL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" initBlockRef="/oracle/bi/server/base/InitBlock/80000001-8c4f-163b-b3c9-ac1d82620000.xml#m80000001-8c4f-163b-b3c9-ac1d82620000">
 <Description><![CDATA[Base URL for the respective environments database]]></Description>
 <Expr mdsid="m00000001-01f4-0000-8b18-241c00000000" name="Expr">
